@@ -1,7 +1,6 @@
 //import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Random;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.stream.Collectors;
 
 
@@ -16,8 +15,8 @@ public class Algorithm {
      */
     protected static int getFitness(Individual iv){
         int clashes = 0;
-        for (int i = 7; i >0; i--) {
-            for (int j = 7; j >0; j--) {
+        for (int i = 7; i >=0; i--) { //BUG! needed to be >=, not >
+            for (int j = 7; j >=0; j--) { //Here too
                 if (i != j) {
                     if (iv.list.get(i).equals(iv.list.get(j))) {
                         clashes +=1;
@@ -29,6 +28,12 @@ public class Algorithm {
         return clashes;
     }
 
+    public static void main(String[] args) throws Exception {
+        Individual inv = new Individual();
+        inv.list = Arrays.asList(7, 7, 0, 2, 5, 1, 6, 4);
+        System.out.println(getFitness(inv));
+    }
+
     /* Checks for diagonal clashes for each queen in the board state
      * @param board state; queen to be checked here; index of the queen to be checked here
      * @return boolean if the board state passed the test (true = passed test, no threats; false = didn't pass, a threat was found)
@@ -38,10 +43,10 @@ public class Algorithm {
             if (i != indexOfCurrent){
                 int viewableElem = iv.list.get(i);
                 int diff = Math.abs(indexOfCurrent-i);
-                if (viewableElem-current==diff) return false;
+                if (Math.abs(viewableElem-current)==diff) return true; //BUG! Should return true, since it found a queen on the diagonal. Also an abs was missing
             }
         }
-        return true;
+        return false; //BUG! Should return false, since it did not find a queen on the diagonal
     }
 
     /* Sorts current individuals by fitness (0 is best) in ascending order and mates the best half of individuals with each other and adds a mutation to each new individual
@@ -65,7 +70,7 @@ public class Algorithm {
                 newPop.individuals.add(nextGenIv);
                 Individual nextGenIv2 = mateIv(halfPop.individuals.get(i-1), halfPop.individuals.get(i));
                 mutateIv(nextGenIv2);
-                halfPop.individuals.add(nextGenIv2);
+                newPop.individuals.add(nextGenIv2); //BUG! Was halfPop, needed to be newPop
             }
             else {
                 Individual nextGenIv = mateIv(halfPop.individuals.get(i), halfPop.individuals.get(popSize/2-1));
