@@ -4,21 +4,20 @@ import java.util.List;
 public class TestGA extends Algorithm {
 	public static List<Integer> generationCounts = new ArrayList<>();
     public static void main(String[] args) throws Exception {
-    	Population pop = new Population(100);
-    	runAlgorithm(pop);
-    	
-// Use this input code for Issue 3:
-    	
-//    	for (int i = 0; i<1000; i++) {
-//    		Population pop = new Population(100);
-//    		generation(pop);
-//    		generationCounts.add(counter+1);
-//    		counter = 0;
-//    		
-//    	}
-//    	System.out.println(calculateAverage(generationCounts));
-//    	System.out.println(calculatePercent(generationCounts) + "%");
-//    	generationCounts.removeAll(generationCounts);    	
+    	//Population pop = new Population(100);
+    	//runAlgorithm(pop);
+
+
+    	for (int i = 0; i<1000; i++) {
+    		Population pop = new Population(100);
+    		generation(pop);
+
+    		generationCounts.add(counter+1);
+    		counter = 0;
+    	}
+    	System.out.println(calculateAverage(generationCounts));
+    	System.out.println(calculatePercent(generationCounts) + "%");
+    	generationCounts.removeAll(generationCounts);
     	
     }
     
