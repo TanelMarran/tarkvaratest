@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dc34f3-f704-4498-a2cc-820ab4275339" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Algorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Individual.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Individual.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Population.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/Population.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/TestGA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/TestGA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="814" />
-    <option name="height" value="867" />
   </component>
   <component name="ProjectId" id="1Xkmxnpn3fVu3zkCbOLiaCahzWd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,7 +140,8 @@
       <workItem from="1524044271582" duration="16000" />
       <workItem from="1524044399838" duration="282000" />
       <workItem from="1524044821574" duration="31000" />
-      <workItem from="1581598723296" duration="8005000" />
+      <workItem from="1581598723296" duration="8931000" />
+      <workItem from="1582043017505" duration="3183000" />
     </task>
     <servers />
   </component>
@@ -164,7 +153,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
