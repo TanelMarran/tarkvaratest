@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dc34f3-f704-4498-a2cc-820ab4275339" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/TestGA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GeneticAlgorithmStudent/TestGA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestGA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestGA.java" afterDir="false" />
+>>>>>>> 37087b88343bea421914fd6c5dd49ff8e054a099
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,10 +141,15 @@
       <workItem from="1524044271582" duration="16000" />
       <workItem from="1524044399838" duration="282000" />
       <workItem from="1524044821574" duration="31000" />
+<<<<<<< HEAD
+      <workItem from="1581598723296" duration="8931000" />
+      <workItem from="1582043017505" duration="3183000" />
+=======
       <workItem from="1581598723296" duration="8005000" />
       <workItem from="1581671037548" duration="5494000" />
       <workItem from="1581681924747" duration="1046000" />
       <workItem from="1582013051498" duration="649000" />
+>>>>>>> 37087b88343bea421914fd6c5dd49ff8e054a099
     </task>
     <servers />
   </component>

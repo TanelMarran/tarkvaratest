@@ -43,7 +43,7 @@ public class Algorithm {
             if (i != indexOfCurrent){
                 int viewableElem = iv.list.get(i);
                 int diff = Math.abs(indexOfCurrent-i);
-                if (Math.abs(viewableElem-current)==diff) return true; //BUG! Should return true, since it found a queen on the diagonal. Also an abs was missing
+                if (Math.abs(viewableElem-current)==diff) return true; //BUG! Should return true, since it found a queen on the diagonal. BUG! Also an abs was missing
             }
         }
         return false; //BUG! Should return false, since it did not find a queen on the diagonal
