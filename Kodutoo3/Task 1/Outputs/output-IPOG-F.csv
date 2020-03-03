@@ -1,0 +1,10 @@
+T,Algorithm,No. of generated test cases,"No. Of failures (total, including duplicates)","Set of unique failures (e.g. error1, error 2)",No. Of unique failures,Cumulative No. Of unique failures up to strength t
+1,IPOG-F,12,0,{},0,0
+2,IPOG-F,96,1,{'error 1'},1,1
+3,IPOG-F,481,6,"{'error 2', 'error 1'}",2,2
+4,IPOG-F,2402,31,"{'error 2', 'error 1'}",2,2
+5,IPOG-F,9604,125,"{'error 3', 'error 2', 'error 1', 'error 4'}",4,4
+6,IPOG-F,29167,391,"{'error 5', 'error 4', 'error 3', 'error 2', 'error 1'}",5,5
+7,IPOG-F,63064,859,"{'error 5', 'error 4', 'error 3', 'error 2', 'error 1'}",5,5
+8,IPOG-F,115204,1548,"{'error 5', 'error 4', 'error 3', 'error 2', 'error 1'}",5,5
+9,IPOG-F,230400,3096,"{'error 5', 'error 4', 'error 3', 'error 2', 'error 1'}",5,5
