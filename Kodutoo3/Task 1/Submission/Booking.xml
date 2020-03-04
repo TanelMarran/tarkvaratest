@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Booking">
+  <Parameters>
+    <Parameter id="0" name="Name" type="1">
+      <values>
+        <value>Mr. X</value>
+        <value>Ms. Y</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="People" type="0">
+      <values>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+        <value>4</value>
+        <value>5</value>
+        <value>6</value>
+        <value>7</value>
+        <value>8</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="2" name="Accommodation" type="1">
+      <values>
+        <value>Shared room</value>
+        <value>Private room</value>
+        <value>Apartment</value>
+        <value>Hotel room</value>
+        <value>Villa</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="Region" type="1">
+      <values>
+        <value>City centre</value>
+        <value>Suburbs</value>
+        <value>Countryside</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="Year" type="0">
+      <values>
+        <value>2018</value>
+        <value>2019</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="5" name="Month" type="0">
+      <values>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+        <value>4</value>
+        <value>5</value>
+        <value>6</value>
+        <value>7</value>
+        <value>8</value>
+        <value>9</value>
+        <value>10</value>
+        <value>11</value>
+        <value>12</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="6" name="Week" type="0">
+      <values>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+        <value>4</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="7" name="Duration" type="1">
+      <values>
+        <value>1-3 days</value>
+        <value>1 week</value>
+        <value>2 weeks</value>
+        <value>3 weeks</value>
+        <value>1 month</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="8" name="Service" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+</System>
+
