@@ -1,0 +1,2573 @@
+,Name,People,Accommodation,Region,Year,Month,Week,Duration,Service,Result
+1,Mr. X,4,Hotel room,City centre,2018,1,1,1-3 days,FALSE,7 results
+2,Mr. X,4,Hotel room,City centre,2019,1,1,1-3 days,FALSE,7 results
+3,Ms. Y,4,Hotel room,City centre,2018,1,1,1-3 days,FALSE,9 results
+4,Ms. Y,4,Hotel room,City centre,2019,1,1,1-3 days,FALSE,9 results
+5,Mr. X,4,Hotel room,Suburbs,2018,1,1,1-3 days,FALSE,3 results
+6,Ms. Y,4,Hotel room,Suburbs,2018,1,1,1-3 days,FALSE,3 results
+7,Ms. Y,4,Hotel room,Suburbs,2019,1,1,1-3 days,FALSE,8 results
+8,Mr. X,4,Hotel room,Countryside,2018,1,1,1-3 days,FALSE,8 results
+9,Ms. Y,4,Hotel room,Countryside,2018,1,1,1-3 days,FALSE,7 results
+10,Ms. Y,4,Hotel room,Countryside,2019,1,1,1-3 days,FALSE,2 results
+11,Mr. X,4,Hotel room,City centre,2018,1,2,1-3 days,FALSE,2 results
+12,Mr. X,4,Hotel room,City centre,2019,1,2,1-3 days,FALSE,4 results
+13,Ms. Y,4,Hotel room,City centre,2018,1,2,1-3 days,FALSE,4 results
+14,Ms. Y,4,Hotel room,City centre,2019,1,2,1-3 days,FALSE,8 results
+15,Mr. X,4,Hotel room,Suburbs,2018,1,2,1-3 days,FALSE,8 results
+16,Mr. X,4,Hotel room,Suburbs,2019,1,2,1-3 days,FALSE,7 results
+17,Ms. Y,4,Hotel room,Suburbs,2018,1,2,1-3 days,FALSE,5 results
+18,Ms. Y,4,Hotel room,Suburbs,2019,1,2,1-3 days,FALSE,5 results
+19,Mr. X,4,Hotel room,Countryside,2018,1,2,1-3 days,FALSE,7 results
+20,Mr. X,4,Hotel room,Countryside,2019,1,2,1-3 days,FALSE,9 results
+21,Ms. Y,4,Hotel room,Countryside,2019,1,2,1-3 days,FALSE,2 results
+22,Mr. X,4,Hotel room,City centre,2018,1,3,1-3 days,FALSE,9 results
+23,Mr. X,4,Hotel room,City centre,2019,1,3,1-3 days,FALSE,3 results
+24,Ms. Y,4,Hotel room,City centre,2018,1,3,1-3 days,FALSE,7 results
+25,Ms. Y,4,Hotel room,City centre,2019,1,3,1-3 days,FALSE,5 results
+26,Mr. X,4,Hotel room,Suburbs,2018,1,3,1-3 days,FALSE,9 results
+27,Mr. X,4,Hotel room,Suburbs,2019,1,3,1-3 days,FALSE,6 results
+28,Ms. Y,4,Hotel room,Suburbs,2018,1,3,1-3 days,FALSE,5 results
+29,Mr. X,4,Hotel room,Countryside,2018,1,3,1-3 days,FALSE,4 results
+30,Mr. X,4,Hotel room,Countryside,2019,1,3,1-3 days,FALSE,2 results
+31,Ms. Y,4,Hotel room,Countryside,2018,1,3,1-3 days,FALSE,4 results
+32,Ms. Y,4,Hotel room,Countryside,2019,1,3,1-3 days,FALSE,2 results
+33,Mr. X,4,Hotel room,City centre,2018,1,4,1-3 days,FALSE,7 results
+34,Mr. X,4,Hotel room,City centre,2019,1,4,1-3 days,FALSE,2 results
+35,Ms. Y,4,Hotel room,City centre,2018,1,4,1-3 days,FALSE,7 results
+36,Ms. Y,4,Hotel room,City centre,2019,1,4,1-3 days,FALSE,4 results
+37,Mr. X,4,Hotel room,Suburbs,2018,1,4,1-3 days,FALSE,2 results
+38,Mr. X,4,Hotel room,Suburbs,2019,1,4,1-3 days,FALSE,8 results
+39,Ms. Y,4,Hotel room,Suburbs,2018,1,4,1-3 days,FALSE,3 results
+40,Mr. X,4,Hotel room,Countryside,2018,1,4,1-3 days,FALSE,7 results
+41,Mr. X,4,Hotel room,Countryside,2019,1,4,1-3 days,FALSE,9 results
+42,Ms. Y,4,Hotel room,Countryside,2018,1,4,1-3 days,FALSE,8 results
+43,Mr. X,4,Hotel room,City centre,2018,1,1,1 week,FALSE,2 results
+44,Mr. X,4,Hotel room,City centre,2019,1,1,1 week,FALSE,4 results
+45,Ms. Y,4,Hotel room,City centre,2018,1,1,1 week,FALSE,7 results
+46,Mr. X,4,Hotel room,Suburbs,2018,1,1,1 week,FALSE,8 results
+47,Mr. X,4,Hotel room,Suburbs,2019,1,1,1 week,FALSE,4 results
+48,Ms. Y,4,Hotel room,Suburbs,2018,1,1,1 week,FALSE,8 results
+49,Ms. Y,4,Hotel room,Suburbs,2019,1,1,1 week,FALSE,9 results
+50,Mr. X,4,Hotel room,Countryside,2018,1,1,1 week,FALSE,4 results
+51,Mr. X,4,Hotel room,Countryside,2019,1,1,1 week,FALSE,3 results
+52,Ms. Y,4,Hotel room,Countryside,2018,1,1,1 week,FALSE,5 results
+53,Ms. Y,4,Hotel room,Countryside,2019,1,1,1 week,FALSE,5 results
+54,Mr. X,4,Hotel room,City centre,2018,1,2,1 week,FALSE,3 results
+55,Mr. X,4,Hotel room,City centre,2019,1,2,1 week,FALSE,7 results
+56,Ms. Y,4,Hotel room,City centre,2018,1,2,1 week,FALSE,6 results
+57,Ms. Y,4,Hotel room,City centre,2019,1,2,1 week,FALSE,6 results
+58,Mr. X,4,Hotel room,Suburbs,2018,1,2,1 week,FALSE,2 results
+59,Mr. X,4,Hotel room,Suburbs,2019,1,2,1 week,FALSE,8 results
+60,Ms. Y,4,Hotel room,Suburbs,2018,1,2,1 week,FALSE,9 results
+61,Ms. Y,4,Hotel room,Suburbs,2019,1,2,1 week,FALSE,6 results
+62,Mr. X,4,Hotel room,Countryside,2018,1,2,1 week,FALSE,7 results
+63,Mr. X,4,Hotel room,Countryside,2019,1,2,1 week,FALSE,2 results
+64,Ms. Y,4,Hotel room,Countryside,2018,1,2,1 week,FALSE,4 results
+65,Ms. Y,4,Hotel room,Countryside,2019,1,2,1 week,FALSE,5 results
+66,Mr. X,4,Hotel room,City centre,2018,1,3,1 week,FALSE,7 results
+67,Mr. X,4,Hotel room,City centre,2019,1,3,1 week,FALSE,5 results
+68,Ms. Y,4,Hotel room,City centre,2018,1,3,1 week,FALSE,8 results
+69,Ms. Y,4,Hotel room,City centre,2019,1,3,1 week,FALSE,6 results
+70,Mr. X,4,Hotel room,Suburbs,2018,1,3,1 week,FALSE,2 results
+71,Mr. X,4,Hotel room,Suburbs,2019,1,3,1 week,FALSE,5 results
+72,Ms. Y,4,Hotel room,Suburbs,2018,1,3,1 week,FALSE,4 results
+73,Ms. Y,4,Hotel room,Suburbs,2019,1,3,1 week,FALSE,4 results
+74,Mr. X,4,Hotel room,Countryside,2018,1,3,1 week,FALSE,3 results
+75,Mr. X,4,Hotel room,Countryside,2019,1,3,1 week,FALSE,6 results
+76,Ms. Y,4,Hotel room,Countryside,2018,1,3,1 week,FALSE,3 results
+77,Ms. Y,4,Hotel room,Countryside,2019,1,3,1 week,FALSE,2 results
+78,Mr. X,4,Hotel room,City centre,2018,1,4,1 week,FALSE,4 results
+79,Mr. X,4,Hotel room,City centre,2019,1,4,1 week,FALSE,7 results
+80,Ms. Y,4,Hotel room,City centre,2018,1,4,1 week,FALSE,6 results
+81,Ms. Y,4,Hotel room,City centre,2019,1,4,1 week,FALSE,2 results
+82,Mr. X,4,Hotel room,Suburbs,2018,1,4,1 week,FALSE,2 results
+83,Mr. X,4,Hotel room,Suburbs,2019,1,4,1 week,FALSE,3 results
+84,Ms. Y,4,Hotel room,Suburbs,2018,1,4,1 week,FALSE,6 results
+85,Ms. Y,4,Hotel room,Suburbs,2019,1,4,1 week,FALSE,5 results
+86,Mr. X,4,Hotel room,Countryside,2018,1,4,1 week,FALSE,4 results
+87,Mr. X,4,Hotel room,Countryside,2019,1,4,1 week,FALSE,4 results
+88,Ms. Y,4,Hotel room,Countryside,2018,1,4,1 week,FALSE,7 results
+89,Ms. Y,4,Hotel room,Countryside,2019,1,4,1 week,FALSE,5 results
+90,Mr. X,4,Hotel room,City centre,2018,1,1,2 weeks,FALSE,4 results
+91,Mr. X,4,Hotel room,City centre,2019,1,1,2 weeks,FALSE,9 results
+92,Ms. Y,4,Hotel room,City centre,2019,1,1,2 weeks,FALSE,3 results
+93,Mr. X,4,Hotel room,Suburbs,2018,1,1,2 weeks,FALSE,5 results
+94,Mr. X,4,Hotel room,Suburbs,2019,1,1,2 weeks,FALSE,6 results
+95,Ms. Y,4,Hotel room,Suburbs,2018,1,1,2 weeks,FALSE,3 results
+96,Ms. Y,4,Hotel room,Suburbs,2019,1,1,2 weeks,FALSE,3 results
+97,Mr. X,4,Hotel room,Countryside,2018,1,1,2 weeks,FALSE,9 results
+98,Mr. X,4,Hotel room,Countryside,2019,1,1,2 weeks,FALSE,5 results
+99,Mr. X,4,Hotel room,City centre,2019,1,2,2 weeks,FALSE,6 results
+100,Ms. Y,4,Hotel room,City centre,2018,1,2,2 weeks,FALSE,4 results
+101,Ms. Y,4,Hotel room,City centre,2019,1,2,2 weeks,FALSE,7 results
+102,Mr. X,4,Hotel room,Suburbs,2019,1,2,2 weeks,FALSE,2 results
+103,Ms. Y,4,Hotel room,Suburbs,2018,1,2,2 weeks,FALSE,9 results
+104,Ms. Y,4,Hotel room,Suburbs,2019,1,2,2 weeks,FALSE,2 results
+105,Mr. X,4,Hotel room,Countryside,2018,1,2,2 weeks,FALSE,8 results
+106,Mr. X,4,Hotel room,Countryside,2019,1,2,2 weeks,FALSE,5 results
+107,Ms. Y,4,Hotel room,Countryside,2018,1,2,2 weeks,FALSE,8 results
+108,Ms. Y,4,Hotel room,Countryside,2019,1,2,2 weeks,FALSE,6 results
+109,Mr. X,4,Hotel room,City centre,2018,1,3,2 weeks,FALSE,9 results
+110,Mr. X,4,Hotel room,City centre,2019,1,3,2 weeks,FALSE,8 results
+111,Ms. Y,4,Hotel room,City centre,2018,1,3,2 weeks,FALSE,7 results
+112,Ms. Y,4,Hotel room,City centre,2019,1,3,2 weeks,FALSE,7 results
+113,Mr. X,4,Hotel room,Suburbs,2018,1,3,2 weeks,FALSE,5 results
+114,Mr. X,4,Hotel room,Suburbs,2019,1,3,2 weeks,FALSE,9 results
+115,Ms. Y,4,Hotel room,Suburbs,2018,1,3,2 weeks,FALSE,3 results
+116,Ms. Y,4,Hotel room,Suburbs,2019,1,3,2 weeks,FALSE,2 results
+117,Mr. X,4,Hotel room,Countryside,2019,1,3,2 weeks,FALSE,8 results
+118,Ms. Y,4,Hotel room,Countryside,2019,1,3,2 weeks,FALSE,8 results
+119,Mr. X,4,Hotel room,City centre,2018,1,4,2 weeks,FALSE,8 results
+120,Mr. X,4,Hotel room,City centre,2019,1,4,2 weeks,FALSE,5 results
+121,Ms. Y,4,Hotel room,City centre,2018,1,4,2 weeks,FALSE,2 results
+122,Ms. Y,4,Hotel room,City centre,2019,1,4,2 weeks,FALSE,2 results
+123,Mr. X,4,Hotel room,Suburbs,2018,1,4,2 weeks,FALSE,4 results
+124,Mr. X,4,Hotel room,Suburbs,2019,1,4,2 weeks,FALSE,7 results
+125,Ms. Y,4,Hotel room,Suburbs,2018,1,4,2 weeks,FALSE,7 results
+126,Ms. Y,4,Hotel room,Suburbs,2019,1,4,2 weeks,FALSE,6 results
+127,Mr. X,4,Hotel room,Countryside,2018,1,4,2 weeks,FALSE,2 results
+128,Mr. X,4,Hotel room,Countryside,2019,1,4,2 weeks,FALSE,4 results
+129,Ms. Y,4,Hotel room,Countryside,2018,1,4,2 weeks,FALSE,9 results
+130,Mr. X,4,Hotel room,City centre,2018,1,1,3 weeks,FALSE,9 results
+131,Mr. X,4,Hotel room,City centre,2019,1,1,3 weeks,FALSE,4 results
+132,Ms. Y,4,Hotel room,City centre,2018,1,1,3 weeks,FALSE,5 results
+133,Mr. X,4,Hotel room,Suburbs,2018,1,1,3 weeks,FALSE,3 results
+134,Mr. X,4,Hotel room,Suburbs,2019,1,1,3 weeks,FALSE,3 results
+135,Ms. Y,4,Hotel room,Suburbs,2018,1,1,3 weeks,FALSE,7 results
+136,Ms. Y,4,Hotel room,Suburbs,2019,1,1,3 weeks,FALSE,2 results
+137,Mr. X,4,Hotel room,Countryside,2018,1,1,3 weeks,FALSE,3 results
+138,Mr. X,4,Hotel room,Countryside,2019,1,1,3 weeks,FALSE,8 results
+139,Ms. Y,4,Hotel room,Countryside,2018,1,1,3 weeks,FALSE,7 results
+140,Ms. Y,4,Hotel room,Countryside,2019,1,1,3 weeks,FALSE,5 results
+141,Mr. X,4,Hotel room,City centre,2018,1,2,3 weeks,FALSE,6 results
+142,Ms. Y,4,Hotel room,City centre,2018,1,2,3 weeks,FALSE,8 results
+143,Ms. Y,4,Hotel room,City centre,2019,1,2,3 weeks,FALSE,8 results
+144,Mr. X,4,Hotel room,Suburbs,2018,1,2,3 weeks,FALSE,6 results
+145,Mr. X,4,Hotel room,Suburbs,2019,1,2,3 weeks,FALSE,8 results
+146,Ms. Y,4,Hotel room,Suburbs,2019,1,2,3 weeks,FALSE,7 results
+147,Mr. X,4,Hotel room,Countryside,2018,1,2,3 weeks,FALSE,2 results
+148,Mr. X,4,Hotel room,Countryside,2019,1,2,3 weeks,FALSE,3 results
+149,Ms. Y,4,Hotel room,Countryside,2018,1,2,3 weeks,FALSE,4 results
+150,Ms. Y,4,Hotel room,Countryside,2019,1,2,3 weeks,FALSE,5 results
+151,Mr. X,4,Hotel room,City centre,2018,1,3,3 weeks,FALSE,8 results
+152,Mr. X,4,Hotel room,City centre,2019,1,3,3 weeks,FALSE,3 results
+153,Ms. Y,4,Hotel room,City centre,2018,1,3,3 weeks,FALSE,9 results
+154,Ms. Y,4,Hotel room,City centre,2019,1,3,3 weeks,FALSE,4 results
+155,Mr. X,4,Hotel room,Suburbs,2018,1,3,3 weeks,FALSE,9 results
+156,Ms. Y,4,Hotel room,Suburbs,2018,1,3,3 weeks,FALSE,4 results
+157,Ms. Y,4,Hotel room,Suburbs,2019,1,3,3 weeks,FALSE,5 results
+158,Mr. X,4,Hotel room,Countryside,2018,1,3,3 weeks,FALSE,8 results
+159,Mr. X,4,Hotel room,Countryside,2019,1,3,3 weeks,FALSE,6 results
+160,Ms. Y,4,Hotel room,Countryside,2018,1,3,3 weeks,FALSE,9 results
+161,Ms. Y,4,Hotel room,Countryside,2019,1,3,3 weeks,FALSE,9 results
+162,Mr. X,4,Hotel room,City centre,2018,1,4,3 weeks,FALSE,3 results
+163,Mr. X,4,Hotel room,City centre,2019,1,4,3 weeks,FALSE,8 results
+164,Ms. Y,4,Hotel room,City centre,2018,1,4,3 weeks,FALSE,8 results
+165,Ms. Y,4,Hotel room,City centre,2019,1,4,3 weeks,FALSE,2 results
+166,Mr. X,4,Hotel room,Suburbs,2018,1,4,3 weeks,FALSE,5 results
+167,Mr. X,4,Hotel room,Suburbs,2019,1,4,3 weeks,FALSE,8 results
+168,Ms. Y,4,Hotel room,Suburbs,2018,1,4,3 weeks,FALSE,8 results
+169,Ms. Y,4,Hotel room,Suburbs,2019,1,4,3 weeks,FALSE,2 results
+170,Mr. X,4,Hotel room,Countryside,2018,1,4,3 weeks,FALSE,2 results
+171,Mr. X,4,Hotel room,Countryside,2019,1,4,3 weeks,FALSE,7 results
+172,Ms. Y,4,Hotel room,Countryside,2018,1,4,3 weeks,FALSE,2 results
+173,Ms. Y,4,Hotel room,Countryside,2019,1,4,3 weeks,FALSE,2 results
+174,Mr. X,4,Hotel room,City centre,2018,1,1,1 month,FALSE,2 results
+175,Mr. X,4,Hotel room,City centre,2019,1,1,1 month,FALSE,6 results
+176,Ms. Y,4,Hotel room,City centre,2018,1,1,1 month,FALSE,5 results
+177,Ms. Y,4,Hotel room,City centre,2019,1,1,1 month,FALSE,5 results
+178,Mr. X,4,Hotel room,Suburbs,2018,1,1,1 month,FALSE,3 results
+179,Mr. X,4,Hotel room,Suburbs,2019,1,1,1 month,FALSE,9 results
+180,Ms. Y,4,Hotel room,Suburbs,2019,1,1,1 month,FALSE,4 results
+181,Mr. X,4,Hotel room,Countryside,2018,1,1,1 month,FALSE,3 results
+182,Mr. X,4,Hotel room,Countryside,2019,1,1,1 month,FALSE,8 results
+183,Ms. Y,4,Hotel room,Countryside,2018,1,1,1 month,FALSE,4 results
+184,Ms. Y,4,Hotel room,Countryside,2019,1,1,1 month,FALSE,3 results
+185,Mr. X,4,Hotel room,City centre,2018,1,2,1 month,FALSE,5 results
+186,Mr. X,4,Hotel room,City centre,2019,1,2,1 month,FALSE,4 results
+187,Ms. Y,4,Hotel room,City centre,2018,1,2,1 month,FALSE,3 results
+188,Ms. Y,4,Hotel room,City centre,2019,1,2,1 month,FALSE,2 results
+189,Mr. X,4,Hotel room,Suburbs,2018,1,2,1 month,FALSE,9 results
+190,Mr. X,4,Hotel room,Suburbs,2019,1,2,1 month,FALSE,5 results
+191,Ms. Y,4,Hotel room,Suburbs,2018,1,2,1 month,FALSE,4 results
+192,Ms. Y,4,Hotel room,Suburbs,2019,1,2,1 month,FALSE,2 results
+193,Mr. X,4,Hotel room,Countryside,2018,1,2,1 month,FALSE,4 results
+194,Ms. Y,4,Hotel room,Countryside,2018,1,2,1 month,FALSE,6 results
+195,Mr. X,4,Hotel room,City centre,2019,1,3,1 month,FALSE,9 results
+196,Ms. Y,4,Hotel room,City centre,2018,1,3,1 month,FALSE,3 results
+197,Ms. Y,4,Hotel room,City centre,2019,1,3,1 month,FALSE,2 results
+198,Mr. X,4,Hotel room,Suburbs,2019,1,3,1 month,FALSE,2 results
+199,Ms. Y,4,Hotel room,Suburbs,2018,1,3,1 month,FALSE,3 results
+200,Ms. Y,4,Hotel room,Suburbs,2019,1,3,1 month,FALSE,8 results
+201,Mr. X,4,Hotel room,Countryside,2018,1,3,1 month,FALSE,9 results
+202,Mr. X,4,Hotel room,Countryside,2019,1,3,1 month,FALSE,4 results
+203,Ms. Y,4,Hotel room,Countryside,2018,1,3,1 month,FALSE,2 results
+204,Mr. X,4,Hotel room,City centre,2018,1,4,1 month,FALSE,8 results
+205,Mr. X,4,Hotel room,City centre,2019,1,4,1 month,FALSE,4 results
+206,Mr. X,4,Hotel room,Suburbs,2018,1,4,1 month,FALSE,9 results
+207,Mr. X,4,Hotel room,Suburbs,2019,1,4,1 month,FALSE,5 results
+208,Ms. Y,4,Hotel room,Suburbs,2018,1,4,1 month,FALSE,2 results
+209,Ms. Y,4,Hotel room,Suburbs,2019,1,4,1 month,FALSE,4 results
+210,Mr. X,4,Hotel room,Countryside,2018,1,4,1 month,FALSE,6 results
+211,Mr. X,4,Hotel room,Countryside,2019,1,4,1 month,FALSE,7 results
+212,Ms. Y,4,Hotel room,Countryside,2018,1,4,1 month,FALSE,9 results
+213,Ms. Y,4,Hotel room,Countryside,2019,1,4,1 month,FALSE,5 results
+214,Mr. X,4,Hotel room,City centre,2018,2,1,1-3 days,FALSE,2 results
+215,Mr. X,4,Hotel room,City centre,2019,2,1,1-3 days,FALSE,4 results
+216,Ms. Y,4,Hotel room,City centre,2018,2,1,1-3 days,FALSE,3 results
+217,Ms. Y,4,Hotel room,City centre,2019,2,1,1-3 days,FALSE,9 results
+218,Mr. X,4,Hotel room,Suburbs,2018,2,1,1-3 days,FALSE,2 results
+219,Mr. X,4,Hotel room,Suburbs,2019,2,1,1-3 days,FALSE,5 results
+220,Ms. Y,4,Hotel room,Suburbs,2018,2,1,1-3 days,FALSE,7 results
+221,Ms. Y,4,Hotel room,Suburbs,2019,2,1,1-3 days,FALSE,9 results
+222,Mr. X,4,Hotel room,Countryside,2018,2,1,1-3 days,FALSE,5 results
+223,Mr. X,4,Hotel room,Countryside,2019,2,1,1-3 days,FALSE,7 results
+224,Ms. Y,4,Hotel room,Countryside,2018,2,1,1-3 days,FALSE,5 results
+225,Ms. Y,4,Hotel room,Countryside,2019,2,1,1-3 days,FALSE,7 results
+226,Mr. X,4,Hotel room,City centre,2018,2,2,1-3 days,FALSE,5 results
+227,Mr. X,4,Hotel room,City centre,2019,2,2,1-3 days,FALSE,9 results
+228,Ms. Y,4,Hotel room,City centre,2018,2,2,1-3 days,FALSE,2 results
+229,Ms. Y,4,Hotel room,City centre,2019,2,2,1-3 days,FALSE,9 results
+230,Mr. X,4,Hotel room,Suburbs,2018,2,2,1-3 days,FALSE,6 results
+231,Mr. X,4,Hotel room,Suburbs,2019,2,2,1-3 days,FALSE,5 results
+232,Ms. Y,4,Hotel room,Suburbs,2018,2,2,1-3 days,FALSE,3 results
+233,Ms. Y,4,Hotel room,Suburbs,2019,2,2,1-3 days,FALSE,6 results
+234,Ms. Y,4,Hotel room,Countryside,2018,2,2,1-3 days,FALSE,4 results
+235,Ms. Y,4,Hotel room,Countryside,2019,2,2,1-3 days,FALSE,5 results
+236,Mr. X,4,Hotel room,City centre,2018,2,3,1-3 days,FALSE,9 results
+237,Mr. X,4,Hotel room,City centre,2019,2,3,1-3 days,FALSE,5 results
+238,Ms. Y,4,Hotel room,City centre,2018,2,3,1-3 days,FALSE,5 results
+239,Ms. Y,4,Hotel room,City centre,2019,2,3,1-3 days,FALSE,4 results
+240,Mr. X,4,Hotel room,Suburbs,2018,2,3,1-3 days,FALSE,5 results
+241,Mr. X,4,Hotel room,Suburbs,2019,2,3,1-3 days,FALSE,3 results
+242,Ms. Y,4,Hotel room,Suburbs,2018,2,3,1-3 days,FALSE,4 results
+243,Ms. Y,4,Hotel room,Suburbs,2019,2,3,1-3 days,FALSE,6 results
+244,Mr. X,4,Hotel room,Countryside,2018,2,3,1-3 days,FALSE,8 results
+245,Mr. X,4,Hotel room,Countryside,2019,2,3,1-3 days,FALSE,4 results
+246,Ms. Y,4,Hotel room,Countryside,2018,2,3,1-3 days,FALSE,7 results
+247,Ms. Y,4,Hotel room,Countryside,2019,2,3,1-3 days,FALSE,4 results
+248,Mr. X,4,Hotel room,City centre,2018,2,4,1-3 days,FALSE,5 results
+249,Mr. X,4,Hotel room,City centre,2019,2,4,1-3 days,FALSE,3 results
+250,Ms. Y,4,Hotel room,City centre,2018,2,4,1-3 days,FALSE,3 results
+251,Ms. Y,4,Hotel room,City centre,2019,2,4,1-3 days,FALSE,7 results
+252,Mr. X,4,Hotel room,Suburbs,2018,2,4,1-3 days,FALSE,8 results
+253,Mr. X,4,Hotel room,Suburbs,2019,2,4,1-3 days,FALSE,2 results
+254,Ms. Y,4,Hotel room,Suburbs,2018,2,4,1-3 days,FALSE,5 results
+255,Ms. Y,4,Hotel room,Suburbs,2019,2,4,1-3 days,FALSE,9 results
+256,Mr. X,4,Hotel room,Countryside,2018,2,4,1-3 days,FALSE,8 results
+257,Mr. X,4,Hotel room,Countryside,2019,2,4,1-3 days,FALSE,3 results
+258,Ms. Y,4,Hotel room,Countryside,2018,2,4,1-3 days,FALSE,4 results
+259,Ms. Y,4,Hotel room,Countryside,2019,2,4,1-3 days,FALSE,8 results
+260,Mr. X,4,Hotel room,City centre,2018,2,1,1 week,FALSE,7 results
+261,Ms. Y,4,Hotel room,City centre,2019,2,1,1 week,FALSE,6 results
+262,Mr. X,4,Hotel room,Suburbs,2018,2,1,1 week,FALSE,8 results
+263,Mr. X,4,Hotel room,Suburbs,2019,2,1,1 week,FALSE,7 results
+264,Ms. Y,4,Hotel room,Suburbs,2018,2,1,1 week,FALSE,9 results
+265,Ms. Y,4,Hotel room,Suburbs,2019,2,1,1 week,FALSE,9 results
+266,Mr. X,4,Hotel room,Countryside,2018,2,1,1 week,FALSE,7 results
+267,Mr. X,4,Hotel room,Countryside,2019,2,1,1 week,FALSE,3 results
+268,Ms. Y,4,Hotel room,Countryside,2018,2,1,1 week,FALSE,8 results
+269,Ms. Y,4,Hotel room,Countryside,2019,2,1,1 week,FALSE,2 results
+270,Mr. X,4,Hotel room,City centre,2018,2,2,1 week,FALSE,7 results
+271,Mr. X,4,Hotel room,City centre,2019,2,2,1 week,FALSE,4 results
+272,Ms. Y,4,Hotel room,City centre,2018,2,2,1 week,FALSE,9 results
+273,Ms. Y,4,Hotel room,City centre,2019,2,2,1 week,FALSE,3 results
+274,Mr. X,4,Hotel room,Suburbs,2018,2,2,1 week,FALSE,7 results
+275,Mr. X,4,Hotel room,Suburbs,2019,2,2,1 week,FALSE,7 results
+276,Ms. Y,4,Hotel room,Suburbs,2018,2,2,1 week,FALSE,3 results
+277,Ms. Y,4,Hotel room,Suburbs,2019,2,2,1 week,FALSE,7 results
+278,Mr. X,4,Hotel room,Countryside,2018,2,2,1 week,FALSE,9 results
+279,Mr. X,4,Hotel room,Countryside,2019,2,2,1 week,FALSE,7 results
+280,Ms. Y,4,Hotel room,Countryside,2018,2,2,1 week,FALSE,9 results
+281,Ms. Y,4,Hotel room,Countryside,2019,2,2,1 week,FALSE,8 results
+282,Mr. X,4,Hotel room,City centre,2018,2,3,1 week,FALSE,3 results
+283,Mr. X,4,Hotel room,City centre,2019,2,3,1 week,FALSE,6 results
+284,Ms. Y,4,Hotel room,City centre,2018,2,3,1 week,FALSE,9 results
+285,Ms. Y,4,Hotel room,City centre,2019,2,3,1 week,FALSE,9 results
+286,Mr. X,4,Hotel room,Suburbs,2018,2,3,1 week,FALSE,9 results
+287,Mr. X,4,Hotel room,Suburbs,2019,2,3,1 week,FALSE,6 results
+288,Ms. Y,4,Hotel room,Suburbs,2018,2,3,1 week,FALSE,4 results
+289,Ms. Y,4,Hotel room,Suburbs,2019,2,3,1 week,FALSE,2 results
+290,Mr. X,4,Hotel room,Countryside,2018,2,3,1 week,FALSE,9 results
+291,Ms. Y,4,Hotel room,Countryside,2018,2,3,1 week,FALSE,2 results
+292,Ms. Y,4,Hotel room,Countryside,2019,2,3,1 week,FALSE,2 results
+293,Mr. X,4,Hotel room,City centre,2018,2,4,1 week,FALSE,8 results
+294,Mr. X,4,Hotel room,City centre,2019,2,4,1 week,FALSE,4 results
+295,Ms. Y,4,Hotel room,City centre,2018,2,4,1 week,FALSE,4 results
+296,Ms. Y,4,Hotel room,City centre,2019,2,4,1 week,FALSE,6 results
+297,Mr. X,4,Hotel room,Suburbs,2018,2,4,1 week,FALSE,9 results
+298,Mr. X,4,Hotel room,Suburbs,2019,2,4,1 week,FALSE,8 results
+299,Ms. Y,4,Hotel room,Suburbs,2018,2,4,1 week,FALSE,4 results
+300,Ms. Y,4,Hotel room,Suburbs,2019,2,4,1 week,FALSE,7 results
+301,Mr. X,4,Hotel room,Countryside,2018,2,4,1 week,FALSE,3 results
+302,Mr. X,4,Hotel room,Countryside,2019,2,4,1 week,FALSE,3 results
+303,Ms. Y,4,Hotel room,Countryside,2019,2,4,1 week,FALSE,2 results
+304,Mr. X,4,Hotel room,City centre,2018,2,1,2 weeks,FALSE,7 results
+305,Mr. X,4,Hotel room,City centre,2019,2,1,2 weeks,FALSE,9 results
+306,Ms. Y,4,Hotel room,City centre,2018,2,1,2 weeks,FALSE,7 results
+307,Ms. Y,4,Hotel room,City centre,2019,2,1,2 weeks,FALSE,7 results
+308,Mr. X,4,Hotel room,Suburbs,2018,2,1,2 weeks,FALSE,9 results
+309,Mr. X,4,Hotel room,Suburbs,2019,2,1,2 weeks,FALSE,6 results
+310,Ms. Y,4,Hotel room,Suburbs,2018,2,1,2 weeks,FALSE,9 results
+311,Ms. Y,4,Hotel room,Suburbs,2019,2,1,2 weeks,FALSE,9 results
+312,Mr. X,4,Hotel room,Countryside,2018,2,1,2 weeks,FALSE,8 results
+313,Mr. X,4,Hotel room,Countryside,2019,2,1,2 weeks,FALSE,2 results
+314,Ms. Y,4,Hotel room,Countryside,2018,2,1,2 weeks,FALSE,4 results
+315,Ms. Y,4,Hotel room,Countryside,2019,2,1,2 weeks,FALSE,7 results
+316,Mr. X,4,Hotel room,City centre,2018,2,2,2 weeks,FALSE,8 results
+317,Mr. X,4,Hotel room,City centre,2019,2,2,2 weeks,FALSE,3 results
+318,Ms. Y,4,Hotel room,City centre,2018,2,2,2 weeks,FALSE,4 results
+319,Ms. Y,4,Hotel room,City centre,2019,2,2,2 weeks,FALSE,7 results
+320,Mr. X,4,Hotel room,Suburbs,2018,2,2,2 weeks,FALSE,8 results
+321,Mr. X,4,Hotel room,Suburbs,2019,2,2,2 weeks,FALSE,6 results
+322,Ms. Y,4,Hotel room,Suburbs,2018,2,2,2 weeks,FALSE,3 results
+323,Mr. X,4,Hotel room,Countryside,2018,2,2,2 weeks,FALSE,4 results
+324,Mr. X,4,Hotel room,Countryside,2019,2,2,2 weeks,FALSE,4 results
+325,Ms. Y,4,Hotel room,Countryside,2018,2,2,2 weeks,FALSE,9 results
+326,Mr. X,4,Hotel room,City centre,2018,2,3,2 weeks,FALSE,3 results
+327,Mr. X,4,Hotel room,City centre,2019,2,3,2 weeks,FALSE,9 results
+328,Ms. Y,4,Hotel room,City centre,2018,2,3,2 weeks,FALSE,7 results
+329,Ms. Y,4,Hotel room,City centre,2019,2,3,2 weeks,FALSE,5 results
+330,Mr. X,4,Hotel room,Suburbs,2018,2,3,2 weeks,FALSE,3 results
+331,Mr. X,4,Hotel room,Suburbs,2019,2,3,2 weeks,FALSE,3 results
+332,Ms. Y,4,Hotel room,Suburbs,2018,2,3,2 weeks,FALSE,7 results
+333,Ms. Y,4,Hotel room,Suburbs,2019,2,3,2 weeks,FALSE,8 results
+334,Mr. X,4,Hotel room,Countryside,2018,2,3,2 weeks,FALSE,9 results
+335,Ms. Y,4,Hotel room,Countryside,2018,2,3,2 weeks,FALSE,7 results
+336,Ms. Y,4,Hotel room,Countryside,2019,2,3,2 weeks,FALSE,8 results
+337,Mr. X,4,Hotel room,City centre,2018,2,4,2 weeks,FALSE,6 results
+338,Mr. X,4,Hotel room,City centre,2019,2,4,2 weeks,FALSE,3 results
+339,Ms. Y,4,Hotel room,City centre,2018,2,4,2 weeks,FALSE,7 results
+340,Ms. Y,4,Hotel room,City centre,2019,2,4,2 weeks,FALSE,5 results
+341,Mr. X,4,Hotel room,Suburbs,2018,2,4,2 weeks,FALSE,6 results
+342,Mr. X,4,Hotel room,Suburbs,2019,2,4,2 weeks,FALSE,9 results
+343,Ms. Y,4,Hotel room,Suburbs,2018,2,4,2 weeks,FALSE,9 results
+344,Ms. Y,4,Hotel room,Suburbs,2019,2,4,2 weeks,FALSE,6 results
+345,Mr. X,4,Hotel room,Countryside,2018,2,4,2 weeks,FALSE,6 results
+346,Mr. X,4,Hotel room,Countryside,2019,2,4,2 weeks,FALSE,7 results
+347,Ms. Y,4,Hotel room,Countryside,2018,2,4,2 weeks,FALSE,6 results
+348,Ms. Y,4,Hotel room,Countryside,2019,2,4,2 weeks,FALSE,8 results
+349,Mr. X,4,Hotel room,City centre,2018,2,1,3 weeks,FALSE,4 results
+350,Mr. X,4,Hotel room,City centre,2019,2,1,3 weeks,FALSE,6 results
+351,Ms. Y,4,Hotel room,City centre,2018,2,1,3 weeks,FALSE,2 results
+352,Ms. Y,4,Hotel room,City centre,2019,2,1,3 weeks,FALSE,6 results
+353,Mr. X,4,Hotel room,Suburbs,2018,2,1,3 weeks,FALSE,6 results
+354,Ms. Y,4,Hotel room,Suburbs,2018,2,1,3 weeks,FALSE,9 results
+355,Ms. Y,4,Hotel room,Suburbs,2019,2,1,3 weeks,FALSE,7 results
+356,Mr. X,4,Hotel room,Countryside,2018,2,1,3 weeks,FALSE,5 results
+357,Mr. X,4,Hotel room,Countryside,2019,2,1,3 weeks,FALSE,8 results
+358,Ms. Y,4,Hotel room,Countryside,2018,2,1,3 weeks,FALSE,7 results
+359,Ms. Y,4,Hotel room,Countryside,2019,2,1,3 weeks,FALSE,9 results
+360,Mr. X,4,Hotel room,City centre,2019,2,2,3 weeks,FALSE,2 results
+361,Ms. Y,4,Hotel room,City centre,2018,2,2,3 weeks,FALSE,2 results
+362,Ms. Y,4,Hotel room,City centre,2019,2,2,3 weeks,FALSE,9 results
+363,Mr. X,4,Hotel room,Suburbs,2018,2,2,3 weeks,FALSE,7 results
+364,Mr. X,4,Hotel room,Suburbs,2019,2,2,3 weeks,FALSE,9 results
+365,Ms. Y,4,Hotel room,Suburbs,2018,2,2,3 weeks,FALSE,7 results
+366,Ms. Y,4,Hotel room,Suburbs,2019,2,2,3 weeks,FALSE,7 results
+367,Mr. X,4,Hotel room,Countryside,2018,2,2,3 weeks,FALSE,7 results
+368,Mr. X,4,Hotel room,Countryside,2019,2,2,3 weeks,FALSE,2 results
+369,Ms. Y,4,Hotel room,Countryside,2018,2,2,3 weeks,FALSE,5 results
+370,Ms. Y,4,Hotel room,Countryside,2019,2,2,3 weeks,FALSE,4 results
+371,Mr. X,4,Hotel room,City centre,2018,2,3,3 weeks,FALSE,4 results
+372,Ms. Y,4,Hotel room,City centre,2018,2,3,3 weeks,FALSE,2 results
+373,Ms. Y,4,Hotel room,City centre,2019,2,3,3 weeks,FALSE,4 results
+374,Mr. X,4,Hotel room,Suburbs,2018,2,3,3 weeks,FALSE,6 results
+375,Mr. X,4,Hotel room,Suburbs,2019,2,3,3 weeks,FALSE,5 results
+376,Ms. Y,4,Hotel room,Suburbs,2018,2,3,3 weeks,FALSE,4 results
+377,Ms. Y,4,Hotel room,Suburbs,2019,2,3,3 weeks,FALSE,4 results
+378,Mr. X,4,Hotel room,Countryside,2018,2,3,3 weeks,FALSE,2 results
+379,Mr. X,4,Hotel room,Countryside,2019,2,3,3 weeks,FALSE,6 results
+380,Ms. Y,4,Hotel room,Countryside,2018,2,3,3 weeks,FALSE,7 results
+381,Ms. Y,4,Hotel room,Countryside,2019,2,3,3 weeks,FALSE,5 results
+382,Mr. X,4,Hotel room,City centre,2018,2,4,3 weeks,FALSE,6 results
+383,Mr. X,4,Hotel room,City centre,2019,2,4,3 weeks,FALSE,6 results
+384,Ms. Y,4,Hotel room,City centre,2019,2,4,3 weeks,FALSE,9 results
+385,Mr. X,4,Hotel room,Suburbs,2018,2,4,3 weeks,FALSE,7 results
+386,Mr. X,4,Hotel room,Suburbs,2019,2,4,3 weeks,FALSE,2 results
+387,Ms. Y,4,Hotel room,Suburbs,2018,2,4,3 weeks,FALSE,7 results
+388,Ms. Y,4,Hotel room,Suburbs,2019,2,4,3 weeks,FALSE,4 results
+389,Mr. X,4,Hotel room,Countryside,2018,2,4,3 weeks,FALSE,4 results
+390,Mr. X,4,Hotel room,Countryside,2019,2,4,3 weeks,FALSE,3 results
+391,Ms. Y,4,Hotel room,Countryside,2019,2,4,3 weeks,FALSE,5 results
+392,Mr. X,4,Hotel room,City centre,2018,2,1,1 month,FALSE,6 results
+393,Ms. Y,4,Hotel room,City centre,2018,2,1,1 month,FALSE,8 results
+394,Mr. X,4,Hotel room,Suburbs,2018,2,1,1 month,FALSE,8 results
+395,Mr. X,4,Hotel room,Suburbs,2019,2,1,1 month,FALSE,8 results
+396,Ms. Y,4,Hotel room,Suburbs,2018,2,1,1 month,FALSE,8 results
+397,Mr. X,4,Hotel room,Countryside,2018,2,1,1 month,FALSE,4 results
+398,Mr. X,4,Hotel room,Countryside,2019,2,1,1 month,FALSE,8 results
+399,Ms. Y,4,Hotel room,Countryside,2018,2,1,1 month,FALSE,3 results
+400,Ms. Y,4,Hotel room,Countryside,2019,2,1,1 month,FALSE,3 results
+401,Mr. X,4,Hotel room,City centre,2019,2,2,1 month,FALSE,9 results
+402,Ms. Y,4,Hotel room,City centre,2018,2,2,1 month,FALSE,7 results
+403,Ms. Y,4,Hotel room,City centre,2019,2,2,1 month,FALSE,5 results
+404,Mr. X,4,Hotel room,Suburbs,2019,2,2,1 month,FALSE,8 results
+405,Ms. Y,4,Hotel room,Suburbs,2018,2,2,1 month,FALSE,8 results
+406,Ms. Y,4,Hotel room,Suburbs,2019,2,2,1 month,FALSE,2 results
+407,Mr. X,4,Hotel room,Countryside,2018,2,2,1 month,FALSE,2 results
+408,Mr. X,4,Hotel room,Countryside,2019,2,2,1 month,FALSE,2 results
+409,Ms. Y,4,Hotel room,Countryside,2018,2,2,1 month,FALSE,3 results
+410,Ms. Y,4,Hotel room,Countryside,2019,2,2,1 month,FALSE,5 results
+411,Mr. X,4,Hotel room,City centre,2018,2,3,1 month,FALSE,5 results
+412,Mr. X,4,Hotel room,City centre,2019,2,3,1 month,FALSE,4 results
+413,Ms. Y,4,Hotel room,City centre,2018,2,3,1 month,FALSE,4 results
+414,Ms. Y,4,Hotel room,City centre,2019,2,3,1 month,FALSE,2 results
+415,Mr. X,4,Hotel room,Suburbs,2018,2,3,1 month,FALSE,6 results
+416,Mr. X,4,Hotel room,Suburbs,2019,2,3,1 month,FALSE,9 results
+417,Ms. Y,4,Hotel room,Suburbs,2018,2,3,1 month,FALSE,6 results
+418,Ms. Y,4,Hotel room,Suburbs,2019,2,3,1 month,FALSE,7 results
+419,Mr. X,4,Hotel room,Countryside,2018,2,3,1 month,FALSE,8 results
+420,Mr. X,4,Hotel room,Countryside,2019,2,3,1 month,FALSE,8 results
+421,Ms. Y,4,Hotel room,Countryside,2018,2,3,1 month,FALSE,7 results
+422,Ms. Y,4,Hotel room,Countryside,2019,2,3,1 month,FALSE,4 results
+423,Mr. X,4,Hotel room,City centre,2019,2,4,1 month,FALSE,9 results
+424,Ms. Y,4,Hotel room,City centre,2018,2,4,1 month,FALSE,9 results
+425,Mr. X,4,Hotel room,Suburbs,2018,2,4,1 month,FALSE,2 results
+426,Mr. X,4,Hotel room,Suburbs,2019,2,4,1 month,FALSE,9 results
+427,Ms. Y,4,Hotel room,Suburbs,2018,2,4,1 month,FALSE,5 results
+428,Ms. Y,4,Hotel room,Suburbs,2019,2,4,1 month,FALSE,9 results
+429,Mr. X,4,Hotel room,Countryside,2018,2,4,1 month,FALSE,6 results
+430,Mr. X,4,Hotel room,Countryside,2019,2,4,1 month,FALSE,5 results
+431,Ms. Y,4,Hotel room,Countryside,2018,2,4,1 month,FALSE,3 results
+432,Ms. Y,4,Hotel room,Countryside,2019,2,4,1 month,FALSE,2 results
+433,Mr. X,4,Hotel room,City centre,2018,3,1,1-3 days,FALSE,7 results
+434,Mr. X,4,Hotel room,City centre,2019,3,1,1-3 days,FALSE,7 results
+435,Ms. Y,4,Hotel room,City centre,2018,3,1,1-3 days,FALSE,3 results
+436,Ms. Y,4,Hotel room,City centre,2019,3,1,1-3 days,FALSE,4 results
+437,Mr. X,4,Hotel room,Suburbs,2018,3,1,1-3 days,FALSE,5 results
+438,Mr. X,4,Hotel room,Suburbs,2019,3,1,1-3 days,FALSE,2 results
+439,Ms. Y,4,Hotel room,Suburbs,2018,3,1,1-3 days,FALSE,3 results
+440,Mr. X,4,Hotel room,Countryside,2018,3,1,1-3 days,FALSE,7 results
+441,Mr. X,4,Hotel room,Countryside,2019,3,1,1-3 days,FALSE,8 results
+442,Ms. Y,4,Hotel room,Countryside,2018,3,1,1-3 days,FALSE,8 results
+443,Ms. Y,4,Hotel room,Countryside,2019,3,1,1-3 days,FALSE,2 results
+444,Mr. X,4,Hotel room,City centre,2019,3,2,1-3 days,FALSE,9 results
+445,Ms. Y,4,Hotel room,City centre,2018,3,2,1-3 days,FALSE,7 results
+446,Ms. Y,4,Hotel room,City centre,2019,3,2,1-3 days,FALSE,9 results
+447,Mr. X,4,Hotel room,Suburbs,2018,3,2,1-3 days,FALSE,2 results
+448,Ms. Y,4,Hotel room,Suburbs,2018,3,2,1-3 days,FALSE,6 results
+449,Ms. Y,4,Hotel room,Suburbs,2019,3,2,1-3 days,FALSE,9 results
+450,Mr. X,4,Hotel room,Countryside,2018,3,2,1-3 days,FALSE,8 results
+451,Mr. X,4,Hotel room,Countryside,2019,3,2,1-3 days,FALSE,6 results
+452,Ms. Y,4,Hotel room,Countryside,2018,3,2,1-3 days,FALSE,6 results
+453,Ms. Y,4,Hotel room,Countryside,2019,3,2,1-3 days,FALSE,2 results
+454,Mr. X,4,Hotel room,City centre,2018,3,3,1-3 days,FALSE,4 results
+455,Mr. X,4,Hotel room,City centre,2019,3,3,1-3 days,FALSE,9 results
+456,Ms. Y,4,Hotel room,City centre,2018,3,3,1-3 days,FALSE,7 results
+457,Ms. Y,4,Hotel room,City centre,2019,3,3,1-3 days,FALSE,9 results
+458,Mr. X,4,Hotel room,Suburbs,2018,3,3,1-3 days,FALSE,4 results
+459,Mr. X,4,Hotel room,Suburbs,2019,3,3,1-3 days,FALSE,6 results
+460,Ms. Y,4,Hotel room,Suburbs,2018,3,3,1-3 days,FALSE,4 results
+461,Ms. Y,4,Hotel room,Suburbs,2019,3,3,1-3 days,FALSE,3 results
+462,Mr. X,4,Hotel room,Countryside,2018,3,3,1-3 days,FALSE,3 results
+463,Mr. X,4,Hotel room,Countryside,2019,3,3,1-3 days,FALSE,8 results
+464,Ms. Y,4,Hotel room,Countryside,2018,3,3,1-3 days,FALSE,2 results
+465,Mr. X,4,Hotel room,City centre,2018,3,4,1-3 days,FALSE,9 results
+466,Mr. X,4,Hotel room,City centre,2019,3,4,1-3 days,FALSE,3 results
+467,Ms. Y,4,Hotel room,City centre,2018,3,4,1-3 days,FALSE,3 results
+468,Ms. Y,4,Hotel room,City centre,2019,3,4,1-3 days,FALSE,9 results
+469,Mr. X,4,Hotel room,Suburbs,2019,3,4,1-3 days,FALSE,6 results
+470,Ms. Y,4,Hotel room,Suburbs,2018,3,4,1-3 days,FALSE,8 results
+471,Ms. Y,4,Hotel room,Suburbs,2019,3,4,1-3 days,FALSE,3 results
+472,Mr. X,4,Hotel room,Countryside,2018,3,4,1-3 days,FALSE,2 results
+473,Mr. X,4,Hotel room,Countryside,2019,3,4,1-3 days,FALSE,5 results
+474,Ms. Y,4,Hotel room,Countryside,2018,3,4,1-3 days,FALSE,6 results
+475,Ms. Y,4,Hotel room,Countryside,2019,3,4,1-3 days,FALSE,3 results
+476,Mr. X,4,Hotel room,City centre,2018,3,1,1 week,FALSE,8 results
+477,Mr. X,4,Hotel room,City centre,2019,3,1,1 week,FALSE,4 results
+478,Ms. Y,4,Hotel room,City centre,2018,3,1,1 week,FALSE,6 results
+479,Ms. Y,4,Hotel room,City centre,2019,3,1,1 week,FALSE,7 results
+480,Mr. X,4,Hotel room,Suburbs,2018,3,1,1 week,FALSE,9 results
+481,Ms. Y,4,Hotel room,Suburbs,2018,3,1,1 week,FALSE,6 results
+482,Ms. Y,4,Hotel room,Suburbs,2019,3,1,1 week,FALSE,8 results
+483,Mr. X,4,Hotel room,Countryside,2019,3,1,1 week,FALSE,4 results
+484,Ms. Y,4,Hotel room,Countryside,2018,3,1,1 week,FALSE,7 results
+485,Ms. Y,4,Hotel room,Countryside,2019,3,1,1 week,FALSE,6 results
+486,Mr. X,4,Hotel room,City centre,2018,3,2,1 week,FALSE,8 results
+487,Mr. X,4,Hotel room,City centre,2019,3,2,1 week,FALSE,7 results
+488,Ms. Y,4,Hotel room,City centre,2018,3,2,1 week,FALSE,2 results
+489,Ms. Y,4,Hotel room,City centre,2019,3,2,1 week,FALSE,5 results
+490,Mr. X,4,Hotel room,Suburbs,2019,3,2,1 week,FALSE,7 results
+491,Ms. Y,4,Hotel room,Suburbs,2018,3,2,1 week,FALSE,6 results
+492,Ms. Y,4,Hotel room,Suburbs,2019,3,2,1 week,FALSE,6 results
+493,Mr. X,4,Hotel room,Countryside,2018,3,2,1 week,FALSE,6 results
+494,Mr. X,4,Hotel room,Countryside,2019,3,2,1 week,FALSE,8 results
+495,Ms. Y,4,Hotel room,Countryside,2018,3,2,1 week,FALSE,9 results
+496,Ms. Y,4,Hotel room,Countryside,2019,3,2,1 week,FALSE,4 results
+497,Mr. X,4,Hotel room,City centre,2018,3,3,1 week,FALSE,2 results
+498,Mr. X,4,Hotel room,City centre,2019,3,3,1 week,FALSE,9 results
+499,Ms. Y,4,Hotel room,City centre,2018,3,3,1 week,FALSE,6 results
+500,Ms. Y,4,Hotel room,City centre,2019,3,3,1 week,FALSE,8 results
+501,Mr. X,4,Hotel room,Suburbs,2018,3,3,1 week,FALSE,2 results
+502,Ms. Y,4,Hotel room,Suburbs,2018,3,3,1 week,FALSE,2 results
+503,Ms. Y,4,Hotel room,Suburbs,2019,3,3,1 week,FALSE,9 results
+504,Mr. X,4,Hotel room,Countryside,2018,3,3,1 week,FALSE,4 results
+505,Ms. Y,4,Hotel room,Countryside,2018,3,3,1 week,FALSE,3 results
+506,Ms. Y,4,Hotel room,Countryside,2019,3,3,1 week,FALSE,5 results
+507,Mr. X,4,Hotel room,City centre,2018,3,4,1 week,FALSE,5 results
+508,Mr. X,4,Hotel room,City centre,2019,3,4,1 week,FALSE,7 results
+509,Ms. Y,4,Hotel room,City centre,2018,3,4,1 week,FALSE,8 results
+510,Ms. Y,4,Hotel room,City centre,2019,3,4,1 week,FALSE,7 results
+511,Mr. X,4,Hotel room,Suburbs,2018,3,4,1 week,FALSE,2 results
+512,Mr. X,4,Hotel room,Suburbs,2019,3,4,1 week,FALSE,4 results
+513,Ms. Y,4,Hotel room,Suburbs,2018,3,4,1 week,FALSE,3 results
+514,Ms. Y,4,Hotel room,Suburbs,2019,3,4,1 week,FALSE,2 results
+515,Mr. X,4,Hotel room,Countryside,2018,3,4,1 week,FALSE,9 results
+516,Mr. X,4,Hotel room,Countryside,2019,3,4,1 week,FALSE,7 results
+517,Ms. Y,4,Hotel room,Countryside,2018,3,4,1 week,FALSE,8 results
+518,Ms. Y,4,Hotel room,Countryside,2019,3,4,1 week,FALSE,6 results
+519,Mr. X,4,Hotel room,City centre,2018,3,1,2 weeks,FALSE,3 results
+520,Mr. X,4,Hotel room,City centre,2019,3,1,2 weeks,FALSE,2 results
+521,Ms. Y,4,Hotel room,City centre,2018,3,1,2 weeks,FALSE,7 results
+522,Ms. Y,4,Hotel room,City centre,2019,3,1,2 weeks,FALSE,4 results
+523,Mr. X,4,Hotel room,Suburbs,2018,3,1,2 weeks,FALSE,7 results
+524,Mr. X,4,Hotel room,Suburbs,2019,3,1,2 weeks,FALSE,4 results
+525,Ms. Y,4,Hotel room,Suburbs,2018,3,1,2 weeks,FALSE,8 results
+526,Ms. Y,4,Hotel room,Suburbs,2019,3,1,2 weeks,FALSE,9 results
+527,Mr. X,4,Hotel room,Countryside,2018,3,1,2 weeks,FALSE,8 results
+528,Mr. X,4,Hotel room,Countryside,2019,3,1,2 weeks,FALSE,2 results
+529,Ms. Y,4,Hotel room,Countryside,2018,3,1,2 weeks,FALSE,4 results
+530,Ms. Y,4,Hotel room,Countryside,2019,3,1,2 weeks,FALSE,2 results
+531,Mr. X,4,Hotel room,City centre,2018,3,2,2 weeks,FALSE,6 results
+532,Mr. X,4,Hotel room,City centre,2019,3,2,2 weeks,FALSE,6 results
+533,Ms. Y,4,Hotel room,City centre,2018,3,2,2 weeks,FALSE,3 results
+534,Ms. Y,4,Hotel room,City centre,2019,3,2,2 weeks,FALSE,6 results
+535,Mr. X,4,Hotel room,Suburbs,2019,3,2,2 weeks,FALSE,6 results
+536,Ms. Y,4,Hotel room,Suburbs,2018,3,2,2 weeks,FALSE,2 results
+537,Mr. X,4,Hotel room,Countryside,2018,3,2,2 weeks,FALSE,9 results
+538,Ms. Y,4,Hotel room,Countryside,2018,3,2,2 weeks,FALSE,4 results
+539,Ms. Y,4,Hotel room,Countryside,2019,3,2,2 weeks,FALSE,9 results
+540,Mr. X,4,Hotel room,City centre,2018,3,3,2 weeks,FALSE,5 results
+541,Mr. X,4,Hotel room,City centre,2019,3,3,2 weeks,FALSE,9 results
+542,Ms. Y,4,Hotel room,City centre,2018,3,3,2 weeks,FALSE,3 results
+543,Ms. Y,4,Hotel room,City centre,2019,3,3,2 weeks,FALSE,6 results
+544,Mr. X,4,Hotel room,Suburbs,2018,3,3,2 weeks,FALSE,4 results
+545,Mr. X,4,Hotel room,Suburbs,2019,3,3,2 weeks,FALSE,8 results
+546,Ms. Y,4,Hotel room,Suburbs,2018,3,3,2 weeks,FALSE,8 results
+547,Ms. Y,4,Hotel room,Suburbs,2019,3,3,2 weeks,FALSE,9 results
+548,Mr. X,4,Hotel room,Countryside,2018,3,3,2 weeks,FALSE,8 results
+549,Mr. X,4,Hotel room,Countryside,2019,3,3,2 weeks,FALSE,9 results
+550,Ms. Y,4,Hotel room,Countryside,2018,3,3,2 weeks,FALSE,3 results
+551,Ms. Y,4,Hotel room,Countryside,2019,3,3,2 weeks,FALSE,6 results
+552,Mr. X,4,Hotel room,City centre,2018,3,4,2 weeks,FALSE,9 results
+553,Mr. X,4,Hotel room,City centre,2019,3,4,2 weeks,FALSE,4 results
+554,Ms. Y,4,Hotel room,City centre,2018,3,4,2 weeks,FALSE,6 results
+555,Ms. Y,4,Hotel room,City centre,2019,3,4,2 weeks,FALSE,6 results
+556,Mr. X,4,Hotel room,Suburbs,2018,3,4,2 weeks,FALSE,8 results
+557,Mr. X,4,Hotel room,Suburbs,2019,3,4,2 weeks,FALSE,5 results
+558,Ms. Y,4,Hotel room,Suburbs,2018,3,4,2 weeks,FALSE,5 results
+559,Ms. Y,4,Hotel room,Suburbs,2019,3,4,2 weeks,FALSE,2 results
+560,Mr. X,4,Hotel room,Countryside,2018,3,4,2 weeks,FALSE,3 results
+561,Mr. X,4,Hotel room,Countryside,2019,3,4,2 weeks,FALSE,3 results
+562,Ms. Y,4,Hotel room,Countryside,2018,3,4,2 weeks,FALSE,4 results
+563,Ms. Y,4,Hotel room,Countryside,2019,3,4,2 weeks,FALSE,3 results
+564,Mr. X,4,Hotel room,City centre,2018,3,1,3 weeks,FALSE,4 results
+565,Mr. X,4,Hotel room,City centre,2019,3,1,3 weeks,FALSE,9 results
+566,Ms. Y,4,Hotel room,City centre,2018,3,1,3 weeks,FALSE,7 results
+567,Ms. Y,4,Hotel room,City centre,2019,3,1,3 weeks,FALSE,3 results
+568,Mr. X,4,Hotel room,Suburbs,2018,3,1,3 weeks,FALSE,5 results
+569,Mr. X,4,Hotel room,Suburbs,2019,3,1,3 weeks,FALSE,6 results
+570,Ms. Y,4,Hotel room,Suburbs,2018,3,1,3 weeks,FALSE,9 results
+571,Ms. Y,4,Hotel room,Suburbs,2019,3,1,3 weeks,FALSE,6 results
+572,Mr. X,4,Hotel room,Countryside,2019,3,1,3 weeks,FALSE,5 results
+573,Ms. Y,4,Hotel room,Countryside,2018,3,1,3 weeks,FALSE,9 results
+574,Ms. Y,4,Hotel room,Countryside,2019,3,1,3 weeks,FALSE,3 results
+575,Mr. X,4,Hotel room,City centre,2018,3,2,3 weeks,FALSE,3 results
+576,Mr. X,4,Hotel room,City centre,2019,3,2,3 weeks,FALSE,5 results
+577,Ms. Y,4,Hotel room,City centre,2019,3,2,3 weeks,FALSE,4 results
+578,Mr. X,4,Hotel room,Suburbs,2018,3,2,3 weeks,FALSE,7 results
+579,Mr. X,4,Hotel room,Suburbs,2019,3,2,3 weeks,FALSE,8 results
+580,Ms. Y,4,Hotel room,Suburbs,2018,3,2,3 weeks,FALSE,9 results
+581,Ms. Y,4,Hotel room,Suburbs,2019,3,2,3 weeks,FALSE,9 results
+582,Mr. X,4,Hotel room,Countryside,2018,3,2,3 weeks,FALSE,3 results
+583,Mr. X,4,Hotel room,Countryside,2019,3,2,3 weeks,FALSE,4 results
+584,Ms. Y,4,Hotel room,Countryside,2018,3,2,3 weeks,FALSE,8 results
+585,Ms. Y,4,Hotel room,Countryside,2019,3,2,3 weeks,FALSE,8 results
+586,Mr. X,4,Hotel room,City centre,2018,3,3,3 weeks,FALSE,2 results
+587,Mr. X,4,Hotel room,City centre,2019,3,3,3 weeks,FALSE,3 results
+588,Ms. Y,4,Hotel room,City centre,2018,3,3,3 weeks,FALSE,7 results
+589,Ms. Y,4,Hotel room,City centre,2019,3,3,3 weeks,FALSE,9 results
+590,Mr. X,4,Hotel room,Suburbs,2018,3,3,3 weeks,FALSE,4 results
+591,Mr. X,4,Hotel room,Suburbs,2019,3,3,3 weeks,FALSE,7 results
+592,Ms. Y,4,Hotel room,Suburbs,2018,3,3,3 weeks,FALSE,5 results
+593,Ms. Y,4,Hotel room,Suburbs,2019,3,3,3 weeks,FALSE,4 results
+594,Mr. X,4,Hotel room,Countryside,2018,3,3,3 weeks,FALSE,9 results
+595,Mr. X,4,Hotel room,Countryside,2019,3,3,3 weeks,FALSE,4 results
+596,Ms. Y,4,Hotel room,Countryside,2018,3,3,3 weeks,FALSE,9 results
+597,Ms. Y,4,Hotel room,Countryside,2019,3,3,3 weeks,FALSE,5 results
+598,Mr. X,4,Hotel room,City centre,2018,3,4,3 weeks,FALSE,4 results
+599,Mr. X,4,Hotel room,City centre,2019,3,4,3 weeks,FALSE,8 results
+600,Ms. Y,4,Hotel room,City centre,2018,3,4,3 weeks,FALSE,8 results
+601,Ms. Y,4,Hotel room,City centre,2019,3,4,3 weeks,FALSE,8 results
+602,Mr. X,4,Hotel room,Suburbs,2018,3,4,3 weeks,FALSE,7 results
+603,Mr. X,4,Hotel room,Suburbs,2019,3,4,3 weeks,FALSE,4 results
+604,Ms. Y,4,Hotel room,Suburbs,2018,3,4,3 weeks,FALSE,6 results
+605,Ms. Y,4,Hotel room,Suburbs,2019,3,4,3 weeks,FALSE,3 results
+606,Mr. X,4,Hotel room,Countryside,2018,3,4,3 weeks,FALSE,5 results
+607,Mr. X,4,Hotel room,Countryside,2019,3,4,3 weeks,FALSE,9 results
+608,Ms. Y,4,Hotel room,Countryside,2018,3,4,3 weeks,FALSE,4 results
+609,Ms. Y,4,Hotel room,Countryside,2019,3,4,3 weeks,FALSE,3 results
+610,Mr. X,4,Hotel room,City centre,2018,3,1,1 month,FALSE,9 results
+611,Mr. X,4,Hotel room,City centre,2019,3,1,1 month,FALSE,6 results
+612,Ms. Y,4,Hotel room,City centre,2018,3,1,1 month,FALSE,5 results
+613,Ms. Y,4,Hotel room,City centre,2019,3,1,1 month,FALSE,7 results
+614,Mr. X,4,Hotel room,Suburbs,2018,3,1,1 month,FALSE,3 results
+615,Mr. X,4,Hotel room,Suburbs,2019,3,1,1 month,FALSE,6 results
+616,Ms. Y,4,Hotel room,Suburbs,2018,3,1,1 month,FALSE,5 results
+617,Ms. Y,4,Hotel room,Suburbs,2019,3,1,1 month,FALSE,9 results
+618,Mr. X,4,Hotel room,Countryside,2019,3,1,1 month,FALSE,9 results
+619,Ms. Y,4,Hotel room,Countryside,2018,3,1,1 month,FALSE,7 results
+620,Ms. Y,4,Hotel room,Countryside,2019,3,1,1 month,FALSE,5 results
+621,Mr. X,4,Hotel room,City centre,2018,3,2,1 month,FALSE,2 results
+622,Mr. X,4,Hotel room,City centre,2019,3,2,1 month,FALSE,8 results
+623,Ms. Y,4,Hotel room,City centre,2018,3,2,1 month,FALSE,3 results
+624,Ms. Y,4,Hotel room,City centre,2019,3,2,1 month,FALSE,6 results
+625,Mr. X,4,Hotel room,Suburbs,2018,3,2,1 month,FALSE,2 results
+626,Mr. X,4,Hotel room,Suburbs,2019,3,2,1 month,FALSE,4 results
+627,Ms. Y,4,Hotel room,Suburbs,2018,3,2,1 month,FALSE,5 results
+628,Ms. Y,4,Hotel room,Suburbs,2019,3,2,1 month,FALSE,2 results
+629,Mr. X,4,Hotel room,Countryside,2018,3,2,1 month,FALSE,9 results
+630,Mr. X,4,Hotel room,Countryside,2019,3,2,1 month,FALSE,2 results
+631,Ms. Y,4,Hotel room,Countryside,2018,3,2,1 month,FALSE,2 results
+632,Ms. Y,4,Hotel room,Countryside,2019,3,2,1 month,FALSE,8 results
+633,Mr. X,4,Hotel room,City centre,2018,3,3,1 month,FALSE,6 results
+634,Mr. X,4,Hotel room,City centre,2019,3,3,1 month,FALSE,8 results
+635,Ms. Y,4,Hotel room,City centre,2018,3,3,1 month,FALSE,5 results
+636,Ms. Y,4,Hotel room,City centre,2019,3,3,1 month,FALSE,8 results
+637,Mr. X,4,Hotel room,Suburbs,2018,3,3,1 month,FALSE,3 results
+638,Mr. X,4,Hotel room,Suburbs,2019,3,3,1 month,FALSE,2 results
+639,Ms. Y,4,Hotel room,Suburbs,2018,3,3,1 month,FALSE,2 results
+640,Ms. Y,4,Hotel room,Suburbs,2019,3,3,1 month,FALSE,9 results
+641,Mr. X,4,Hotel room,Countryside,2018,3,3,1 month,FALSE,2 results
+642,Mr. X,4,Hotel room,Countryside,2019,3,3,1 month,FALSE,9 results
+643,Mr. X,4,Hotel room,City centre,2018,3,4,1 month,FALSE,6 results
+644,Mr. X,4,Hotel room,City centre,2019,3,4,1 month,FALSE,8 results
+645,Ms. Y,4,Hotel room,City centre,2018,3,4,1 month,FALSE,7 results
+646,Ms. Y,4,Hotel room,City centre,2019,3,4,1 month,FALSE,2 results
+647,Mr. X,4,Hotel room,Suburbs,2018,3,4,1 month,FALSE,2 results
+648,Mr. X,4,Hotel room,Suburbs,2019,3,4,1 month,FALSE,9 results
+649,Ms. Y,4,Hotel room,Suburbs,2018,3,4,1 month,FALSE,8 results
+650,Ms. Y,4,Hotel room,Suburbs,2019,3,4,1 month,FALSE,4 results
+651,Mr. X,4,Hotel room,Countryside,2018,3,4,1 month,FALSE,8 results
+652,Mr. X,4,Hotel room,Countryside,2019,3,4,1 month,FALSE,2 results
+653,Ms. Y,4,Hotel room,Countryside,2018,3,4,1 month,FALSE,5 results
+654,Ms. Y,4,Hotel room,Countryside,2019,3,4,1 month,FALSE,9 results
+655,Mr. X,4,Hotel room,City centre,2018,4,1,1-3 days,FALSE,9 results
+656,Mr. X,4,Hotel room,City centre,2019,4,1,1-3 days,FALSE,4 results
+657,Ms. Y,4,Hotel room,City centre,2018,4,1,1-3 days,FALSE,4 results
+658,Ms. Y,4,Hotel room,City centre,2019,4,1,1-3 days,FALSE,7 results
+659,Mr. X,4,Hotel room,Suburbs,2018,4,1,1-3 days,FALSE,5 results
+660,Mr. X,4,Hotel room,Suburbs,2019,4,1,1-3 days,FALSE,9 results
+661,Ms. Y,4,Hotel room,Suburbs,2019,4,1,1-3 days,FALSE,5 results
+662,Mr. X,4,Hotel room,Countryside,2018,4,1,1-3 days,FALSE,8 results
+663,Mr. X,4,Hotel room,Countryside,2019,4,1,1-3 days,FALSE,2 results
+664,Ms. Y,4,Hotel room,Countryside,2018,4,1,1-3 days,FALSE,7 results
+665,Ms. Y,4,Hotel room,Countryside,2019,4,1,1-3 days,FALSE,4 results
+666,Mr. X,4,Hotel room,City centre,2018,4,2,1-3 days,FALSE,4 results
+667,Mr. X,4,Hotel room,City centre,2019,4,2,1-3 days,FALSE,2 results
+668,Ms. Y,4,Hotel room,City centre,2019,4,2,1-3 days,FALSE,3 results
+669,Mr. X,4,Hotel room,Suburbs,2018,4,2,1-3 days,FALSE,9 results
+670,Mr. X,4,Hotel room,Suburbs,2019,4,2,1-3 days,FALSE,6 results
+671,Ms. Y,4,Hotel room,Suburbs,2018,4,2,1-3 days,FALSE,6 results
+672,Ms. Y,4,Hotel room,Suburbs,2019,4,2,1-3 days,FALSE,5 results
+673,Mr. X,4,Hotel room,Countryside,2018,4,2,1-3 days,FALSE,4 results
+674,Mr. X,4,Hotel room,Countryside,2019,4,2,1-3 days,FALSE,2 results
+675,Ms. Y,4,Hotel room,Countryside,2018,4,2,1-3 days,FALSE,5 results
+676,Ms. Y,4,Hotel room,Countryside,2019,4,2,1-3 days,FALSE,6 results
+677,Mr. X,4,Hotel room,City centre,2018,4,3,1-3 days,FALSE,5 results
+678,Ms. Y,4,Hotel room,City centre,2018,4,3,1-3 days,FALSE,5 results
+679,Ms. Y,4,Hotel room,City centre,2019,4,3,1-3 days,FALSE,5 results
+680,Mr. X,4,Hotel room,Suburbs,2018,4,3,1-3 days,FALSE,6 results
+681,Mr. X,4,Hotel room,Suburbs,2019,4,3,1-3 days,FALSE,4 results
+682,Ms. Y,4,Hotel room,Suburbs,2018,4,3,1-3 days,FALSE,6 results
+683,Ms. Y,4,Hotel room,Suburbs,2019,4,3,1-3 days,FALSE,9 results
+684,Mr. X,4,Hotel room,Countryside,2018,4,3,1-3 days,FALSE,5 results
+685,Mr. X,4,Hotel room,Countryside,2019,4,3,1-3 days,FALSE,3 results
+686,Ms. Y,4,Hotel room,Countryside,2018,4,3,1-3 days,FALSE,3 results
+687,Ms. Y,4,Hotel room,Countryside,2019,4,3,1-3 days,FALSE,9 results
+688,Mr. X,4,Hotel room,City centre,2018,4,4,1-3 days,FALSE,5 results
+689,Mr. X,4,Hotel room,City centre,2019,4,4,1-3 days,FALSE,8 results
+690,Ms. Y,4,Hotel room,City centre,2018,4,4,1-3 days,FALSE,8 results
+691,Ms. Y,4,Hotel room,City centre,2019,4,4,1-3 days,FALSE,2 results
+692,Mr. X,4,Hotel room,Suburbs,2018,4,4,1-3 days,FALSE,6 results
+693,Mr. X,4,Hotel room,Suburbs,2019,4,4,1-3 days,FALSE,6 results
+694,Ms. Y,4,Hotel room,Suburbs,2019,4,4,1-3 days,FALSE,8 results
+695,Mr. X,4,Hotel room,Countryside,2018,4,4,1-3 days,FALSE,5 results
+696,Mr. X,4,Hotel room,Countryside,2019,4,4,1-3 days,FALSE,4 results
+697,Ms. Y,4,Hotel room,Countryside,2018,4,4,1-3 days,FALSE,9 results
+698,Ms. Y,4,Hotel room,Countryside,2019,4,4,1-3 days,FALSE,4 results
+699,Mr. X,4,Hotel room,City centre,2018,4,1,1 week,FALSE,2 results
+700,Mr. X,4,Hotel room,City centre,2019,4,1,1 week,FALSE,7 results
+701,Ms. Y,4,Hotel room,City centre,2019,4,1,1 week,FALSE,7 results
+702,Mr. X,4,Hotel room,Suburbs,2018,4,1,1 week,FALSE,6 results
+703,Mr. X,4,Hotel room,Suburbs,2019,4,1,1 week,FALSE,6 results
+704,Ms. Y,4,Hotel room,Suburbs,2018,4,1,1 week,FALSE,9 results
+705,Mr. X,4,Hotel room,Countryside,2018,4,1,1 week,FALSE,5 results
+706,Mr. X,4,Hotel room,Countryside,2019,4,1,1 week,FALSE,8 results
+707,Ms. Y,4,Hotel room,Countryside,2018,4,1,1 week,FALSE,8 results
+708,Ms. Y,4,Hotel room,Countryside,2019,4,1,1 week,FALSE,8 results
+709,Mr. X,4,Hotel room,City centre,2018,4,2,1 week,FALSE,9 results
+710,Mr. X,4,Hotel room,City centre,2019,4,2,1 week,FALSE,5 results
+711,Ms. Y,4,Hotel room,City centre,2018,4,2,1 week,FALSE,3 results
+712,Ms. Y,4,Hotel room,City centre,2019,4,2,1 week,FALSE,6 results
+713,Mr. X,4,Hotel room,Suburbs,2018,4,2,1 week,FALSE,9 results
+714,Mr. X,4,Hotel room,Suburbs,2019,4,2,1 week,FALSE,6 results
+715,Ms. Y,4,Hotel room,Suburbs,2018,4,2,1 week,FALSE,8 results
+716,Ms. Y,4,Hotel room,Suburbs,2019,4,2,1 week,FALSE,6 results
+717,Mr. X,4,Hotel room,Countryside,2018,4,2,1 week,FALSE,4 results
+718,Mr. X,4,Hotel room,Countryside,2019,4,2,1 week,FALSE,7 results
+719,Ms. Y,4,Hotel room,Countryside,2018,4,2,1 week,FALSE,7 results
+720,Ms. Y,4,Hotel room,Countryside,2019,4,2,1 week,FALSE,6 results
+721,Mr. X,4,Hotel room,City centre,2019,4,3,1 week,FALSE,7 results
+722,Ms. Y,4,Hotel room,City centre,2018,4,3,1 week,FALSE,5 results
+723,Ms. Y,4,Hotel room,City centre,2019,4,3,1 week,FALSE,8 results
+724,Mr. X,4,Hotel room,Suburbs,2019,4,3,1 week,FALSE,7 results
+725,Ms. Y,4,Hotel room,Suburbs,2018,4,3,1 week,FALSE,9 results
+726,Ms. Y,4,Hotel room,Suburbs,2019,4,3,1 week,FALSE,8 results
+727,Mr. X,4,Hotel room,Countryside,2018,4,3,1 week,FALSE,2 results
+728,Mr. X,4,Hotel room,Countryside,2019,4,3,1 week,FALSE,4 results
+729,Ms. Y,4,Hotel room,Countryside,2018,4,3,1 week,FALSE,5 results
+730,Ms. Y,4,Hotel room,Countryside,2019,4,3,1 week,FALSE,8 results
+731,Mr. X,4,Hotel room,City centre,2018,4,4,1 week,FALSE,8 results
+732,Mr. X,4,Hotel room,City centre,2019,4,4,1 week,FALSE,6 results
+733,Ms. Y,4,Hotel room,City centre,2018,4,4,1 week,FALSE,5 results
+734,Mr. X,4,Hotel room,Suburbs,2018,4,4,1 week,FALSE,5 results
+735,Ms. Y,4,Hotel room,Suburbs,2018,4,4,1 week,FALSE,7 results
+736,Mr. X,4,Hotel room,Countryside,2018,4,4,1 week,FALSE,2 results
+737,Mr. X,4,Hotel room,Countryside,2019,4,4,1 week,FALSE,6 results
+738,Ms. Y,4,Hotel room,Countryside,2018,4,4,1 week,FALSE,8 results
+739,Ms. Y,4,Hotel room,Countryside,2019,4,4,1 week,FALSE,3 results
+740,Mr. X,4,Hotel room,City centre,2018,4,1,2 weeks,FALSE,4 results
+741,Mr. X,4,Hotel room,City centre,2019,4,1,2 weeks,FALSE,5 results
+742,Ms. Y,4,Hotel room,City centre,2018,4,1,2 weeks,FALSE,6 results
+743,Ms. Y,4,Hotel room,City centre,2019,4,1,2 weeks,FALSE,9 results
+744,Mr. X,4,Hotel room,Suburbs,2018,4,1,2 weeks,FALSE,9 results
+745,Mr. X,4,Hotel room,Suburbs,2019,4,1,2 weeks,FALSE,6 results
+746,Ms. Y,4,Hotel room,Suburbs,2018,4,1,2 weeks,FALSE,4 results
+747,Ms. Y,4,Hotel room,Suburbs,2019,4,1,2 weeks,FALSE,4 results
+748,Mr. X,4,Hotel room,Countryside,2019,4,1,2 weeks,FALSE,9 results
+749,Ms. Y,4,Hotel room,Countryside,2018,4,1,2 weeks,FALSE,6 results
+750,Ms. Y,4,Hotel room,Countryside,2019,4,1,2 weeks,FALSE,4 results
+751,Mr. X,4,Hotel room,City centre,2018,4,2,2 weeks,FALSE,2 results
+752,Mr. X,4,Hotel room,City centre,2019,4,2,2 weeks,FALSE,4 results
+753,Ms. Y,4,Hotel room,City centre,2018,4,2,2 weeks,FALSE,8 results
+754,Ms. Y,4,Hotel room,City centre,2019,4,2,2 weeks,FALSE,6 results
+755,Mr. X,4,Hotel room,Suburbs,2019,4,2,2 weeks,FALSE,5 results
+756,Ms. Y,4,Hotel room,Suburbs,2018,4,2,2 weeks,FALSE,9 results
+757,Ms. Y,4,Hotel room,Suburbs,2019,4,2,2 weeks,FALSE,5 results
+758,Mr. X,4,Hotel room,Countryside,2018,4,2,2 weeks,FALSE,5 results
+759,Mr. X,4,Hotel room,Countryside,2019,4,2,2 weeks,FALSE,7 results
+760,Ms. Y,4,Hotel room,Countryside,2018,4,2,2 weeks,FALSE,8 results
+761,Ms. Y,4,Hotel room,Countryside,2019,4,2,2 weeks,FALSE,9 results
+762,Mr. X,4,Hotel room,City centre,2018,4,3,2 weeks,FALSE,7 results
+763,Ms. Y,4,Hotel room,City centre,2018,4,3,2 weeks,FALSE,4 results
+764,Mr. X,4,Hotel room,Suburbs,2019,4,3,2 weeks,FALSE,4 results
+765,Ms. Y,4,Hotel room,Suburbs,2018,4,3,2 weeks,FALSE,6 results
+766,Ms. Y,4,Hotel room,Suburbs,2019,4,3,2 weeks,FALSE,8 results
+767,Mr. X,4,Hotel room,Countryside,2018,4,3,2 weeks,FALSE,8 results
+768,Mr. X,4,Hotel room,Countryside,2019,4,3,2 weeks,FALSE,8 results
+769,Ms. Y,4,Hotel room,Countryside,2018,4,3,2 weeks,FALSE,3 results
+770,Ms. Y,4,Hotel room,Countryside,2019,4,3,2 weeks,FALSE,8 results
+771,Mr. X,4,Hotel room,City centre,2018,4,4,2 weeks,FALSE,3 results
+772,Mr. X,4,Hotel room,City centre,2019,4,4,2 weeks,FALSE,8 results
+773,Ms. Y,4,Hotel room,City centre,2018,4,4,2 weeks,FALSE,4 results
+774,Ms. Y,4,Hotel room,City centre,2019,4,4,2 weeks,FALSE,8 results
+775,Mr. X,4,Hotel room,Suburbs,2018,4,4,2 weeks,FALSE,8 results
+776,Mr. X,4,Hotel room,Suburbs,2019,4,4,2 weeks,FALSE,8 results
+777,Ms. Y,4,Hotel room,Suburbs,2018,4,4,2 weeks,FALSE,3 results
+778,Ms. Y,4,Hotel room,Suburbs,2019,4,4,2 weeks,FALSE,9 results
+779,Mr. X,4,Hotel room,Countryside,2018,4,4,2 weeks,FALSE,7 results
+780,Mr. X,4,Hotel room,Countryside,2019,4,4,2 weeks,FALSE,9 results
+781,Ms. Y,4,Hotel room,Countryside,2018,4,4,2 weeks,FALSE,6 results
+782,Ms. Y,4,Hotel room,Countryside,2019,4,4,2 weeks,FALSE,8 results
+783,Mr. X,4,Hotel room,City centre,2018,4,1,3 weeks,FALSE,6 results
+784,Mr. X,4,Hotel room,City centre,2019,4,1,3 weeks,FALSE,2 results
+785,Ms. Y,4,Hotel room,City centre,2018,4,1,3 weeks,FALSE,7 results
+786,Ms. Y,4,Hotel room,City centre,2019,4,1,3 weeks,FALSE,6 results
+787,Mr. X,4,Hotel room,Suburbs,2019,4,1,3 weeks,FALSE,4 results
+788,Ms. Y,4,Hotel room,Suburbs,2018,4,1,3 weeks,FALSE,5 results
+789,Ms. Y,4,Hotel room,Suburbs,2019,4,1,3 weeks,FALSE,8 results
+790,Mr. X,4,Hotel room,Countryside,2018,4,1,3 weeks,FALSE,4 results
+791,Mr. X,4,Hotel room,Countryside,2019,4,1,3 weeks,FALSE,7 results
+792,Ms. Y,4,Hotel room,Countryside,2019,4,1,3 weeks,FALSE,3 results
+793,Mr. X,4,Hotel room,City centre,2018,4,2,3 weeks,FALSE,7 results
+794,Mr. X,4,Hotel room,City centre,2019,4,2,3 weeks,FALSE,9 results
+795,Ms. Y,4,Hotel room,City centre,2018,4,2,3 weeks,FALSE,8 results
+796,Ms. Y,4,Hotel room,City centre,2019,4,2,3 weeks,FALSE,2 results
+797,Mr. X,4,Hotel room,Suburbs,2018,4,2,3 weeks,FALSE,4 results
+798,Mr. X,4,Hotel room,Suburbs,2019,4,2,3 weeks,FALSE,6 results
+799,Ms. Y,4,Hotel room,Suburbs,2018,4,2,3 weeks,FALSE,6 results
+800,Ms. Y,4,Hotel room,Suburbs,2019,4,2,3 weeks,FALSE,2 results
+801,Mr. X,4,Hotel room,Countryside,2018,4,2,3 weeks,FALSE,5 results
+802,Mr. X,4,Hotel room,Countryside,2019,4,2,3 weeks,FALSE,3 results
+803,Ms. Y,4,Hotel room,Countryside,2018,4,2,3 weeks,FALSE,2 results
+804,Ms. Y,4,Hotel room,Countryside,2019,4,2,3 weeks,FALSE,3 results
+805,Mr. X,4,Hotel room,City centre,2018,4,3,3 weeks,FALSE,7 results
+806,Mr. X,4,Hotel room,City centre,2019,4,3,3 weeks,FALSE,6 results
+807,Ms. Y,4,Hotel room,City centre,2019,4,3,3 weeks,FALSE,6 results
+808,Mr. X,4,Hotel room,Suburbs,2018,4,3,3 weeks,FALSE,6 results
+809,Ms. Y,4,Hotel room,Suburbs,2018,4,3,3 weeks,FALSE,2 results
+810,Mr. X,4,Hotel room,Countryside,2018,4,3,3 weeks,FALSE,9 results
+811,Mr. X,4,Hotel room,Countryside,2019,4,3,3 weeks,FALSE,4 results
+812,Ms. Y,4,Hotel room,Countryside,2018,4,3,3 weeks,FALSE,4 results
+813,Ms. Y,4,Hotel room,Countryside,2019,4,3,3 weeks,FALSE,3 results
+814,Mr. X,4,Hotel room,City centre,2018,4,4,3 weeks,FALSE,9 results
+815,Mr. X,4,Hotel room,City centre,2019,4,4,3 weeks,FALSE,9 results
+816,Ms. Y,4,Hotel room,City centre,2018,4,4,3 weeks,FALSE,6 results
+817,Mr. X,4,Hotel room,Suburbs,2018,4,4,3 weeks,FALSE,6 results
+818,Mr. X,4,Hotel room,Suburbs,2019,4,4,3 weeks,FALSE,8 results
+819,Ms. Y,4,Hotel room,Suburbs,2019,4,4,3 weeks,FALSE,7 results
+820,Ms. Y,4,Hotel room,Countryside,2018,4,4,3 weeks,FALSE,6 results
+821,Ms. Y,4,Hotel room,Countryside,2019,4,4,3 weeks,FALSE,9 results
+822,Mr. X,4,Hotel room,City centre,2018,4,1,1 month,FALSE,8 results
+823,Mr. X,4,Hotel room,City centre,2019,4,1,1 month,FALSE,5 results
+824,Ms. Y,4,Hotel room,City centre,2018,4,1,1 month,FALSE,4 results
+825,Ms. Y,4,Hotel room,City centre,2019,4,1,1 month,FALSE,4 results
+826,Mr. X,4,Hotel room,Suburbs,2018,4,1,1 month,FALSE,2 results
+827,Mr. X,4,Hotel room,Suburbs,2019,4,1,1 month,FALSE,6 results
+828,Ms. Y,4,Hotel room,Suburbs,2018,4,1,1 month,FALSE,9 results
+829,Mr. X,4,Hotel room,Countryside,2018,4,1,1 month,FALSE,3 results
+830,Mr. X,4,Hotel room,Countryside,2019,4,1,1 month,FALSE,2 results
+831,Ms. Y,4,Hotel room,Countryside,2018,4,1,1 month,FALSE,9 results
+832,Ms. Y,4,Hotel room,Countryside,2019,4,1,1 month,FALSE,6 results
+833,Mr. X,4,Hotel room,City centre,2018,4,2,1 month,FALSE,6 results
+834,Mr. X,4,Hotel room,City centre,2019,4,2,1 month,FALSE,2 results
+835,Ms. Y,4,Hotel room,City centre,2018,4,2,1 month,FALSE,5 results
+836,Ms. Y,4,Hotel room,City centre,2019,4,2,1 month,FALSE,7 results
+837,Mr. X,4,Hotel room,Suburbs,2018,4,2,1 month,FALSE,8 results
+838,Mr. X,4,Hotel room,Suburbs,2019,4,2,1 month,FALSE,8 results
+839,Ms. Y,4,Hotel room,Suburbs,2018,4,2,1 month,FALSE,3 results
+840,Ms. Y,4,Hotel room,Suburbs,2019,4,2,1 month,FALSE,4 results
+841,Mr. X,4,Hotel room,Countryside,2018,4,2,1 month,FALSE,8 results
+842,Mr. X,4,Hotel room,Countryside,2019,4,2,1 month,FALSE,7 results
+843,Ms. Y,4,Hotel room,Countryside,2018,4,2,1 month,FALSE,7 results
+844,Ms. Y,4,Hotel room,Countryside,2019,4,2,1 month,FALSE,9 results
+845,Mr. X,4,Hotel room,City centre,2018,4,3,1 month,FALSE,3 results
+846,Mr. X,4,Hotel room,City centre,2019,4,3,1 month,FALSE,2 results
+847,Ms. Y,4,Hotel room,City centre,2018,4,3,1 month,FALSE,2 results
+848,Ms. Y,4,Hotel room,City centre,2019,4,3,1 month,FALSE,8 results
+849,Mr. X,4,Hotel room,Suburbs,2018,4,3,1 month,FALSE,6 results
+850,Mr. X,4,Hotel room,Suburbs,2019,4,3,1 month,FALSE,6 results
+851,Ms. Y,4,Hotel room,Suburbs,2018,4,3,1 month,FALSE,5 results
+852,Ms. Y,4,Hotel room,Suburbs,2019,4,3,1 month,FALSE,4 results
+853,Mr. X,4,Hotel room,Countryside,2018,4,3,1 month,FALSE,6 results
+854,Mr. X,4,Hotel room,Countryside,2019,4,3,1 month,FALSE,7 results
+855,Ms. Y,4,Hotel room,Countryside,2018,4,3,1 month,FALSE,8 results
+856,Ms. Y,4,Hotel room,Countryside,2019,4,3,1 month,FALSE,3 results
+857,Mr. X,4,Hotel room,City centre,2018,4,4,1 month,FALSE,5 results
+858,Mr. X,4,Hotel room,City centre,2019,4,4,1 month,FALSE,3 results
+859,Ms. Y,4,Hotel room,City centre,2018,4,4,1 month,FALSE,2 results
+860,Ms. Y,4,Hotel room,City centre,2019,4,4,1 month,FALSE,2 results
+861,Mr. X,4,Hotel room,Suburbs,2018,4,4,1 month,FALSE,6 results
+862,Mr. X,4,Hotel room,Suburbs,2019,4,4,1 month,FALSE,6 results
+863,Ms. Y,4,Hotel room,Suburbs,2018,4,4,1 month,FALSE,4 results
+864,Ms. Y,4,Hotel room,Suburbs,2019,4,4,1 month,FALSE,3 results
+865,Mr. X,4,Hotel room,Countryside,2018,4,4,1 month,FALSE,4 results
+866,Mr. X,4,Hotel room,Countryside,2019,4,4,1 month,FALSE,9 results
+867,Ms. Y,4,Hotel room,Countryside,2018,4,4,1 month,FALSE,4 results
+868,Ms. Y,4,Hotel room,Countryside,2019,4,4,1 month,FALSE,9 results
+869,Mr. X,4,Hotel room,City centre,2018,5,1,1-3 days,FALSE,3 results
+870,Mr. X,4,Hotel room,City centre,2019,5,1,1-3 days,FALSE,4 results
+871,Ms. Y,4,Hotel room,City centre,2018,5,1,1-3 days,FALSE,5 results
+872,Ms. Y,4,Hotel room,City centre,2019,5,1,1-3 days,FALSE,2 results
+873,Mr. X,4,Hotel room,Suburbs,2018,5,1,1-3 days,FALSE,2 results
+874,Mr. X,4,Hotel room,Suburbs,2019,5,1,1-3 days,FALSE,5 results
+875,Ms. Y,4,Hotel room,Suburbs,2018,5,1,1-3 days,FALSE,5 results
+876,Ms. Y,4,Hotel room,Suburbs,2019,5,1,1-3 days,FALSE,7 results
+877,Mr. X,4,Hotel room,Countryside,2018,5,1,1-3 days,FALSE,9 results
+878,Mr. X,4,Hotel room,Countryside,2019,5,1,1-3 days,FALSE,4 results
+879,Ms. Y,4,Hotel room,Countryside,2018,5,1,1-3 days,FALSE,7 results
+880,Ms. Y,4,Hotel room,Countryside,2019,5,1,1-3 days,FALSE,4 results
+881,Mr. X,4,Hotel room,City centre,2018,5,2,1-3 days,FALSE,4 results
+882,Mr. X,4,Hotel room,City centre,2019,5,2,1-3 days,FALSE,4 results
+883,Ms. Y,4,Hotel room,City centre,2019,5,2,1-3 days,FALSE,5 results
+884,Mr. X,4,Hotel room,Suburbs,2018,5,2,1-3 days,FALSE,8 results
+885,Mr. X,4,Hotel room,Suburbs,2019,5,2,1-3 days,FALSE,7 results
+886,Ms. Y,4,Hotel room,Suburbs,2018,5,2,1-3 days,FALSE,4 results
+887,Mr. X,4,Hotel room,Countryside,2018,5,2,1-3 days,FALSE,7 results
+888,Mr. X,4,Hotel room,Countryside,2019,5,2,1-3 days,FALSE,2 results
+889,Ms. Y,4,Hotel room,Countryside,2019,5,2,1-3 days,FALSE,3 results
+890,Mr. X,4,Hotel room,City centre,2019,5,3,1-3 days,FALSE,8 results
+891,Ms. Y,4,Hotel room,City centre,2018,5,3,1-3 days,FALSE,8 results
+892,Ms. Y,4,Hotel room,City centre,2019,5,3,1-3 days,FALSE,2 results
+893,Mr. X,4,Hotel room,Suburbs,2018,5,3,1-3 days,FALSE,9 results
+894,Mr. X,4,Hotel room,Suburbs,2019,5,3,1-3 days,FALSE,7 results
+895,Ms. Y,4,Hotel room,Suburbs,2018,5,3,1-3 days,FALSE,2 results
+896,Ms. Y,4,Hotel room,Suburbs,2019,5,3,1-3 days,FALSE,9 results
+897,Mr. X,4,Hotel room,Countryside,2018,5,3,1-3 days,FALSE,2 results
+898,Mr. X,4,Hotel room,Countryside,2019,5,3,1-3 days,FALSE,6 results
+899,Ms. Y,4,Hotel room,Countryside,2018,5,3,1-3 days,FALSE,3 results
+900,Ms. Y,4,Hotel room,Countryside,2019,5,3,1-3 days,FALSE,7 results
+901,Mr. X,4,Hotel room,City centre,2018,5,4,1-3 days,FALSE,8 results
+902,Mr. X,4,Hotel room,City centre,2019,5,4,1-3 days,FALSE,7 results
+903,Ms. Y,4,Hotel room,City centre,2018,5,4,1-3 days,FALSE,5 results
+904,Ms. Y,4,Hotel room,City centre,2019,5,4,1-3 days,FALSE,4 results
+905,Mr. X,4,Hotel room,Suburbs,2018,5,4,1-3 days,FALSE,8 results
+906,Mr. X,4,Hotel room,Suburbs,2019,5,4,1-3 days,FALSE,8 results
+907,Ms. Y,4,Hotel room,Suburbs,2018,5,4,1-3 days,FALSE,8 results
+908,Mr. X,4,Hotel room,Countryside,2018,5,4,1-3 days,FALSE,7 results
+909,Mr. X,4,Hotel room,Countryside,2019,5,4,1-3 days,FALSE,2 results
+910,Ms. Y,4,Hotel room,Countryside,2018,5,4,1-3 days,FALSE,7 results
+911,Ms. Y,4,Hotel room,Countryside,2019,5,4,1-3 days,FALSE,5 results
+912,Mr. X,4,Hotel room,City centre,2018,5,1,1 week,FALSE,3 results
+913,Mr. X,4,Hotel room,City centre,2019,5,1,1 week,FALSE,5 results
+914,Ms. Y,4,Hotel room,City centre,2018,5,1,1 week,FALSE,7 results
+915,Ms. Y,4,Hotel room,City centre,2019,5,1,1 week,FALSE,7 results
+916,Mr. X,4,Hotel room,Suburbs,2018,5,1,1 week,FALSE,4 results
+917,Mr. X,4,Hotel room,Suburbs,2019,5,1,1 week,FALSE,4 results
+918,Ms. Y,4,Hotel room,Suburbs,2019,5,1,1 week,FALSE,5 results
+919,Mr. X,4,Hotel room,Countryside,2018,5,1,1 week,FALSE,2 results
+920,Mr. X,4,Hotel room,Countryside,2019,5,1,1 week,FALSE,5 results
+921,Ms. Y,4,Hotel room,Countryside,2018,5,1,1 week,FALSE,8 results
+922,Ms. Y,4,Hotel room,Countryside,2019,5,1,1 week,FALSE,5 results
+923,Mr. X,4,Hotel room,City centre,2018,5,2,1 week,FALSE,5 results
+924,Mr. X,4,Hotel room,City centre,2019,5,2,1 week,FALSE,3 results
+925,Ms. Y,4,Hotel room,City centre,2019,5,2,1 week,FALSE,4 results
+926,Mr. X,4,Hotel room,Suburbs,2018,5,2,1 week,FALSE,2 results
+927,Mr. X,4,Hotel room,Suburbs,2019,5,2,1 week,FALSE,4 results
+928,Ms. Y,4,Hotel room,Suburbs,2019,5,2,1 week,FALSE,9 results
+929,Mr. X,4,Hotel room,Countryside,2018,5,2,1 week,FALSE,5 results
+930,Mr. X,4,Hotel room,Countryside,2019,5,2,1 week,FALSE,5 results
+931,Ms. Y,4,Hotel room,Countryside,2018,5,2,1 week,FALSE,5 results
+932,Ms. Y,4,Hotel room,Countryside,2019,5,2,1 week,FALSE,6 results
+933,Mr. X,4,Hotel room,City centre,2018,5,3,1 week,FALSE,3 results
+934,Ms. Y,4,Hotel room,City centre,2018,5,3,1 week,FALSE,5 results
+935,Ms. Y,4,Hotel room,City centre,2019,5,3,1 week,FALSE,8 results
+936,Mr. X,4,Hotel room,Suburbs,2018,5,3,1 week,FALSE,2 results
+937,Mr. X,4,Hotel room,Suburbs,2019,5,3,1 week,FALSE,2 results
+938,Ms. Y,4,Hotel room,Suburbs,2019,5,3,1 week,FALSE,5 results
+939,Mr. X,4,Hotel room,Countryside,2018,5,3,1 week,FALSE,9 results
+940,Mr. X,4,Hotel room,Countryside,2019,5,3,1 week,FALSE,9 results
+941,Ms. Y,4,Hotel room,Countryside,2018,5,3,1 week,FALSE,6 results
+942,Ms. Y,4,Hotel room,Countryside,2019,5,3,1 week,FALSE,6 results
+943,Mr. X,4,Hotel room,City centre,2018,5,4,1 week,FALSE,2 results
+944,Mr. X,4,Hotel room,City centre,2019,5,4,1 week,FALSE,9 results
+945,Ms. Y,4,Hotel room,City centre,2018,5,4,1 week,FALSE,2 results
+946,Ms. Y,4,Hotel room,City centre,2019,5,4,1 week,FALSE,3 results
+947,Mr. X,4,Hotel room,Suburbs,2018,5,4,1 week,FALSE,7 results
+948,Mr. X,4,Hotel room,Suburbs,2019,5,4,1 week,FALSE,2 results
+949,Ms. Y,4,Hotel room,Suburbs,2018,5,4,1 week,FALSE,5 results
+950,Mr. X,4,Hotel room,Countryside,2018,5,4,1 week,FALSE,2 results
+951,Mr. X,4,Hotel room,Countryside,2019,5,4,1 week,FALSE,2 results
+952,Ms. Y,4,Hotel room,Countryside,2018,5,4,1 week,FALSE,5 results
+953,Ms. Y,4,Hotel room,Countryside,2019,5,4,1 week,FALSE,3 results
+954,Mr. X,4,Hotel room,City centre,2018,5,1,2 weeks,FALSE,6 results
+955,Mr. X,4,Hotel room,City centre,2019,5,1,2 weeks,FALSE,9 results
+956,Ms. Y,4,Hotel room,City centre,2018,5,1,2 weeks,FALSE,8 results
+957,Ms. Y,4,Hotel room,City centre,2019,5,1,2 weeks,FALSE,8 results
+958,Mr. X,4,Hotel room,Suburbs,2018,5,1,2 weeks,FALSE,9 results
+959,Mr. X,4,Hotel room,Suburbs,2019,5,1,2 weeks,FALSE,3 results
+960,Ms. Y,4,Hotel room,Suburbs,2019,5,1,2 weeks,FALSE,7 results
+961,Mr. X,4,Hotel room,Countryside,2019,5,1,2 weeks,FALSE,3 results
+962,Ms. Y,4,Hotel room,Countryside,2018,5,1,2 weeks,FALSE,2 results
+963,Mr. X,4,Hotel room,City centre,2018,5,2,2 weeks,FALSE,5 results
+964,Mr. X,4,Hotel room,City centre,2019,5,2,2 weeks,FALSE,6 results
+965,Ms. Y,4,Hotel room,City centre,2018,5,2,2 weeks,FALSE,4 results
+966,Ms. Y,4,Hotel room,City centre,2019,5,2,2 weeks,FALSE,4 results
+967,Mr. X,4,Hotel room,Suburbs,2018,5,2,2 weeks,FALSE,7 results
+968,Mr. X,4,Hotel room,Suburbs,2019,5,2,2 weeks,FALSE,9 results
+969,Ms. Y,4,Hotel room,Suburbs,2018,5,2,2 weeks,FALSE,8 results
+970,Ms. Y,4,Hotel room,Suburbs,2019,5,2,2 weeks,FALSE,2 results
+971,Mr. X,4,Hotel room,Countryside,2018,5,2,2 weeks,FALSE,9 results
+972,Mr. X,4,Hotel room,Countryside,2019,5,2,2 weeks,FALSE,4 results
+973,Ms. Y,4,Hotel room,Countryside,2018,5,2,2 weeks,FALSE,7 results
+974,Ms. Y,4,Hotel room,Countryside,2019,5,2,2 weeks,FALSE,4 results
+975,Mr. X,4,Hotel room,City centre,2018,5,3,2 weeks,FALSE,4 results
+976,Ms. Y,4,Hotel room,City centre,2018,5,3,2 weeks,FALSE,8 results
+977,Mr. X,4,Hotel room,Suburbs,2018,5,3,2 weeks,FALSE,7 results
+978,Mr. X,4,Hotel room,Suburbs,2019,5,3,2 weeks,FALSE,8 results
+979,Ms. Y,4,Hotel room,Suburbs,2018,5,3,2 weeks,FALSE,6 results
+980,Ms. Y,4,Hotel room,Suburbs,2019,5,3,2 weeks,FALSE,6 results
+981,Mr. X,4,Hotel room,Countryside,2018,5,3,2 weeks,FALSE,8 results
+982,Mr. X,4,Hotel room,Countryside,2019,5,3,2 weeks,FALSE,2 results
+983,Ms. Y,4,Hotel room,Countryside,2018,5,3,2 weeks,FALSE,3 results
+984,Ms. Y,4,Hotel room,Countryside,2019,5,3,2 weeks,FALSE,9 results
+985,Mr. X,4,Hotel room,City centre,2018,5,4,2 weeks,FALSE,7 results
+986,Ms. Y,4,Hotel room,City centre,2018,5,4,2 weeks,FALSE,3 results
+987,Ms. Y,4,Hotel room,City centre,2019,5,4,2 weeks,FALSE,2 results
+988,Mr. X,4,Hotel room,Suburbs,2018,5,4,2 weeks,FALSE,5 results
+989,Ms. Y,4,Hotel room,Suburbs,2018,5,4,2 weeks,FALSE,2 results
+990,Ms. Y,4,Hotel room,Suburbs,2019,5,4,2 weeks,FALSE,5 results
+991,Mr. X,4,Hotel room,Countryside,2018,5,4,2 weeks,FALSE,7 results
+992,Mr. X,4,Hotel room,Countryside,2019,5,4,2 weeks,FALSE,2 results
+993,Ms. Y,4,Hotel room,Countryside,2018,5,4,2 weeks,FALSE,9 results
+994,Ms. Y,4,Hotel room,Countryside,2019,5,4,2 weeks,FALSE,6 results
+995,Mr. X,4,Hotel room,City centre,2018,5,1,3 weeks,FALSE,7 results
+996,Mr. X,4,Hotel room,City centre,2019,5,1,3 weeks,FALSE,5 results
+997,Ms. Y,4,Hotel room,City centre,2018,5,1,3 weeks,FALSE,9 results
+998,Ms. Y,4,Hotel room,City centre,2019,5,1,3 weeks,FALSE,9 results
+999,Mr. X,4,Hotel room,Suburbs,2018,5,1,3 weeks,FALSE,5 results
+1000,Mr. X,4,Hotel room,Suburbs,2019,5,1,3 weeks,FALSE,4 results
+1001,Ms. Y,4,Hotel room,Suburbs,2018,5,1,3 weeks,FALSE,2 results
+1002,Ms. Y,4,Hotel room,Suburbs,2019,5,1,3 weeks,FALSE,7 results
+1003,Mr. X,4,Hotel room,Countryside,2019,5,1,3 weeks,FALSE,2 results
+1004,Ms. Y,4,Hotel room,Countryside,2018,5,1,3 weeks,FALSE,7 results
+1005,Ms. Y,4,Hotel room,Countryside,2019,5,1,3 weeks,FALSE,3 results
+1006,Mr. X,4,Hotel room,City centre,2018,5,2,3 weeks,FALSE,9 results
+1007,Mr. X,4,Hotel room,City centre,2019,5,2,3 weeks,FALSE,4 results
+1008,Ms. Y,4,Hotel room,City centre,2018,5,2,3 weeks,FALSE,7 results
+1009,Mr. X,4,Hotel room,Suburbs,2018,5,2,3 weeks,FALSE,5 results
+1010,Mr. X,4,Hotel room,Suburbs,2019,5,2,3 weeks,FALSE,6 results
+1011,Ms. Y,4,Hotel room,Suburbs,2018,5,2,3 weeks,FALSE,5 results
+1012,Ms. Y,4,Hotel room,Suburbs,2019,5,2,3 weeks,FALSE,4 results
+1013,Mr. X,4,Hotel room,Countryside,2018,5,2,3 weeks,FALSE,4 results
+1014,Mr. X,4,Hotel room,Countryside,2019,5,2,3 weeks,FALSE,9 results
+1015,Ms. Y,4,Hotel room,Countryside,2018,5,2,3 weeks,FALSE,3 results
+1016,Ms. Y,4,Hotel room,Countryside,2019,5,2,3 weeks,FALSE,5 results
+1017,Mr. X,4,Hotel room,City centre,2018,5,3,3 weeks,FALSE,7 results
+1018,Mr. X,4,Hotel room,City centre,2019,5,3,3 weeks,FALSE,8 results
+1019,Ms. Y,4,Hotel room,City centre,2018,5,3,3 weeks,FALSE,7 results
+1020,Ms. Y,4,Hotel room,City centre,2019,5,3,3 weeks,FALSE,8 results
+1021,Mr. X,4,Hotel room,Suburbs,2018,5,3,3 weeks,FALSE,2 results
+1022,Mr. X,4,Hotel room,Suburbs,2019,5,3,3 weeks,FALSE,7 results
+1023,Ms. Y,4,Hotel room,Suburbs,2019,5,3,3 weeks,FALSE,5 results
+1024,Mr. X,4,Hotel room,Countryside,2018,5,3,3 weeks,FALSE,5 results
+1025,Mr. X,4,Hotel room,Countryside,2019,5,3,3 weeks,FALSE,7 results
+1026,Ms. Y,4,Hotel room,Countryside,2018,5,3,3 weeks,FALSE,3 results
+1027,Ms. Y,4,Hotel room,Countryside,2019,5,3,3 weeks,FALSE,8 results
+1028,Mr. X,4,Hotel room,City centre,2018,5,4,3 weeks,FALSE,6 results
+1029,Mr. X,4,Hotel room,City centre,2019,5,4,3 weeks,FALSE,9 results
+1030,Ms. Y,4,Hotel room,City centre,2018,5,4,3 weeks,FALSE,4 results
+1031,Ms. Y,4,Hotel room,City centre,2019,5,4,3 weeks,FALSE,9 results
+1032,Mr. X,4,Hotel room,Suburbs,2018,5,4,3 weeks,FALSE,6 results
+1033,Mr. X,4,Hotel room,Suburbs,2019,5,4,3 weeks,FALSE,7 results
+1034,Ms. Y,4,Hotel room,Suburbs,2018,5,4,3 weeks,FALSE,5 results
+1035,Ms. Y,4,Hotel room,Suburbs,2019,5,4,3 weeks,FALSE,7 results
+1036,Mr. X,4,Hotel room,Countryside,2018,5,4,3 weeks,FALSE,4 results
+1037,Mr. X,4,Hotel room,Countryside,2019,5,4,3 weeks,FALSE,5 results
+1038,Ms. Y,4,Hotel room,Countryside,2018,5,4,3 weeks,FALSE,4 results
+1039,Ms. Y,4,Hotel room,Countryside,2019,5,4,3 weeks,FALSE,5 results
+1040,Mr. X,4,Hotel room,City centre,2018,5,1,1 month,FALSE,3 results
+1041,Mr. X,4,Hotel room,City centre,2019,5,1,1 month,FALSE,6 results
+1042,Ms. Y,4,Hotel room,City centre,2018,5,1,1 month,FALSE,4 results
+1043,Ms. Y,4,Hotel room,City centre,2019,5,1,1 month,FALSE,2 results
+1044,Mr. X,4,Hotel room,Suburbs,2018,5,1,1 month,FALSE,3 results
+1045,Mr. X,4,Hotel room,Suburbs,2019,5,1,1 month,FALSE,2 results
+1046,Ms. Y,4,Hotel room,Suburbs,2018,5,1,1 month,FALSE,7 results
+1047,Ms. Y,4,Hotel room,Suburbs,2019,5,1,1 month,FALSE,6 results
+1048,Mr. X,4,Hotel room,Countryside,2018,5,1,1 month,FALSE,6 results
+1049,Ms. Y,4,Hotel room,Countryside,2018,5,1,1 month,FALSE,8 results
+1050,Ms. Y,4,Hotel room,Countryside,2019,5,1,1 month,FALSE,8 results
+1051,Mr. X,4,Hotel room,City centre,2018,5,2,1 month,FALSE,4 results
+1052,Mr. X,4,Hotel room,City centre,2019,5,2,1 month,FALSE,9 results
+1053,Ms. Y,4,Hotel room,City centre,2018,5,2,1 month,FALSE,3 results
+1054,Ms. Y,4,Hotel room,City centre,2019,5,2,1 month,FALSE,6 results
+1055,Mr. X,4,Hotel room,Suburbs,2018,5,2,1 month,FALSE,2 results
+1056,Mr. X,4,Hotel room,Suburbs,2019,5,2,1 month,FALSE,2 results
+1057,Ms. Y,4,Hotel room,Suburbs,2018,5,2,1 month,FALSE,5 results
+1058,Mr. X,4,Hotel room,Countryside,2019,5,2,1 month,FALSE,8 results
+1059,Ms. Y,4,Hotel room,Countryside,2018,5,2,1 month,FALSE,3 results
+1060,Ms. Y,4,Hotel room,Countryside,2019,5,2,1 month,FALSE,5 results
+1061,Mr. X,4,Hotel room,City centre,2019,5,3,1 month,FALSE,8 results
+1062,Ms. Y,4,Hotel room,City centre,2018,5,3,1 month,FALSE,2 results
+1063,Ms. Y,4,Hotel room,City centre,2019,5,3,1 month,FALSE,9 results
+1064,Mr. X,4,Hotel room,Suburbs,2019,5,3,1 month,FALSE,9 results
+1065,Ms. Y,4,Hotel room,Suburbs,2018,5,3,1 month,FALSE,4 results
+1066,Ms. Y,4,Hotel room,Suburbs,2019,5,3,1 month,FALSE,6 results
+1067,Mr. X,4,Hotel room,Countryside,2018,5,3,1 month,FALSE,7 results
+1068,Mr. X,4,Hotel room,Countryside,2019,5,3,1 month,FALSE,7 results
+1069,Ms. Y,4,Hotel room,Countryside,2018,5,3,1 month,FALSE,7 results
+1070,Ms. Y,4,Hotel room,Countryside,2019,5,3,1 month,FALSE,6 results
+1071,Mr. X,4,Hotel room,City centre,2018,5,4,1 month,FALSE,2 results
+1072,Mr. X,4,Hotel room,City centre,2019,5,4,1 month,FALSE,3 results
+1073,Ms. Y,4,Hotel room,City centre,2018,5,4,1 month,FALSE,5 results
+1074,Ms. Y,4,Hotel room,City centre,2019,5,4,1 month,FALSE,5 results
+1075,Mr. X,4,Hotel room,Suburbs,2018,5,4,1 month,FALSE,3 results
+1076,Mr. X,4,Hotel room,Suburbs,2019,5,4,1 month,FALSE,2 results
+1077,Ms. Y,4,Hotel room,Suburbs,2018,5,4,1 month,FALSE,4 results
+1078,Ms. Y,4,Hotel room,Suburbs,2019,5,4,1 month,FALSE,5 results
+1079,Mr. X,4,Hotel room,Countryside,2018,5,4,1 month,FALSE,4 results
+1080,Mr. X,4,Hotel room,Countryside,2019,5,4,1 month,FALSE,8 results
+1081,Ms. Y,4,Hotel room,Countryside,2018,5,4,1 month,FALSE,5 results
+1082,Ms. Y,4,Hotel room,Countryside,2019,5,4,1 month,FALSE,4 results
+1083,Mr. X,4,Hotel room,City centre,2018,6,1,1-3 days,FALSE,6 results
+1084,Mr. X,4,Hotel room,City centre,2019,6,1,1-3 days,FALSE,2 results
+1085,Ms. Y,4,Hotel room,City centre,2018,6,1,1-3 days,FALSE,8 results
+1086,Ms. Y,4,Hotel room,City centre,2019,6,1,1-3 days,FALSE,2 results
+1087,Mr. X,4,Hotel room,Suburbs,2018,6,1,1-3 days,FALSE,3 results
+1088,Ms. Y,4,Hotel room,Suburbs,2018,6,1,1-3 days,FALSE,7 results
+1089,Ms. Y,4,Hotel room,Suburbs,2019,6,1,1-3 days,FALSE,2 results
+1090,Mr. X,4,Hotel room,Countryside,2018,6,1,1-3 days,FALSE,7 results
+1091,Mr. X,4,Hotel room,Countryside,2019,6,1,1-3 days,FALSE,4 results
+1092,Ms. Y,4,Hotel room,Countryside,2018,6,1,1-3 days,FALSE,4 results
+1093,Mr. X,4,Hotel room,City centre,2018,6,2,1-3 days,FALSE,3 results
+1094,Mr. X,4,Hotel room,City centre,2019,6,2,1-3 days,FALSE,5 results
+1095,Ms. Y,4,Hotel room,City centre,2018,6,2,1-3 days,FALSE,4 results
+1096,Ms. Y,4,Hotel room,City centre,2019,6,2,1-3 days,FALSE,3 results
+1097,Mr. X,4,Hotel room,Suburbs,2018,6,2,1-3 days,FALSE,4 results
+1098,Mr. X,4,Hotel room,Suburbs,2019,6,2,1-3 days,FALSE,2 results
+1099,Ms. Y,4,Hotel room,Suburbs,2018,6,2,1-3 days,FALSE,6 results
+1100,Ms. Y,4,Hotel room,Suburbs,2019,6,2,1-3 days,FALSE,9 results
+1101,Mr. X,4,Hotel room,Countryside,2018,6,2,1-3 days,FALSE,4 results
+1102,Mr. X,4,Hotel room,Countryside,2019,6,2,1-3 days,FALSE,3 results
+1103,Ms. Y,4,Hotel room,Countryside,2018,6,2,1-3 days,FALSE,5 results
+1104,Ms. Y,4,Hotel room,Countryside,2019,6,2,1-3 days,FALSE,8 results
+1105,Mr. X,4,Hotel room,City centre,2018,6,3,1-3 days,FALSE,2 results
+1106,Mr. X,4,Hotel room,City centre,2019,6,3,1-3 days,FALSE,5 results
+1107,Ms. Y,4,Hotel room,City centre,2018,6,3,1-3 days,FALSE,8 results
+1108,Ms. Y,4,Hotel room,City centre,2019,6,3,1-3 days,FALSE,9 results
+1109,Mr. X,4,Hotel room,Suburbs,2018,6,3,1-3 days,FALSE,9 results
+1110,Mr. X,4,Hotel room,Suburbs,2019,6,3,1-3 days,FALSE,3 results
+1111,Ms. Y,4,Hotel room,Suburbs,2018,6,3,1-3 days,FALSE,8 results
+1112,Ms. Y,4,Hotel room,Suburbs,2019,6,3,1-3 days,FALSE,3 results
+1113,Mr. X,4,Hotel room,Countryside,2018,6,3,1-3 days,FALSE,4 results
+1114,Mr. X,4,Hotel room,Countryside,2019,6,3,1-3 days,FALSE,8 results
+1115,Ms. Y,4,Hotel room,Countryside,2018,6,3,1-3 days,FALSE,3 results
+1116,Ms. Y,4,Hotel room,Countryside,2019,6,3,1-3 days,FALSE,9 results
+1117,Mr. X,4,Hotel room,City centre,2019,6,4,1-3 days,FALSE,5 results
+1118,Ms. Y,4,Hotel room,City centre,2019,6,4,1-3 days,FALSE,3 results
+1119,Mr. X,4,Hotel room,Suburbs,2018,6,4,1-3 days,FALSE,3 results
+1120,Mr. X,4,Hotel room,Suburbs,2019,6,4,1-3 days,FALSE,9 results
+1121,Ms. Y,4,Hotel room,Suburbs,2018,6,4,1-3 days,FALSE,6 results
+1122,Ms. Y,4,Hotel room,Suburbs,2019,6,4,1-3 days,FALSE,3 results
+1123,Mr. X,4,Hotel room,Countryside,2019,6,4,1-3 days,FALSE,9 results
+1124,Ms. Y,4,Hotel room,Countryside,2018,6,4,1-3 days,FALSE,6 results
+1125,Ms. Y,4,Hotel room,Countryside,2019,6,4,1-3 days,FALSE,9 results
+1126,Mr. X,4,Hotel room,City centre,2019,6,1,1 week,FALSE,6 results
+1127,Ms. Y,4,Hotel room,City centre,2018,6,1,1 week,FALSE,3 results
+1128,Ms. Y,4,Hotel room,City centre,2019,6,1,1 week,FALSE,7 results
+1129,Mr. X,4,Hotel room,Suburbs,2018,6,1,1 week,FALSE,5 results
+1130,Mr. X,4,Hotel room,Suburbs,2019,6,1,1 week,FALSE,7 results
+1131,Ms. Y,4,Hotel room,Suburbs,2018,6,1,1 week,FALSE,4 results
+1132,Ms. Y,4,Hotel room,Suburbs,2019,6,1,1 week,FALSE,6 results
+1133,Mr. X,4,Hotel room,Countryside,2018,6,1,1 week,FALSE,3 results
+1134,Mr. X,4,Hotel room,Countryside,2019,6,1,1 week,FALSE,5 results
+1135,Ms. Y,4,Hotel room,Countryside,2018,6,1,1 week,FALSE,8 results
+1136,Ms. Y,4,Hotel room,Countryside,2019,6,1,1 week,FALSE,5 results
+1137,Mr. X,4,Hotel room,City centre,2018,6,2,1 week,FALSE,8 results
+1138,Mr. X,4,Hotel room,City centre,2019,6,2,1 week,FALSE,2 results
+1139,Ms. Y,4,Hotel room,City centre,2018,6,2,1 week,FALSE,6 results
+1140,Ms. Y,4,Hotel room,City centre,2019,6,2,1 week,FALSE,9 results
+1141,Mr. X,4,Hotel room,Suburbs,2018,6,2,1 week,FALSE,7 results
+1142,Mr. X,4,Hotel room,Suburbs,2019,6,2,1 week,FALSE,6 results
+1143,Ms. Y,4,Hotel room,Suburbs,2019,6,2,1 week,FALSE,4 results
+1144,Mr. X,4,Hotel room,Countryside,2018,6,2,1 week,FALSE,7 results
+1145,Mr. X,4,Hotel room,Countryside,2019,6,2,1 week,FALSE,2 results
+1146,Ms. Y,4,Hotel room,Countryside,2018,6,2,1 week,FALSE,8 results
+1147,Ms. Y,4,Hotel room,Countryside,2019,6,2,1 week,FALSE,5 results
+1148,Mr. X,4,Hotel room,City centre,2018,6,3,1 week,FALSE,8 results
+1149,Mr. X,4,Hotel room,City centre,2019,6,3,1 week,FALSE,6 results
+1150,Ms. Y,4,Hotel room,City centre,2018,6,3,1 week,FALSE,8 results
+1151,Ms. Y,4,Hotel room,City centre,2019,6,3,1 week,FALSE,5 results
+1152,Mr. X,4,Hotel room,Suburbs,2018,6,3,1 week,FALSE,3 results
+1153,Mr. X,4,Hotel room,Suburbs,2019,6,3,1 week,FALSE,8 results
+1154,Ms. Y,4,Hotel room,Suburbs,2018,6,3,1 week,FALSE,8 results
+1155,Ms. Y,4,Hotel room,Suburbs,2019,6,3,1 week,FALSE,7 results
+1156,Mr. X,4,Hotel room,Countryside,2018,6,3,1 week,FALSE,9 results
+1157,Mr. X,4,Hotel room,Countryside,2019,6,3,1 week,FALSE,7 results
+1158,Ms. Y,4,Hotel room,Countryside,2019,6,3,1 week,FALSE,9 results
+1159,Mr. X,4,Hotel room,City centre,2018,6,4,1 week,FALSE,6 results
+1160,Mr. X,4,Hotel room,City centre,2019,6,4,1 week,FALSE,8 results
+1161,Ms. Y,4,Hotel room,City centre,2018,6,4,1 week,FALSE,2 results
+1162,Ms. Y,4,Hotel room,City centre,2019,6,4,1 week,FALSE,2 results
+1163,Mr. X,4,Hotel room,Suburbs,2018,6,4,1 week,FALSE,6 results
+1164,Mr. X,4,Hotel room,Suburbs,2019,6,4,1 week,FALSE,7 results
+1165,Ms. Y,4,Hotel room,Suburbs,2018,6,4,1 week,FALSE,4 results
+1166,Ms. Y,4,Hotel room,Suburbs,2019,6,4,1 week,FALSE,7 results
+1167,Mr. X,4,Hotel room,Countryside,2018,6,4,1 week,FALSE,2 results
+1168,Mr. X,4,Hotel room,Countryside,2019,6,4,1 week,FALSE,8 results
+1169,Ms. Y,4,Hotel room,Countryside,2018,6,4,1 week,FALSE,8 results
+1170,Ms. Y,4,Hotel room,Countryside,2019,6,4,1 week,FALSE,7 results
+1171,Mr. X,4,Hotel room,City centre,2018,6,1,2 weeks,FALSE,8 results
+1172,Mr. X,4,Hotel room,City centre,2019,6,1,2 weeks,FALSE,8 results
+1173,Ms. Y,4,Hotel room,City centre,2018,6,1,2 weeks,FALSE,3 results
+1174,Ms. Y,4,Hotel room,City centre,2019,6,1,2 weeks,FALSE,5 results
+1175,Mr. X,4,Hotel room,Suburbs,2018,6,1,2 weeks,FALSE,2 results
+1176,Mr. X,4,Hotel room,Suburbs,2019,6,1,2 weeks,FALSE,9 results
+1177,Ms. Y,4,Hotel room,Suburbs,2019,6,1,2 weeks,FALSE,2 results
+1178,Mr. X,4,Hotel room,Countryside,2018,6,1,2 weeks,FALSE,6 results
+1179,Mr. X,4,Hotel room,Countryside,2019,6,1,2 weeks,FALSE,7 results
+1180,Ms. Y,4,Hotel room,Countryside,2018,6,1,2 weeks,FALSE,5 results
+1181,Ms. Y,4,Hotel room,Countryside,2019,6,1,2 weeks,FALSE,9 results
+1182,Mr. X,4,Hotel room,City centre,2018,6,2,2 weeks,FALSE,9 results
+1183,Mr. X,4,Hotel room,City centre,2019,6,2,2 weeks,FALSE,8 results
+1184,Ms. Y,4,Hotel room,City centre,2018,6,2,2 weeks,FALSE,6 results
+1185,Ms. Y,4,Hotel room,City centre,2019,6,2,2 weeks,FALSE,7 results
+1186,Mr. X,4,Hotel room,Suburbs,2018,6,2,2 weeks,FALSE,6 results
+1187,Mr. X,4,Hotel room,Suburbs,2019,6,2,2 weeks,FALSE,3 results
+1188,Ms. Y,4,Hotel room,Suburbs,2018,6,2,2 weeks,FALSE,3 results
+1189,Ms. Y,4,Hotel room,Suburbs,2019,6,2,2 weeks,FALSE,7 results
+1190,Mr. X,4,Hotel room,Countryside,2018,6,2,2 weeks,FALSE,9 results
+1191,Ms. Y,4,Hotel room,Countryside,2018,6,2,2 weeks,FALSE,5 results
+1192,Ms. Y,4,Hotel room,Countryside,2019,6,2,2 weeks,FALSE,3 results
+1193,Mr. X,4,Hotel room,City centre,2018,6,3,2 weeks,FALSE,3 results
+1194,Mr. X,4,Hotel room,City centre,2019,6,3,2 weeks,FALSE,6 results
+1195,Ms. Y,4,Hotel room,City centre,2018,6,3,2 weeks,FALSE,3 results
+1196,Ms. Y,4,Hotel room,City centre,2019,6,3,2 weeks,FALSE,4 results
+1197,Mr. X,4,Hotel room,Suburbs,2018,6,3,2 weeks,FALSE,3 results
+1198,Mr. X,4,Hotel room,Suburbs,2019,6,3,2 weeks,FALSE,5 results
+1199,Ms. Y,4,Hotel room,Suburbs,2018,6,3,2 weeks,FALSE,5 results
+1200,Ms. Y,4,Hotel room,Suburbs,2019,6,3,2 weeks,FALSE,6 results
+1201,Mr. X,4,Hotel room,Countryside,2018,6,3,2 weeks,FALSE,5 results
+1202,Mr. X,4,Hotel room,Countryside,2019,6,3,2 weeks,FALSE,7 results
+1203,Ms. Y,4,Hotel room,Countryside,2018,6,3,2 weeks,FALSE,8 results
+1204,Ms. Y,4,Hotel room,Countryside,2019,6,3,2 weeks,FALSE,2 results
+1205,Mr. X,4,Hotel room,City centre,2018,6,4,2 weeks,FALSE,8 results
+1206,Mr. X,4,Hotel room,City centre,2019,6,4,2 weeks,FALSE,3 results
+1207,Ms. Y,4,Hotel room,City centre,2018,6,4,2 weeks,FALSE,9 results
+1208,Ms. Y,4,Hotel room,City centre,2019,6,4,2 weeks,FALSE,6 results
+1209,Mr. X,4,Hotel room,Suburbs,2018,6,4,2 weeks,FALSE,8 results
+1210,Mr. X,4,Hotel room,Suburbs,2019,6,4,2 weeks,FALSE,7 results
+1211,Ms. Y,4,Hotel room,Suburbs,2018,6,4,2 weeks,FALSE,5 results
+1212,Ms. Y,4,Hotel room,Suburbs,2019,6,4,2 weeks,FALSE,6 results
+1213,Mr. X,4,Hotel room,Countryside,2018,6,4,2 weeks,FALSE,8 results
+1214,Mr. X,4,Hotel room,Countryside,2019,6,4,2 weeks,FALSE,8 results
+1215,Ms. Y,4,Hotel room,Countryside,2018,6,4,2 weeks,FALSE,8 results
+1216,Ms. Y,4,Hotel room,Countryside,2019,6,4,2 weeks,FALSE,4 results
+1217,Mr. X,4,Hotel room,City centre,2018,6,1,3 weeks,FALSE,2 results
+1218,Mr. X,4,Hotel room,City centre,2019,6,1,3 weeks,FALSE,4 results
+1219,Ms. Y,4,Hotel room,City centre,2018,6,1,3 weeks,FALSE,3 results
+1220,Ms. Y,4,Hotel room,City centre,2019,6,1,3 weeks,FALSE,3 results
+1221,Mr. X,4,Hotel room,Suburbs,2018,6,1,3 weeks,FALSE,2 results
+1222,Ms. Y,4,Hotel room,Suburbs,2018,6,1,3 weeks,FALSE,6 results
+1223,Ms. Y,4,Hotel room,Suburbs,2019,6,1,3 weeks,FALSE,4 results
+1224,Mr. X,4,Hotel room,Countryside,2018,6,1,3 weeks,FALSE,9 results
+1225,Mr. X,4,Hotel room,Countryside,2019,6,1,3 weeks,FALSE,2 results
+1226,Ms. Y,4,Hotel room,Countryside,2019,6,1,3 weeks,FALSE,8 results
+1227,Mr. X,4,Hotel room,City centre,2018,6,2,3 weeks,FALSE,2 results
+1228,Mr. X,4,Hotel room,City centre,2019,6,2,3 weeks,FALSE,6 results
+1229,Ms. Y,4,Hotel room,City centre,2018,6,2,3 weeks,FALSE,6 results
+1230,Ms. Y,4,Hotel room,City centre,2019,6,2,3 weeks,FALSE,2 results
+1231,Mr. X,4,Hotel room,Suburbs,2018,6,2,3 weeks,FALSE,7 results
+1232,Mr. X,4,Hotel room,Suburbs,2019,6,2,3 weeks,FALSE,2 results
+1233,Ms. Y,4,Hotel room,Suburbs,2019,6,2,3 weeks,FALSE,8 results
+1234,Mr. X,4,Hotel room,Countryside,2018,6,2,3 weeks,FALSE,2 results
+1235,Mr. X,4,Hotel room,Countryside,2019,6,2,3 weeks,FALSE,2 results
+1236,Ms. Y,4,Hotel room,Countryside,2018,6,2,3 weeks,FALSE,6 results
+1237,Ms. Y,4,Hotel room,Countryside,2019,6,2,3 weeks,FALSE,3 results
+1238,Mr. X,4,Hotel room,City centre,2018,6,3,3 weeks,FALSE,4 results
+1239,Mr. X,4,Hotel room,City centre,2019,6,3,3 weeks,FALSE,4 results
+1240,Mr. X,4,Hotel room,Suburbs,2018,6,3,3 weeks,FALSE,7 results
+1241,Mr. X,4,Hotel room,Suburbs,2019,6,3,3 weeks,FALSE,5 results
+1242,Ms. Y,4,Hotel room,Suburbs,2018,6,3,3 weeks,FALSE,3 results
+1243,Ms. Y,4,Hotel room,Suburbs,2019,6,3,3 weeks,FALSE,9 results
+1244,Mr. X,4,Hotel room,Countryside,2018,6,3,3 weeks,FALSE,3 results
+1245,Mr. X,4,Hotel room,Countryside,2019,6,3,3 weeks,FALSE,2 results
+1246,Ms. Y,4,Hotel room,Countryside,2018,6,3,3 weeks,FALSE,4 results
+1247,Ms. Y,4,Hotel room,Countryside,2019,6,3,3 weeks,FALSE,2 results
+1248,Mr. X,4,Hotel room,City centre,2018,6,4,3 weeks,FALSE,2 results
+1249,Mr. X,4,Hotel room,City centre,2019,6,4,3 weeks,FALSE,3 results
+1250,Ms. Y,4,Hotel room,City centre,2018,6,4,3 weeks,FALSE,8 results
+1251,Ms. Y,4,Hotel room,City centre,2019,6,4,3 weeks,FALSE,2 results
+1252,Mr. X,4,Hotel room,Suburbs,2018,6,4,3 weeks,FALSE,7 results
+1253,Mr. X,4,Hotel room,Suburbs,2019,6,4,3 weeks,FALSE,6 results
+1254,Ms. Y,4,Hotel room,Suburbs,2018,6,4,3 weeks,FALSE,6 results
+1255,Ms. Y,4,Hotel room,Suburbs,2019,6,4,3 weeks,FALSE,6 results
+1256,Mr. X,4,Hotel room,Countryside,2018,6,4,3 weeks,FALSE,4 results
+1257,Mr. X,4,Hotel room,Countryside,2019,6,4,3 weeks,FALSE,5 results
+1258,Ms. Y,4,Hotel room,Countryside,2018,6,4,3 weeks,FALSE,9 results
+1259,Ms. Y,4,Hotel room,Countryside,2019,6,4,3 weeks,FALSE,4 results
+1260,Mr. X,4,Hotel room,City centre,2019,6,1,1 month,FALSE,8 results
+1261,Ms. Y,4,Hotel room,City centre,2018,6,1,1 month,FALSE,7 results
+1262,Mr. X,4,Hotel room,Suburbs,2018,6,1,1 month,FALSE,7 results
+1263,Mr. X,4,Hotel room,Suburbs,2019,6,1,1 month,FALSE,9 results
+1264,Ms. Y,4,Hotel room,Suburbs,2018,6,1,1 month,FALSE,2 results
+1265,Ms. Y,4,Hotel room,Suburbs,2019,6,1,1 month,FALSE,9 results
+1266,Mr. X,4,Hotel room,Countryside,2019,6,1,1 month,FALSE,3 results
+1267,Ms. Y,4,Hotel room,Countryside,2018,6,1,1 month,FALSE,5 results
+1268,Ms. Y,4,Hotel room,Countryside,2019,6,1,1 month,FALSE,5 results
+1269,Mr. X,4,Hotel room,City centre,2018,6,2,1 month,FALSE,9 results
+1270,Mr. X,4,Hotel room,City centre,2019,6,2,1 month,FALSE,4 results
+1271,Ms. Y,4,Hotel room,City centre,2018,6,2,1 month,FALSE,5 results
+1272,Ms. Y,4,Hotel room,City centre,2019,6,2,1 month,FALSE,4 results
+1273,Mr. X,4,Hotel room,Suburbs,2019,6,2,1 month,FALSE,8 results
+1274,Ms. Y,4,Hotel room,Suburbs,2018,6,2,1 month,FALSE,3 results
+1275,Ms. Y,4,Hotel room,Suburbs,2019,6,2,1 month,FALSE,2 results
+1276,Mr. X,4,Hotel room,Countryside,2018,6,2,1 month,FALSE,7 results
+1277,Mr. X,4,Hotel room,Countryside,2019,6,2,1 month,FALSE,9 results
+1278,Ms. Y,4,Hotel room,Countryside,2018,6,2,1 month,FALSE,5 results
+1279,Ms. Y,4,Hotel room,Countryside,2019,6,2,1 month,FALSE,9 results
+1280,Mr. X,4,Hotel room,City centre,2018,6,3,1 month,FALSE,2 results
+1281,Mr. X,4,Hotel room,City centre,2019,6,3,1 month,FALSE,8 results
+1282,Ms. Y,4,Hotel room,City centre,2018,6,3,1 month,FALSE,2 results
+1283,Ms. Y,4,Hotel room,City centre,2019,6,3,1 month,FALSE,4 results
+1284,Mr. X,4,Hotel room,Suburbs,2018,6,3,1 month,FALSE,2 results
+1285,Mr. X,4,Hotel room,Suburbs,2019,6,3,1 month,FALSE,3 results
+1286,Mr. X,4,Hotel room,Countryside,2018,6,3,1 month,FALSE,2 results
+1287,Mr. X,4,Hotel room,Countryside,2019,6,3,1 month,FALSE,5 results
+1288,Ms. Y,4,Hotel room,Countryside,2018,6,3,1 month,FALSE,2 results
+1289,Ms. Y,4,Hotel room,Countryside,2019,6,3,1 month,FALSE,4 results
+1290,Mr. X,4,Hotel room,City centre,2019,6,4,1 month,FALSE,9 results
+1291,Ms. Y,4,Hotel room,City centre,2018,6,4,1 month,FALSE,6 results
+1292,Ms. Y,4,Hotel room,City centre,2019,6,4,1 month,FALSE,3 results
+1293,Mr. X,4,Hotel room,Suburbs,2018,6,4,1 month,FALSE,8 results
+1294,Mr. X,4,Hotel room,Suburbs,2019,6,4,1 month,FALSE,4 results
+1295,Ms. Y,4,Hotel room,Suburbs,2019,6,4,1 month,FALSE,4 results
+1296,Mr. X,4,Hotel room,Countryside,2018,6,4,1 month,FALSE,5 results
+1297,Mr. X,4,Hotel room,Countryside,2019,6,4,1 month,FALSE,8 results
+1298,Ms. Y,4,Hotel room,Countryside,2018,6,4,1 month,FALSE,8 results
+1299,Ms. Y,4,Hotel room,Countryside,2019,6,4,1 month,FALSE,6 results
+1300,Mr. X,4,Hotel room,City centre,2018,7,1,1-3 days,FALSE,6 results
+1301,Mr. X,4,Hotel room,City centre,2019,7,1,1-3 days,FALSE,2 results
+1302,Ms. Y,4,Hotel room,City centre,2018,7,1,1-3 days,FALSE,8 results
+1303,Ms. Y,4,Hotel room,City centre,2019,7,1,1-3 days,FALSE,7 results
+1304,Mr. X,4,Hotel room,Suburbs,2018,7,1,1-3 days,FALSE,4 results
+1305,Ms. Y,4,Hotel room,Suburbs,2018,7,1,1-3 days,FALSE,4 results
+1306,Ms. Y,4,Hotel room,Suburbs,2019,7,1,1-3 days,FALSE,8 results
+1307,Mr. X,4,Hotel room,Countryside,2018,7,1,1-3 days,FALSE,9 results
+1308,Mr. X,4,Hotel room,Countryside,2019,7,1,1-3 days,FALSE,5 results
+1309,Ms. Y,4,Hotel room,Countryside,2018,7,1,1-3 days,FALSE,4 results
+1310,Mr. X,4,Hotel room,City centre,2018,7,2,1-3 days,FALSE,9 results
+1311,Mr. X,4,Hotel room,City centre,2019,7,2,1-3 days,FALSE,6 results
+1312,Ms. Y,4,Hotel room,City centre,2018,7,2,1-3 days,FALSE,3 results
+1313,Ms. Y,4,Hotel room,City centre,2019,7,2,1-3 days,FALSE,2 results
+1314,Mr. X,4,Hotel room,Suburbs,2018,7,2,1-3 days,FALSE,9 results
+1315,Mr. X,4,Hotel room,Suburbs,2019,7,2,1-3 days,FALSE,4 results
+1316,Ms. Y,4,Hotel room,Suburbs,2019,7,2,1-3 days,FALSE,5 results
+1317,Mr. X,4,Hotel room,Countryside,2018,7,2,1-3 days,FALSE,7 results
+1318,Mr. X,4,Hotel room,Countryside,2019,7,2,1-3 days,FALSE,4 results
+1319,Ms. Y,4,Hotel room,Countryside,2018,7,2,1-3 days,FALSE,2 results
+1320,Ms. Y,4,Hotel room,Countryside,2019,7,2,1-3 days,FALSE,2 results
+1321,Mr. X,4,Hotel room,City centre,2018,7,3,1-3 days,FALSE,5 results
+1322,Mr. X,4,Hotel room,City centre,2019,7,3,1-3 days,FALSE,3 results
+1323,Ms. Y,4,Hotel room,City centre,2019,7,3,1-3 days,FALSE,4 results
+1324,Mr. X,4,Hotel room,Suburbs,2018,7,3,1-3 days,FALSE,3 results
+1325,Mr. X,4,Hotel room,Suburbs,2019,7,3,1-3 days,FALSE,2 results
+1326,Ms. Y,4,Hotel room,Suburbs,2018,7,3,1-3 days,FALSE,8 results
+1327,Ms. Y,4,Hotel room,Suburbs,2019,7,3,1-3 days,FALSE,5 results
+1328,Mr. X,4,Hotel room,Countryside,2018,7,3,1-3 days,FALSE,7 results
+1329,Mr. X,4,Hotel room,Countryside,2019,7,3,1-3 days,FALSE,7 results
+1330,Ms. Y,4,Hotel room,Countryside,2019,7,3,1-3 days,FALSE,6 results
+1331,Mr. X,4,Hotel room,City centre,2018,7,4,1-3 days,FALSE,7 results
+1332,Mr. X,4,Hotel room,City centre,2019,7,4,1-3 days,FALSE,3 results
+1333,Ms. Y,4,Hotel room,City centre,2018,7,4,1-3 days,FALSE,9 results
+1334,Ms. Y,4,Hotel room,City centre,2019,7,4,1-3 days,FALSE,9 results
+1335,Mr. X,4,Hotel room,Suburbs,2018,7,4,1-3 days,FALSE,4 results
+1336,Mr. X,4,Hotel room,Suburbs,2019,7,4,1-3 days,FALSE,2 results
+1337,Ms. Y,4,Hotel room,Suburbs,2018,7,4,1-3 days,FALSE,8 results
+1338,Ms. Y,4,Hotel room,Suburbs,2019,7,4,1-3 days,FALSE,3 results
+1339,Mr. X,4,Hotel room,Countryside,2018,7,4,1-3 days,FALSE,6 results
+1340,Mr. X,4,Hotel room,Countryside,2019,7,4,1-3 days,FALSE,6 results
+1341,Ms. Y,4,Hotel room,Countryside,2018,7,4,1-3 days,FALSE,7 results
+1342,Ms. Y,4,Hotel room,Countryside,2019,7,4,1-3 days,FALSE,4 results
+1343,Mr. X,4,Hotel room,City centre,2018,7,1,1 week,FALSE,6 results
+1344,Ms. Y,4,Hotel room,City centre,2018,7,1,1 week,FALSE,7 results
+1345,Ms. Y,4,Hotel room,City centre,2019,7,1,1 week,FALSE,3 results
+1346,Mr. X,4,Hotel room,Suburbs,2018,7,1,1 week,FALSE,5 results
+1347,Mr. X,4,Hotel room,Suburbs,2019,7,1,1 week,FALSE,4 results
+1348,Ms. Y,4,Hotel room,Suburbs,2018,7,1,1 week,FALSE,2 results
+1349,Ms. Y,4,Hotel room,Suburbs,2019,7,1,1 week,FALSE,7 results
+1350,Mr. X,4,Hotel room,Countryside,2018,7,1,1 week,FALSE,6 results
+1351,Mr. X,4,Hotel room,Countryside,2019,7,1,1 week,FALSE,9 results
+1352,Ms. Y,4,Hotel room,Countryside,2018,7,1,1 week,FALSE,9 results
+1353,Ms. Y,4,Hotel room,Countryside,2019,7,1,1 week,FALSE,8 results
+1354,Mr. X,4,Hotel room,City centre,2018,7,2,1 week,FALSE,9 results
+1355,Mr. X,4,Hotel room,City centre,2019,7,2,1 week,FALSE,3 results
+1356,Ms. Y,4,Hotel room,City centre,2019,7,2,1 week,FALSE,6 results
+1357,Mr. X,4,Hotel room,Suburbs,2019,7,2,1 week,FALSE,3 results
+1358,Ms. Y,4,Hotel room,Suburbs,2018,7,2,1 week,FALSE,6 results
+1359,Ms. Y,4,Hotel room,Suburbs,2019,7,2,1 week,FALSE,5 results
+1360,Mr. X,4,Hotel room,Countryside,2018,7,2,1 week,FALSE,5 results
+1361,Mr. X,4,Hotel room,Countryside,2019,7,2,1 week,FALSE,4 results
+1362,Ms. Y,4,Hotel room,Countryside,2018,7,2,1 week,FALSE,9 results
+1363,Ms. Y,4,Hotel room,Countryside,2019,7,2,1 week,FALSE,6 results
+1364,Mr. X,4,Hotel room,City centre,2018,7,3,1 week,FALSE,9 results
+1365,Mr. X,4,Hotel room,City centre,2019,7,3,1 week,FALSE,6 results
+1366,Ms. Y,4,Hotel room,City centre,2018,7,3,1 week,FALSE,4 results
+1367,Ms. Y,4,Hotel room,City centre,2019,7,3,1 week,FALSE,9 results
+1368,Mr. X,4,Hotel room,Suburbs,2018,7,3,1 week,FALSE,4 results
+1369,Mr. X,4,Hotel room,Suburbs,2019,7,3,1 week,FALSE,4 results
+1370,Ms. Y,4,Hotel room,Suburbs,2018,7,3,1 week,FALSE,2 results
+1371,Ms. Y,4,Hotel room,Suburbs,2019,7,3,1 week,FALSE,9 results
+1372,Mr. X,4,Hotel room,Countryside,2018,7,3,1 week,FALSE,7 results
+1373,Mr. X,4,Hotel room,Countryside,2019,7,3,1 week,FALSE,5 results
+1374,Ms. Y,4,Hotel room,Countryside,2018,7,3,1 week,FALSE,9 results
+1375,Mr. X,4,Hotel room,City centre,2018,7,4,1 week,FALSE,9 results
+1376,Mr. X,4,Hotel room,City centre,2019,7,4,1 week,FALSE,6 results
+1377,Ms. Y,4,Hotel room,City centre,2018,7,4,1 week,FALSE,3 results
+1378,Ms. Y,4,Hotel room,City centre,2019,7,4,1 week,FALSE,5 results
+1379,Mr. X,4,Hotel room,Suburbs,2018,7,4,1 week,FALSE,6 results
+1380,Mr. X,4,Hotel room,Suburbs,2019,7,4,1 week,FALSE,8 results
+1381,Ms. Y,4,Hotel room,Suburbs,2018,7,4,1 week,FALSE,2 results
+1382,Ms. Y,4,Hotel room,Suburbs,2019,7,4,1 week,FALSE,7 results
+1383,Mr. X,4,Hotel room,Countryside,2018,7,4,1 week,FALSE,7 results
+1384,Mr. X,4,Hotel room,Countryside,2019,7,4,1 week,FALSE,8 results
+1385,Ms. Y,4,Hotel room,Countryside,2018,7,4,1 week,FALSE,2 results
+1386,Mr. X,4,Hotel room,City centre,2018,7,1,2 weeks,FALSE,9 results
+1387,Mr. X,4,Hotel room,City centre,2019,7,1,2 weeks,FALSE,7 results
+1388,Ms. Y,4,Hotel room,City centre,2018,7,1,2 weeks,FALSE,9 results
+1389,Ms. Y,4,Hotel room,City centre,2019,7,1,2 weeks,FALSE,7 results
+1390,Mr. X,4,Hotel room,Suburbs,2018,7,1,2 weeks,FALSE,6 results
+1391,Mr. X,4,Hotel room,Suburbs,2019,7,1,2 weeks,FALSE,6 results
+1392,Ms. Y,4,Hotel room,Suburbs,2018,7,1,2 weeks,FALSE,5 results
+1393,Ms. Y,4,Hotel room,Suburbs,2019,7,1,2 weeks,FALSE,2 results
+1394,Mr. X,4,Hotel room,Countryside,2018,7,1,2 weeks,FALSE,8 results
+1395,Mr. X,4,Hotel room,Countryside,2019,7,1,2 weeks,FALSE,4 results
+1396,Ms. Y,4,Hotel room,Countryside,2018,7,1,2 weeks,FALSE,7 results
+1397,Ms. Y,4,Hotel room,Countryside,2019,7,1,2 weeks,FALSE,5 results
+1398,Mr. X,4,Hotel room,City centre,2018,7,2,2 weeks,FALSE,7 results
+1399,Mr. X,4,Hotel room,City centre,2019,7,2,2 weeks,FALSE,9 results
+1400,Ms. Y,4,Hotel room,City centre,2018,7,2,2 weeks,FALSE,4 results
+1401,Ms. Y,4,Hotel room,City centre,2019,7,2,2 weeks,FALSE,9 results
+1402,Mr. X,4,Hotel room,Suburbs,2019,7,2,2 weeks,FALSE,3 results
+1403,Ms. Y,4,Hotel room,Suburbs,2018,7,2,2 weeks,FALSE,5 results
+1404,Mr. X,4,Hotel room,Countryside,2018,7,2,2 weeks,FALSE,9 results
+1405,Mr. X,4,Hotel room,Countryside,2019,7,2,2 weeks,FALSE,6 results
+1406,Ms. Y,4,Hotel room,Countryside,2018,7,2,2 weeks,FALSE,5 results
+1407,Ms. Y,4,Hotel room,Countryside,2019,7,2,2 weeks,FALSE,3 results
+1408,Mr. X,4,Hotel room,City centre,2018,7,3,2 weeks,FALSE,2 results
+1409,Mr. X,4,Hotel room,City centre,2019,7,3,2 weeks,FALSE,8 results
+1410,Ms. Y,4,Hotel room,City centre,2018,7,3,2 weeks,FALSE,6 results
+1411,Ms. Y,4,Hotel room,City centre,2019,7,3,2 weeks,FALSE,3 results
+1412,Mr. X,4,Hotel room,Suburbs,2019,7,3,2 weeks,FALSE,3 results
+1413,Ms. Y,4,Hotel room,Suburbs,2018,7,3,2 weeks,FALSE,3 results
+1414,Ms. Y,4,Hotel room,Suburbs,2019,7,3,2 weeks,FALSE,2 results
+1415,Mr. X,4,Hotel room,Countryside,2018,7,3,2 weeks,FALSE,7 results
+1416,Mr. X,4,Hotel room,Countryside,2019,7,3,2 weeks,FALSE,4 results
+1417,Ms. Y,4,Hotel room,Countryside,2018,7,3,2 weeks,FALSE,4 results
+1418,Ms. Y,4,Hotel room,Countryside,2019,7,3,2 weeks,FALSE,8 results
+1419,Mr. X,4,Hotel room,City centre,2018,7,4,2 weeks,FALSE,9 results
+1420,Mr. X,4,Hotel room,City centre,2019,7,4,2 weeks,FALSE,2 results
+1421,Ms. Y,4,Hotel room,City centre,2019,7,4,2 weeks,FALSE,8 results
+1422,Mr. X,4,Hotel room,Suburbs,2018,7,4,2 weeks,FALSE,2 results
+1423,Mr. X,4,Hotel room,Suburbs,2019,7,4,2 weeks,FALSE,8 results
+1424,Ms. Y,4,Hotel room,Suburbs,2018,7,4,2 weeks,FALSE,9 results
+1425,Ms. Y,4,Hotel room,Suburbs,2019,7,4,2 weeks,FALSE,4 results
+1426,Mr. X,4,Hotel room,Countryside,2018,7,4,2 weeks,FALSE,5 results
+1427,Mr. X,4,Hotel room,Countryside,2019,7,4,2 weeks,FALSE,3 results
+1428,Ms. Y,4,Hotel room,Countryside,2018,7,4,2 weeks,FALSE,9 results
+1429,Ms. Y,4,Hotel room,Countryside,2019,7,4,2 weeks,FALSE,6 results
+1430,Mr. X,4,Hotel room,City centre,2018,7,1,3 weeks,FALSE,4 results
+1431,Mr. X,4,Hotel room,City centre,2019,7,1,3 weeks,FALSE,6 results
+1432,Ms. Y,4,Hotel room,City centre,2019,7,1,3 weeks,FALSE,7 results
+1433,Mr. X,4,Hotel room,Suburbs,2018,7,1,3 weeks,FALSE,9 results
+1434,Mr. X,4,Hotel room,Suburbs,2019,7,1,3 weeks,FALSE,2 results
+1435,Ms. Y,4,Hotel room,Suburbs,2018,7,1,3 weeks,FALSE,6 results
+1436,Ms. Y,4,Hotel room,Suburbs,2019,7,1,3 weeks,FALSE,4 results
+1437,Mr. X,4,Hotel room,Countryside,2018,7,1,3 weeks,FALSE,6 results
+1438,Mr. X,4,Hotel room,Countryside,2019,7,1,3 weeks,FALSE,2 results
+1439,Ms. Y,4,Hotel room,Countryside,2018,7,1,3 weeks,FALSE,2 results
+1440,Ms. Y,4,Hotel room,Countryside,2019,7,1,3 weeks,FALSE,4 results
+1441,Mr. X,4,Hotel room,City centre,2018,7,2,3 weeks,FALSE,5 results
+1442,Mr. X,4,Hotel room,City centre,2019,7,2,3 weeks,FALSE,3 results
+1443,Ms. Y,4,Hotel room,City centre,2018,7,2,3 weeks,FALSE,2 results
+1444,Mr. X,4,Hotel room,Suburbs,2018,7,2,3 weeks,FALSE,3 results
+1445,Mr. X,4,Hotel room,Suburbs,2019,7,2,3 weeks,FALSE,8 results
+1446,Ms. Y,4,Hotel room,Suburbs,2018,7,2,3 weeks,FALSE,6 results
+1447,Ms. Y,4,Hotel room,Suburbs,2019,7,2,3 weeks,FALSE,4 results
+1448,Mr. X,4,Hotel room,Countryside,2018,7,2,3 weeks,FALSE,2 results
+1449,Mr. X,4,Hotel room,Countryside,2019,7,2,3 weeks,FALSE,2 results
+1450,Ms. Y,4,Hotel room,Countryside,2018,7,2,3 weeks,FALSE,5 results
+1451,Mr. X,4,Hotel room,City centre,2018,7,3,3 weeks,FALSE,9 results
+1452,Mr. X,4,Hotel room,City centre,2019,7,3,3 weeks,FALSE,4 results
+1453,Ms. Y,4,Hotel room,City centre,2018,7,3,3 weeks,FALSE,8 results
+1454,Ms. Y,4,Hotel room,City centre,2019,7,3,3 weeks,FALSE,6 results
+1455,Mr. X,4,Hotel room,Suburbs,2018,7,3,3 weeks,FALSE,6 results
+1456,Mr. X,4,Hotel room,Suburbs,2019,7,3,3 weeks,FALSE,5 results
+1457,Ms. Y,4,Hotel room,Suburbs,2018,7,3,3 weeks,FALSE,8 results
+1458,Ms. Y,4,Hotel room,Suburbs,2019,7,3,3 weeks,FALSE,3 results
+1459,Mr. X,4,Hotel room,Countryside,2018,7,3,3 weeks,FALSE,3 results
+1460,Mr. X,4,Hotel room,Countryside,2019,7,3,3 weeks,FALSE,5 results
+1461,Ms. Y,4,Hotel room,Countryside,2018,7,3,3 weeks,FALSE,3 results
+1462,Mr. X,4,Hotel room,City centre,2018,7,4,3 weeks,FALSE,4 results
+1463,Mr. X,4,Hotel room,City centre,2019,7,4,3 weeks,FALSE,9 results
+1464,Ms. Y,4,Hotel room,City centre,2018,7,4,3 weeks,FALSE,7 results
+1465,Ms. Y,4,Hotel room,City centre,2019,7,4,3 weeks,FALSE,6 results
+1466,Mr. X,4,Hotel room,Suburbs,2018,7,4,3 weeks,FALSE,2 results
+1467,Mr. X,4,Hotel room,Suburbs,2019,7,4,3 weeks,FALSE,7 results
+1468,Ms. Y,4,Hotel room,Suburbs,2018,7,4,3 weeks,FALSE,8 results
+1469,Ms. Y,4,Hotel room,Suburbs,2019,7,4,3 weeks,FALSE,6 results
+1470,Mr. X,4,Hotel room,Countryside,2018,7,4,3 weeks,FALSE,7 results
+1471,Mr. X,4,Hotel room,Countryside,2019,7,4,3 weeks,FALSE,9 results
+1472,Ms. Y,4,Hotel room,Countryside,2018,7,4,3 weeks,FALSE,2 results
+1473,Ms. Y,4,Hotel room,Countryside,2019,7,4,3 weeks,FALSE,9 results
+1474,Mr. X,4,Hotel room,City centre,2018,7,1,1 month,FALSE,4 results
+1475,Ms. Y,4,Hotel room,City centre,2018,7,1,1 month,FALSE,9 results
+1476,Mr. X,4,Hotel room,Suburbs,2018,7,1,1 month,FALSE,9 results
+1477,Mr. X,4,Hotel room,Suburbs,2019,7,1,1 month,FALSE,5 results
+1478,Ms. Y,4,Hotel room,Suburbs,2018,7,1,1 month,FALSE,5 results
+1479,Ms. Y,4,Hotel room,Suburbs,2019,7,1,1 month,FALSE,9 results
+1480,Mr. X,4,Hotel room,Countryside,2018,7,1,1 month,FALSE,9 results
+1481,Mr. X,4,Hotel room,Countryside,2019,7,1,1 month,FALSE,3 results
+1482,Ms. Y,4,Hotel room,Countryside,2018,7,1,1 month,FALSE,8 results
+1483,Ms. Y,4,Hotel room,Countryside,2019,7,1,1 month,FALSE,6 results
+1484,Mr. X,4,Hotel room,City centre,2018,7,2,1 month,FALSE,9 results
+1485,Mr. X,4,Hotel room,City centre,2019,7,2,1 month,FALSE,4 results
+1486,Ms. Y,4,Hotel room,City centre,2018,7,2,1 month,FALSE,2 results
+1487,Mr. X,4,Hotel room,Suburbs,2018,7,2,1 month,FALSE,7 results
+1488,Mr. X,4,Hotel room,Suburbs,2019,7,2,1 month,FALSE,3 results
+1489,Ms. Y,4,Hotel room,Suburbs,2018,7,2,1 month,FALSE,9 results
+1490,Ms. Y,4,Hotel room,Suburbs,2019,7,2,1 month,FALSE,3 results
+1491,Mr. X,4,Hotel room,Countryside,2018,7,2,1 month,FALSE,8 results
+1492,Mr. X,4,Hotel room,Countryside,2019,7,2,1 month,FALSE,9 results
+1493,Ms. Y,4,Hotel room,Countryside,2018,7,2,1 month,FALSE,9 results
+1494,Mr. X,4,Hotel room,City centre,2018,7,3,1 month,FALSE,7 results
+1495,Mr. X,4,Hotel room,City centre,2019,7,3,1 month,FALSE,4 results
+1496,Ms. Y,4,Hotel room,City centre,2018,7,3,1 month,FALSE,2 results
+1497,Mr. X,4,Hotel room,Suburbs,2018,7,3,1 month,FALSE,7 results
+1498,Mr. X,4,Hotel room,Suburbs,2019,7,3,1 month,FALSE,3 results
+1499,Ms. Y,4,Hotel room,Suburbs,2018,7,3,1 month,FALSE,8 results
+1500,Ms. Y,4,Hotel room,Suburbs,2019,7,3,1 month,FALSE,3 results
+1501,Mr. X,4,Hotel room,Countryside,2019,7,3,1 month,FALSE,4 results
+1502,Ms. Y,4,Hotel room,Countryside,2019,7,3,1 month,FALSE,6 results
+1503,Mr. X,4,Hotel room,City centre,2018,7,4,1 month,FALSE,9 results
+1504,Mr. X,4,Hotel room,City centre,2019,7,4,1 month,FALSE,8 results
+1505,Ms. Y,4,Hotel room,City centre,2018,7,4,1 month,FALSE,7 results
+1506,Ms. Y,4,Hotel room,City centre,2019,7,4,1 month,FALSE,9 results
+1507,Mr. X,4,Hotel room,Suburbs,2018,7,4,1 month,FALSE,3 results
+1508,Mr. X,4,Hotel room,Suburbs,2019,7,4,1 month,FALSE,5 results
+1509,Ms. Y,4,Hotel room,Suburbs,2018,7,4,1 month,FALSE,6 results
+1510,Ms. Y,4,Hotel room,Suburbs,2019,7,4,1 month,FALSE,3 results
+1511,Mr. X,4,Hotel room,Countryside,2018,7,4,1 month,FALSE,7 results
+1512,Mr. X,4,Hotel room,Countryside,2019,7,4,1 month,FALSE,7 results
+1513,Ms. Y,4,Hotel room,Countryside,2018,7,4,1 month,FALSE,3 results
+1514,Ms. Y,4,Hotel room,Countryside,2019,7,4,1 month,FALSE,6 results
+1515,Mr. X,4,Hotel room,City centre,2019,8,1,1-3 days,FALSE,2 results
+1516,Ms. Y,4,Hotel room,City centre,2018,8,1,1-3 days,FALSE,8 results
+1517,Ms. Y,4,Hotel room,City centre,2019,8,1,1-3 days,FALSE,8 results
+1518,Mr. X,4,Hotel room,Suburbs,2018,8,1,1-3 days,FALSE,5 results
+1519,Mr. X,4,Hotel room,Suburbs,2019,8,1,1-3 days,FALSE,7 results
+1520,Ms. Y,4,Hotel room,Suburbs,2018,8,1,1-3 days,FALSE,9 results
+1521,Ms. Y,4,Hotel room,Suburbs,2019,8,1,1-3 days,FALSE,6 results
+1522,Mr. X,4,Hotel room,Countryside,2018,8,1,1-3 days,FALSE,4 results
+1523,Mr. X,4,Hotel room,Countryside,2019,8,1,1-3 days,FALSE,7 results
+1524,Ms. Y,4,Hotel room,Countryside,2018,8,1,1-3 days,FALSE,3 results
+1525,Ms. Y,4,Hotel room,Countryside,2019,8,1,1-3 days,FALSE,7 results
+1526,Mr. X,4,Hotel room,City centre,2018,8,2,1-3 days,FALSE,7 results
+1527,Mr. X,4,Hotel room,City centre,2019,8,2,1-3 days,FALSE,2 results
+1528,Ms. Y,4,Hotel room,City centre,2018,8,2,1-3 days,FALSE,8 results
+1529,Ms. Y,4,Hotel room,City centre,2019,8,2,1-3 days,FALSE,8 results
+1530,Mr. X,4,Hotel room,Suburbs,2018,8,2,1-3 days,FALSE,7 results
+1531,Ms. Y,4,Hotel room,Suburbs,2019,8,2,1-3 days,FALSE,3 results
+1532,Mr. X,4,Hotel room,Countryside,2018,8,2,1-3 days,FALSE,4 results
+1533,Mr. X,4,Hotel room,Countryside,2019,8,2,1-3 days,FALSE,9 results
+1534,Ms. Y,4,Hotel room,Countryside,2018,8,2,1-3 days,FALSE,6 results
+1535,Ms. Y,4,Hotel room,Countryside,2019,8,2,1-3 days,FALSE,2 results
+1536,Mr. X,4,Hotel room,City centre,2019,8,3,1-3 days,FALSE,5 results
+1537,Ms. Y,4,Hotel room,City centre,2018,8,3,1-3 days,FALSE,2 results
+1538,Ms. Y,4,Hotel room,City centre,2019,8,3,1-3 days,FALSE,8 results
+1539,Mr. X,4,Hotel room,Suburbs,2019,8,3,1-3 days,FALSE,4 results
+1540,Ms. Y,4,Hotel room,Suburbs,2019,8,3,1-3 days,FALSE,9 results
+1541,Mr. X,4,Hotel room,Countryside,2018,8,3,1-3 days,FALSE,4 results
+1542,Mr. X,4,Hotel room,Countryside,2019,8,3,1-3 days,FALSE,5 results
+1543,Ms. Y,4,Hotel room,Countryside,2018,8,3,1-3 days,FALSE,9 results
+1544,Ms. Y,4,Hotel room,Countryside,2019,8,3,1-3 days,FALSE,3 results
+1545,Mr. X,4,Hotel room,City centre,2018,8,4,1-3 days,FALSE,2 results
+1546,Mr. X,4,Hotel room,City centre,2019,8,4,1-3 days,FALSE,8 results
+1547,Ms. Y,4,Hotel room,City centre,2018,8,4,1-3 days,FALSE,4 results
+1548,Ms. Y,4,Hotel room,City centre,2019,8,4,1-3 days,FALSE,2 results
+1549,Mr. X,4,Hotel room,Suburbs,2018,8,4,1-3 days,FALSE,9 results
+1550,Mr. X,4,Hotel room,Suburbs,2019,8,4,1-3 days,FALSE,7 results
+1551,Mr. X,4,Hotel room,Countryside,2018,8,4,1-3 days,FALSE,6 results
+1552,Mr. X,4,Hotel room,Countryside,2019,8,4,1-3 days,FALSE,5 results
+1553,Ms. Y,4,Hotel room,Countryside,2018,8,4,1-3 days,FALSE,4 results
+1554,Ms. Y,4,Hotel room,Countryside,2019,8,4,1-3 days,FALSE,9 results
+1555,Mr. X,4,Hotel room,City centre,2018,8,1,1 week,FALSE,7 results
+1556,Mr. X,4,Hotel room,City centre,2019,8,1,1 week,FALSE,8 results
+1557,Ms. Y,4,Hotel room,City centre,2018,8,1,1 week,FALSE,2 results
+1558,Ms. Y,4,Hotel room,City centre,2019,8,1,1 week,FALSE,6 results
+1559,Mr. X,4,Hotel room,Suburbs,2019,8,1,1 week,FALSE,6 results
+1560,Ms. Y,4,Hotel room,Suburbs,2018,8,1,1 week,FALSE,4 results
+1561,Ms. Y,4,Hotel room,Suburbs,2019,8,1,1 week,FALSE,7 results
+1562,Mr. X,4,Hotel room,Countryside,2018,8,1,1 week,FALSE,2 results
+1563,Mr. X,4,Hotel room,Countryside,2019,8,1,1 week,FALSE,2 results
+1564,Ms. Y,4,Hotel room,Countryside,2019,8,1,1 week,FALSE,6 results
+1565,Mr. X,4,Hotel room,City centre,2018,8,2,1 week,FALSE,9 results
+1566,Mr. X,4,Hotel room,City centre,2019,8,2,1 week,FALSE,4 results
+1567,Ms. Y,4,Hotel room,City centre,2018,8,2,1 week,FALSE,4 results
+1568,Ms. Y,4,Hotel room,City centre,2019,8,2,1 week,FALSE,3 results
+1569,Mr. X,4,Hotel room,Suburbs,2018,8,2,1 week,FALSE,4 results
+1570,Mr. X,4,Hotel room,Suburbs,2019,8,2,1 week,FALSE,6 results
+1571,Ms. Y,4,Hotel room,Suburbs,2018,8,2,1 week,FALSE,3 results
+1572,Ms. Y,4,Hotel room,Suburbs,2019,8,2,1 week,FALSE,3 results
+1573,Mr. X,4,Hotel room,Countryside,2018,8,2,1 week,FALSE,7 results
+1574,Mr. X,4,Hotel room,Countryside,2019,8,2,1 week,FALSE,5 results
+1575,Ms. Y,4,Hotel room,Countryside,2018,8,2,1 week,FALSE,2 results
+1576,Ms. Y,4,Hotel room,Countryside,2019,8,2,1 week,FALSE,2 results
+1577,Mr. X,4,Hotel room,City centre,2018,8,3,1 week,FALSE,6 results
+1578,Mr. X,4,Hotel room,City centre,2019,8,3,1 week,FALSE,7 results
+1579,Ms. Y,4,Hotel room,City centre,2018,8,3,1 week,FALSE,6 results
+1580,Mr. X,4,Hotel room,Suburbs,2018,8,3,1 week,FALSE,4 results
+1581,Mr. X,4,Hotel room,Suburbs,2019,8,3,1 week,FALSE,8 results
+1582,Ms. Y,4,Hotel room,Suburbs,2018,8,3,1 week,FALSE,3 results
+1583,Ms. Y,4,Hotel room,Suburbs,2019,8,3,1 week,FALSE,2 results
+1584,Mr. X,4,Hotel room,Countryside,2018,8,3,1 week,FALSE,2 results
+1585,Mr. X,4,Hotel room,Countryside,2019,8,3,1 week,FALSE,5 results
+1586,Ms. Y,4,Hotel room,Countryside,2018,8,3,1 week,FALSE,4 results
+1587,Ms. Y,4,Hotel room,Countryside,2019,8,3,1 week,FALSE,3 results
+1588,Mr. X,4,Hotel room,City centre,2018,8,4,1 week,FALSE,6 results
+1589,Mr. X,4,Hotel room,City centre,2019,8,4,1 week,FALSE,6 results
+1590,Ms. Y,4,Hotel room,City centre,2018,8,4,1 week,FALSE,3 results
+1591,Ms. Y,4,Hotel room,City centre,2019,8,4,1 week,FALSE,3 results
+1592,Mr. X,4,Hotel room,Suburbs,2018,8,4,1 week,FALSE,8 results
+1593,Mr. X,4,Hotel room,Suburbs,2019,8,4,1 week,FALSE,9 results
+1594,Ms. Y,4,Hotel room,Suburbs,2018,8,4,1 week,FALSE,3 results
+1595,Ms. Y,4,Hotel room,Suburbs,2019,8,4,1 week,FALSE,4 results
+1596,Mr. X,4,Hotel room,Countryside,2018,8,4,1 week,FALSE,9 results
+1597,Mr. X,4,Hotel room,Countryside,2019,8,4,1 week,FALSE,9 results
+1598,Ms. Y,4,Hotel room,Countryside,2018,8,4,1 week,FALSE,4 results
+1599,Ms. Y,4,Hotel room,Countryside,2019,8,4,1 week,FALSE,3 results
+1600,Mr. X,4,Hotel room,City centre,2018,8,1,2 weeks,FALSE,8 results
+1601,Ms. Y,4,Hotel room,City centre,2018,8,1,2 weeks,FALSE,8 results
+1602,Ms. Y,4,Hotel room,City centre,2019,8,1,2 weeks,FALSE,6 results
+1603,Mr. X,4,Hotel room,Suburbs,2018,8,1,2 weeks,FALSE,5 results
+1604,Mr. X,4,Hotel room,Suburbs,2019,8,1,2 weeks,FALSE,8 results
+1605,Ms. Y,4,Hotel room,Suburbs,2018,8,1,2 weeks,FALSE,3 results
+1606,Ms. Y,4,Hotel room,Suburbs,2019,8,1,2 weeks,FALSE,6 results
+1607,Mr. X,4,Hotel room,Countryside,2018,8,1,2 weeks,FALSE,3 results
+1608,Mr. X,4,Hotel room,Countryside,2019,8,1,2 weeks,FALSE,2 results
+1609,Ms. Y,4,Hotel room,Countryside,2018,8,1,2 weeks,FALSE,3 results
+1610,Ms. Y,4,Hotel room,Countryside,2019,8,1,2 weeks,FALSE,8 results
+1611,Mr. X,4,Hotel room,City centre,2018,8,2,2 weeks,FALSE,3 results
+1612,Mr. X,4,Hotel room,City centre,2019,8,2,2 weeks,FALSE,6 results
+1613,Ms. Y,4,Hotel room,City centre,2018,8,2,2 weeks,FALSE,9 results
+1614,Ms. Y,4,Hotel room,City centre,2019,8,2,2 weeks,FALSE,4 results
+1615,Mr. X,4,Hotel room,Suburbs,2018,8,2,2 weeks,FALSE,7 results
+1616,Mr. X,4,Hotel room,Suburbs,2019,8,2,2 weeks,FALSE,3 results
+1617,Ms. Y,4,Hotel room,Suburbs,2018,8,2,2 weeks,FALSE,4 results
+1618,Ms. Y,4,Hotel room,Suburbs,2019,8,2,2 weeks,FALSE,7 results
+1619,Mr. X,4,Hotel room,Countryside,2018,8,2,2 weeks,FALSE,3 results
+1620,Ms. Y,4,Hotel room,Countryside,2019,8,2,2 weeks,FALSE,3 results
+1621,Mr. X,4,Hotel room,City centre,2018,8,3,2 weeks,FALSE,7 results
+1622,Mr. X,4,Hotel room,City centre,2019,8,3,2 weeks,FALSE,9 results
+1623,Ms. Y,4,Hotel room,City centre,2019,8,3,2 weeks,FALSE,6 results
+1624,Mr. X,4,Hotel room,Suburbs,2018,8,3,2 weeks,FALSE,6 results
+1625,Ms. Y,4,Hotel room,Suburbs,2018,8,3,2 weeks,FALSE,5 results
+1626,Ms. Y,4,Hotel room,Suburbs,2019,8,3,2 weeks,FALSE,7 results
+1627,Mr. X,4,Hotel room,Countryside,2018,8,3,2 weeks,FALSE,5 results
+1628,Mr. X,4,Hotel room,Countryside,2019,8,3,2 weeks,FALSE,5 results
+1629,Ms. Y,4,Hotel room,Countryside,2018,8,3,2 weeks,FALSE,4 results
+1630,Ms. Y,4,Hotel room,Countryside,2019,8,3,2 weeks,FALSE,2 results
+1631,Mr. X,4,Hotel room,City centre,2018,8,4,2 weeks,FALSE,4 results
+1632,Mr. X,4,Hotel room,City centre,2019,8,4,2 weeks,FALSE,2 results
+1633,Ms. Y,4,Hotel room,City centre,2019,8,4,2 weeks,FALSE,7 results
+1634,Mr. X,4,Hotel room,Suburbs,2018,8,4,2 weeks,FALSE,9 results
+1635,Mr. X,4,Hotel room,Suburbs,2019,8,4,2 weeks,FALSE,9 results
+1636,Ms. Y,4,Hotel room,Suburbs,2018,8,4,2 weeks,FALSE,8 results
+1637,Ms. Y,4,Hotel room,Suburbs,2019,8,4,2 weeks,FALSE,2 results
+1638,Mr. X,4,Hotel room,Countryside,2018,8,4,2 weeks,FALSE,5 results
+1639,Mr. X,4,Hotel room,Countryside,2019,8,4,2 weeks,FALSE,8 results
+1640,Ms. Y,4,Hotel room,Countryside,2018,8,4,2 weeks,FALSE,7 results
+1641,Ms. Y,4,Hotel room,Countryside,2019,8,4,2 weeks,FALSE,5 results
+1642,Mr. X,4,Hotel room,City centre,2018,8,1,3 weeks,FALSE,2 results
+1643,Mr. X,4,Hotel room,City centre,2019,8,1,3 weeks,FALSE,5 results
+1644,Ms. Y,4,Hotel room,City centre,2018,8,1,3 weeks,FALSE,8 results
+1645,Mr. X,4,Hotel room,Suburbs,2018,8,1,3 weeks,FALSE,5 results
+1646,Ms. Y,4,Hotel room,Suburbs,2018,8,1,3 weeks,FALSE,4 results
+1647,Ms. Y,4,Hotel room,Suburbs,2019,8,1,3 weeks,FALSE,7 results
+1648,Mr. X,4,Hotel room,Countryside,2019,8,1,3 weeks,FALSE,9 results
+1649,Ms. Y,4,Hotel room,Countryside,2018,8,1,3 weeks,FALSE,9 results
+1650,Mr. X,4,Hotel room,City centre,2019,8,2,3 weeks,FALSE,8 results
+1651,Ms. Y,4,Hotel room,City centre,2018,8,2,3 weeks,FALSE,4 results
+1652,Ms. Y,4,Hotel room,City centre,2019,8,2,3 weeks,FALSE,2 results
+1653,Mr. X,4,Hotel room,Suburbs,2018,8,2,3 weeks,FALSE,2 results
+1654,Mr. X,4,Hotel room,Suburbs,2019,8,2,3 weeks,FALSE,8 results
+1655,Ms. Y,4,Hotel room,Suburbs,2019,8,2,3 weeks,FALSE,6 results
+1656,Mr. X,4,Hotel room,Countryside,2018,8,2,3 weeks,FALSE,9 results
+1657,Mr. X,4,Hotel room,Countryside,2019,8,2,3 weeks,FALSE,3 results
+1658,Ms. Y,4,Hotel room,Countryside,2018,8,2,3 weeks,FALSE,5 results
+1659,Ms. Y,4,Hotel room,Countryside,2019,8,2,3 weeks,FALSE,7 results
+1660,Mr. X,4,Hotel room,City centre,2018,8,3,3 weeks,FALSE,4 results
+1661,Mr. X,4,Hotel room,City centre,2019,8,3,3 weeks,FALSE,6 results
+1662,Ms. Y,4,Hotel room,City centre,2018,8,3,3 weeks,FALSE,2 results
+1663,Ms. Y,4,Hotel room,City centre,2019,8,3,3 weeks,FALSE,9 results
+1664,Mr. X,4,Hotel room,Suburbs,2018,8,3,3 weeks,FALSE,3 results
+1665,Mr. X,4,Hotel room,Suburbs,2019,8,3,3 weeks,FALSE,7 results
+1666,Mr. X,4,Hotel room,Countryside,2018,8,3,3 weeks,FALSE,4 results
+1667,Ms. Y,4,Hotel room,Countryside,2018,8,3,3 weeks,FALSE,5 results
+1668,Ms. Y,4,Hotel room,Countryside,2019,8,3,3 weeks,FALSE,4 results
+1669,Mr. X,4,Hotel room,City centre,2018,8,4,3 weeks,FALSE,3 results
+1670,Mr. X,4,Hotel room,City centre,2019,8,4,3 weeks,FALSE,5 results
+1671,Ms. Y,4,Hotel room,City centre,2018,8,4,3 weeks,FALSE,4 results
+1672,Ms. Y,4,Hotel room,City centre,2019,8,4,3 weeks,FALSE,6 results
+1673,Mr. X,4,Hotel room,Suburbs,2018,8,4,3 weeks,FALSE,9 results
+1674,Ms. Y,4,Hotel room,Suburbs,2018,8,4,3 weeks,FALSE,3 results
+1675,Ms. Y,4,Hotel room,Suburbs,2019,8,4,3 weeks,FALSE,5 results
+1676,Mr. X,4,Hotel room,Countryside,2018,8,4,3 weeks,FALSE,4 results
+1677,Mr. X,4,Hotel room,Countryside,2019,8,4,3 weeks,FALSE,6 results
+1678,Ms. Y,4,Hotel room,Countryside,2018,8,4,3 weeks,FALSE,8 results
+1679,Ms. Y,4,Hotel room,Countryside,2019,8,4,3 weeks,FALSE,9 results
+1680,Mr. X,4,Hotel room,City centre,2018,8,1,1 month,FALSE,3 results
+1681,Mr. X,4,Hotel room,City centre,2019,8,1,1 month,FALSE,3 results
+1682,Ms. Y,4,Hotel room,City centre,2018,8,1,1 month,FALSE,2 results
+1683,Ms. Y,4,Hotel room,City centre,2019,8,1,1 month,FALSE,2 results
+1684,Mr. X,4,Hotel room,Suburbs,2018,8,1,1 month,FALSE,9 results
+1685,Ms. Y,4,Hotel room,Suburbs,2018,8,1,1 month,FALSE,6 results
+1686,Ms. Y,4,Hotel room,Suburbs,2019,8,1,1 month,FALSE,4 results
+1687,Mr. X,4,Hotel room,Countryside,2018,8,1,1 month,FALSE,4 results
+1688,Mr. X,4,Hotel room,Countryside,2019,8,1,1 month,FALSE,2 results
+1689,Ms. Y,4,Hotel room,Countryside,2018,8,1,1 month,FALSE,4 results
+1690,Ms. Y,4,Hotel room,Countryside,2019,8,1,1 month,FALSE,9 results
+1691,Mr. X,4,Hotel room,City centre,2018,8,2,1 month,FALSE,8 results
+1692,Mr. X,4,Hotel room,City centre,2019,8,2,1 month,FALSE,9 results
+1693,Ms. Y,4,Hotel room,City centre,2018,8,2,1 month,FALSE,8 results
+1694,Ms. Y,4,Hotel room,City centre,2019,8,2,1 month,FALSE,7 results
+1695,Mr. X,4,Hotel room,Suburbs,2018,8,2,1 month,FALSE,8 results
+1696,Mr. X,4,Hotel room,Suburbs,2019,8,2,1 month,FALSE,9 results
+1697,Ms. Y,4,Hotel room,Suburbs,2018,8,2,1 month,FALSE,8 results
+1698,Ms. Y,4,Hotel room,Suburbs,2019,8,2,1 month,FALSE,8 results
+1699,Mr. X,4,Hotel room,Countryside,2018,8,2,1 month,FALSE,3 results
+1700,Mr. X,4,Hotel room,Countryside,2019,8,2,1 month,FALSE,5 results
+1701,Ms. Y,4,Hotel room,Countryside,2018,8,2,1 month,FALSE,2 results
+1702,Ms. Y,4,Hotel room,Countryside,2019,8,2,1 month,FALSE,3 results
+1703,Mr. X,4,Hotel room,City centre,2018,8,3,1 month,FALSE,8 results
+1704,Mr. X,4,Hotel room,City centre,2019,8,3,1 month,FALSE,6 results
+1705,Ms. Y,4,Hotel room,City centre,2018,8,3,1 month,FALSE,6 results
+1706,Ms. Y,4,Hotel room,City centre,2019,8,3,1 month,FALSE,5 results
+1707,Mr. X,4,Hotel room,Suburbs,2018,8,3,1 month,FALSE,9 results
+1708,Mr. X,4,Hotel room,Suburbs,2019,8,3,1 month,FALSE,6 results
+1709,Ms. Y,4,Hotel room,Suburbs,2018,8,3,1 month,FALSE,8 results
+1710,Ms. Y,4,Hotel room,Suburbs,2019,8,3,1 month,FALSE,8 results
+1711,Mr. X,4,Hotel room,Countryside,2018,8,3,1 month,FALSE,6 results
+1712,Mr. X,4,Hotel room,Countryside,2019,8,3,1 month,FALSE,3 results
+1713,Ms. Y,4,Hotel room,Countryside,2018,8,3,1 month,FALSE,5 results
+1714,Mr. X,4,Hotel room,City centre,2019,8,4,1 month,FALSE,2 results
+1715,Ms. Y,4,Hotel room,City centre,2018,8,4,1 month,FALSE,7 results
+1716,Ms. Y,4,Hotel room,City centre,2019,8,4,1 month,FALSE,4 results
+1717,Mr. X,4,Hotel room,Suburbs,2018,8,4,1 month,FALSE,4 results
+1718,Mr. X,4,Hotel room,Suburbs,2019,8,4,1 month,FALSE,3 results
+1719,Ms. Y,4,Hotel room,Suburbs,2018,8,4,1 month,FALSE,6 results
+1720,Ms. Y,4,Hotel room,Suburbs,2019,8,4,1 month,FALSE,2 results
+1721,Mr. X,4,Hotel room,Countryside,2018,8,4,1 month,FALSE,5 results
+1722,Mr. X,4,Hotel room,Countryside,2019,8,4,1 month,FALSE,8 results
+1723,Ms. Y,4,Hotel room,Countryside,2018,8,4,1 month,FALSE,4 results
+1724,Mr. X,4,Hotel room,City centre,2018,9,1,1-3 days,FALSE,3 results
+1725,Mr. X,4,Hotel room,City centre,2019,9,1,1-3 days,FALSE,8 results
+1726,Ms. Y,4,Hotel room,City centre,2019,9,1,1-3 days,FALSE,4 results
+1727,Mr. X,4,Hotel room,Suburbs,2018,9,1,1-3 days,FALSE,5 results
+1728,Mr. X,4,Hotel room,Suburbs,2019,9,1,1-3 days,FALSE,4 results
+1729,Ms. Y,4,Hotel room,Suburbs,2018,9,1,1-3 days,FALSE,6 results
+1730,Ms. Y,4,Hotel room,Suburbs,2019,9,1,1-3 days,FALSE,3 results
+1731,Mr. X,4,Hotel room,Countryside,2018,9,1,1-3 days,FALSE,4 results
+1732,Mr. X,4,Hotel room,Countryside,2019,9,1,1-3 days,FALSE,2 results
+1733,Ms. Y,4,Hotel room,Countryside,2018,9,1,1-3 days,FALSE,4 results
+1734,Ms. Y,4,Hotel room,Countryside,2019,9,1,1-3 days,FALSE,7 results
+1735,Mr. X,4,Hotel room,City centre,2018,9,2,1-3 days,FALSE,4 results
+1736,Mr. X,4,Hotel room,City centre,2019,9,2,1-3 days,FALSE,9 results
+1737,Ms. Y,4,Hotel room,City centre,2018,9,2,1-3 days,FALSE,8 results
+1738,Ms. Y,4,Hotel room,City centre,2019,9,2,1-3 days,FALSE,9 results
+1739,Mr. X,4,Hotel room,Suburbs,2018,9,2,1-3 days,FALSE,8 results
+1740,Mr. X,4,Hotel room,Suburbs,2019,9,2,1-3 days,FALSE,2 results
+1741,Ms. Y,4,Hotel room,Suburbs,2018,9,2,1-3 days,FALSE,8 results
+1742,Ms. Y,4,Hotel room,Suburbs,2019,9,2,1-3 days,FALSE,8 results
+1743,Mr. X,4,Hotel room,Countryside,2018,9,2,1-3 days,FALSE,4 results
+1744,Mr. X,4,Hotel room,Countryside,2019,9,2,1-3 days,FALSE,5 results
+1745,Ms. Y,4,Hotel room,Countryside,2018,9,2,1-3 days,FALSE,2 results
+1746,Ms. Y,4,Hotel room,Countryside,2019,9,2,1-3 days,FALSE,5 results
+1747,Mr. X,4,Hotel room,City centre,2018,9,3,1-3 days,FALSE,5 results
+1748,Mr. X,4,Hotel room,City centre,2019,9,3,1-3 days,FALSE,4 results
+1749,Ms. Y,4,Hotel room,City centre,2018,9,3,1-3 days,FALSE,9 results
+1750,Ms. Y,4,Hotel room,City centre,2019,9,3,1-3 days,FALSE,3 results
+1751,Mr. X,4,Hotel room,Suburbs,2018,9,3,1-3 days,FALSE,9 results
+1752,Ms. Y,4,Hotel room,Suburbs,2018,9,3,1-3 days,FALSE,9 results
+1753,Ms. Y,4,Hotel room,Suburbs,2019,9,3,1-3 days,FALSE,4 results
+1754,Mr. X,4,Hotel room,Countryside,2018,9,3,1-3 days,FALSE,4 results
+1755,Mr. X,4,Hotel room,Countryside,2019,9,3,1-3 days,FALSE,4 results
+1756,Ms. Y,4,Hotel room,Countryside,2018,9,3,1-3 days,FALSE,9 results
+1757,Ms. Y,4,Hotel room,Countryside,2019,9,3,1-3 days,FALSE,2 results
+1758,Mr. X,4,Hotel room,City centre,2018,9,4,1-3 days,FALSE,7 results
+1759,Ms. Y,4,Hotel room,City centre,2018,9,4,1-3 days,FALSE,9 results
+1760,Ms. Y,4,Hotel room,City centre,2019,9,4,1-3 days,FALSE,3 results
+1761,Mr. X,4,Hotel room,Suburbs,2018,9,4,1-3 days,FALSE,2 results
+1762,Mr. X,4,Hotel room,Suburbs,2019,9,4,1-3 days,FALSE,4 results
+1763,Ms. Y,4,Hotel room,Suburbs,2018,9,4,1-3 days,FALSE,4 results
+1764,Ms. Y,4,Hotel room,Suburbs,2019,9,4,1-3 days,FALSE,6 results
+1765,Mr. X,4,Hotel room,Countryside,2018,9,4,1-3 days,FALSE,5 results
+1766,Mr. X,4,Hotel room,Countryside,2019,9,4,1-3 days,FALSE,4 results
+1767,Ms. Y,4,Hotel room,Countryside,2018,9,4,1-3 days,FALSE,5 results
+1768,Ms. Y,4,Hotel room,Countryside,2019,9,4,1-3 days,FALSE,8 results
+1769,Mr. X,4,Hotel room,City centre,2019,9,1,1 week,FALSE,8 results
+1770,Ms. Y,4,Hotel room,City centre,2019,9,1,1 week,FALSE,7 results
+1771,Mr. X,4,Hotel room,Suburbs,2018,9,1,1 week,FALSE,9 results
+1772,Mr. X,4,Hotel room,Suburbs,2019,9,1,1 week,FALSE,4 results
+1773,Ms. Y,4,Hotel room,Suburbs,2018,9,1,1 week,FALSE,9 results
+1774,Mr. X,4,Hotel room,Countryside,2018,9,1,1 week,FALSE,7 results
+1775,Mr. X,4,Hotel room,Countryside,2019,9,1,1 week,FALSE,7 results
+1776,Ms. Y,4,Hotel room,Countryside,2018,9,1,1 week,FALSE,6 results
+1777,Ms. Y,4,Hotel room,Countryside,2019,9,1,1 week,FALSE,3 results
+1778,Mr. X,4,Hotel room,City centre,2018,9,2,1 week,FALSE,3 results
+1779,Mr. X,4,Hotel room,City centre,2019,9,2,1 week,FALSE,7 results
+1780,Ms. Y,4,Hotel room,City centre,2018,9,2,1 week,FALSE,3 results
+1781,Ms. Y,4,Hotel room,City centre,2019,9,2,1 week,FALSE,8 results
+1782,Mr. X,4,Hotel room,Suburbs,2018,9,2,1 week,FALSE,3 results
+1783,Mr. X,4,Hotel room,Suburbs,2019,9,2,1 week,FALSE,7 results
+1784,Ms. Y,4,Hotel room,Suburbs,2018,9,2,1 week,FALSE,5 results
+1785,Ms. Y,4,Hotel room,Suburbs,2019,9,2,1 week,FALSE,8 results
+1786,Mr. X,4,Hotel room,Countryside,2018,9,2,1 week,FALSE,9 results
+1787,Mr. X,4,Hotel room,Countryside,2019,9,2,1 week,FALSE,4 results
+1788,Ms. Y,4,Hotel room,Countryside,2018,9,2,1 week,FALSE,2 results
+1789,Ms. Y,4,Hotel room,Countryside,2019,9,2,1 week,FALSE,7 results
+1790,Mr. X,4,Hotel room,City centre,2018,9,3,1 week,FALSE,9 results
+1791,Mr. X,4,Hotel room,City centre,2019,9,3,1 week,FALSE,2 results
+1792,Ms. Y,4,Hotel room,City centre,2018,9,3,1 week,FALSE,2 results
+1793,Ms. Y,4,Hotel room,City centre,2019,9,3,1 week,FALSE,5 results
+1794,Mr. X,4,Hotel room,Suburbs,2018,9,3,1 week,FALSE,8 results
+1795,Mr. X,4,Hotel room,Suburbs,2019,9,3,1 week,FALSE,9 results
+1796,Ms. Y,4,Hotel room,Suburbs,2018,9,3,1 week,FALSE,2 results
+1797,Ms. Y,4,Hotel room,Suburbs,2019,9,3,1 week,FALSE,4 results
+1798,Mr. X,4,Hotel room,Countryside,2018,9,3,1 week,FALSE,4 results
+1799,Mr. X,4,Hotel room,Countryside,2019,9,3,1 week,FALSE,7 results
+1800,Ms. Y,4,Hotel room,Countryside,2018,9,3,1 week,FALSE,3 results
+1801,Ms. Y,4,Hotel room,Countryside,2019,9,3,1 week,FALSE,3 results
+1802,Mr. X,4,Hotel room,City centre,2018,9,4,1 week,FALSE,3 results
+1803,Mr. X,4,Hotel room,City centre,2019,9,4,1 week,FALSE,5 results
+1804,Ms. Y,4,Hotel room,City centre,2019,9,4,1 week,FALSE,6 results
+1805,Mr. X,4,Hotel room,Suburbs,2019,9,4,1 week,FALSE,6 results
+1806,Ms. Y,4,Hotel room,Suburbs,2018,9,4,1 week,FALSE,9 results
+1807,Ms. Y,4,Hotel room,Suburbs,2019,9,4,1 week,FALSE,9 results
+1808,Mr. X,4,Hotel room,Countryside,2018,9,4,1 week,FALSE,7 results
+1809,Ms. Y,4,Hotel room,Countryside,2018,9,4,1 week,FALSE,5 results
+1810,Ms. Y,4,Hotel room,Countryside,2019,9,4,1 week,FALSE,4 results
+1811,Mr. X,4,Hotel room,City centre,2018,9,1,2 weeks,FALSE,6 results
+1812,Mr. X,4,Hotel room,City centre,2019,9,1,2 weeks,FALSE,8 results
+1813,Ms. Y,4,Hotel room,City centre,2019,9,1,2 weeks,FALSE,3 results
+1814,Mr. X,4,Hotel room,Suburbs,2018,9,1,2 weeks,FALSE,5 results
+1815,Mr. X,4,Hotel room,Suburbs,2019,9,1,2 weeks,FALSE,8 results
+1816,Ms. Y,4,Hotel room,Suburbs,2018,9,1,2 weeks,FALSE,2 results
+1817,Ms. Y,4,Hotel room,Suburbs,2019,9,1,2 weeks,FALSE,8 results
+1818,Mr. X,4,Hotel room,Countryside,2018,9,1,2 weeks,FALSE,6 results
+1819,Mr. X,4,Hotel room,Countryside,2019,9,1,2 weeks,FALSE,6 results
+1820,Ms. Y,4,Hotel room,Countryside,2018,9,1,2 weeks,FALSE,4 results
+1821,Ms. Y,4,Hotel room,Countryside,2019,9,1,2 weeks,FALSE,5 results
+1822,Mr. X,4,Hotel room,City centre,2018,9,2,2 weeks,FALSE,4 results
+1823,Mr. X,4,Hotel room,City centre,2019,9,2,2 weeks,FALSE,4 results
+1824,Ms. Y,4,Hotel room,City centre,2018,9,2,2 weeks,FALSE,4 results
+1825,Ms. Y,4,Hotel room,City centre,2019,9,2,2 weeks,FALSE,4 results
+1826,Mr. X,4,Hotel room,Suburbs,2018,9,2,2 weeks,FALSE,4 results
+1827,Mr. X,4,Hotel room,Suburbs,2019,9,2,2 weeks,FALSE,5 results
+1828,Ms. Y,4,Hotel room,Suburbs,2018,9,2,2 weeks,FALSE,3 results
+1829,Ms. Y,4,Hotel room,Suburbs,2019,9,2,2 weeks,FALSE,2 results
+1830,Mr. X,4,Hotel room,Countryside,2018,9,2,2 weeks,FALSE,8 results
+1831,Mr. X,4,Hotel room,Countryside,2019,9,2,2 weeks,FALSE,7 results
+1832,Ms. Y,4,Hotel room,Countryside,2018,9,2,2 weeks,FALSE,7 results
+1833,Ms. Y,4,Hotel room,Countryside,2019,9,2,2 weeks,FALSE,2 results
+1834,Mr. X,4,Hotel room,City centre,2019,9,3,2 weeks,FALSE,9 results
+1835,Ms. Y,4,Hotel room,City centre,2018,9,3,2 weeks,FALSE,5 results
+1836,Ms. Y,4,Hotel room,City centre,2019,9,3,2 weeks,FALSE,8 results
+1837,Mr. X,4,Hotel room,Suburbs,2018,9,3,2 weeks,FALSE,3 results
+1838,Mr. X,4,Hotel room,Suburbs,2019,9,3,2 weeks,FALSE,2 results
+1839,Ms. Y,4,Hotel room,Suburbs,2018,9,3,2 weeks,FALSE,4 results
+1840,Ms. Y,4,Hotel room,Suburbs,2019,9,3,2 weeks,FALSE,4 results
+1841,Mr. X,4,Hotel room,Countryside,2018,9,3,2 weeks,FALSE,4 results
+1842,Mr. X,4,Hotel room,Countryside,2019,9,3,2 weeks,FALSE,9 results
+1843,Ms. Y,4,Hotel room,Countryside,2018,9,3,2 weeks,FALSE,7 results
+1844,Ms. Y,4,Hotel room,Countryside,2019,9,3,2 weeks,FALSE,3 results
+1845,Mr. X,4,Hotel room,City centre,2018,9,4,2 weeks,FALSE,2 results
+1846,Mr. X,4,Hotel room,City centre,2019,9,4,2 weeks,FALSE,9 results
+1847,Ms. Y,4,Hotel room,City centre,2018,9,4,2 weeks,FALSE,5 results
+1848,Ms. Y,4,Hotel room,City centre,2019,9,4,2 weeks,FALSE,9 results
+1849,Mr. X,4,Hotel room,Suburbs,2018,9,4,2 weeks,FALSE,2 results
+1850,Ms. Y,4,Hotel room,Suburbs,2018,9,4,2 weeks,FALSE,7 results
+1851,Ms. Y,4,Hotel room,Suburbs,2019,9,4,2 weeks,FALSE,6 results
+1852,Mr. X,4,Hotel room,Countryside,2018,9,4,2 weeks,FALSE,8 results
+1853,Mr. X,4,Hotel room,Countryside,2019,9,4,2 weeks,FALSE,9 results
+1854,Ms. Y,4,Hotel room,Countryside,2018,9,4,2 weeks,FALSE,5 results
+1855,Ms. Y,4,Hotel room,Countryside,2019,9,4,2 weeks,FALSE,3 results
+1856,Mr. X,4,Hotel room,City centre,2018,9,1,3 weeks,FALSE,8 results
+1857,Mr. X,4,Hotel room,City centre,2019,9,1,3 weeks,FALSE,3 results
+1858,Mr. X,4,Hotel room,Suburbs,2018,9,1,3 weeks,FALSE,6 results
+1859,Mr. X,4,Hotel room,Suburbs,2019,9,1,3 weeks,FALSE,7 results
+1860,Ms. Y,4,Hotel room,Suburbs,2019,9,1,3 weeks,FALSE,4 results
+1861,Mr. X,4,Hotel room,Countryside,2018,9,1,3 weeks,FALSE,6 results
+1862,Ms. Y,4,Hotel room,Countryside,2018,9,1,3 weeks,FALSE,6 results
+1863,Ms. Y,4,Hotel room,Countryside,2019,9,1,3 weeks,FALSE,6 results
+1864,Mr. X,4,Hotel room,City centre,2018,9,2,3 weeks,FALSE,5 results
+1865,Mr. X,4,Hotel room,City centre,2019,9,2,3 weeks,FALSE,9 results
+1866,Ms. Y,4,Hotel room,City centre,2018,9,2,3 weeks,FALSE,4 results
+1867,Ms. Y,4,Hotel room,City centre,2019,9,2,3 weeks,FALSE,8 results
+1868,Mr. X,4,Hotel room,Suburbs,2019,9,2,3 weeks,FALSE,4 results
+1869,Ms. Y,4,Hotel room,Suburbs,2018,9,2,3 weeks,FALSE,6 results
+1870,Mr. X,4,Hotel room,Countryside,2018,9,2,3 weeks,FALSE,2 results
+1871,Mr. X,4,Hotel room,Countryside,2019,9,2,3 weeks,FALSE,4 results
+1872,Mr. X,4,Hotel room,City centre,2018,9,3,3 weeks,FALSE,2 results
+1873,Mr. X,4,Hotel room,City centre,2019,9,3,3 weeks,FALSE,3 results
+1874,Ms. Y,4,Hotel room,City centre,2018,9,3,3 weeks,FALSE,9 results
+1875,Ms. Y,4,Hotel room,City centre,2019,9,3,3 weeks,FALSE,7 results
+1876,Mr. X,4,Hotel room,Suburbs,2018,9,3,3 weeks,FALSE,8 results
+1877,Mr. X,4,Hotel room,Suburbs,2019,9,3,3 weeks,FALSE,8 results
+1878,Ms. Y,4,Hotel room,Suburbs,2018,9,3,3 weeks,FALSE,5 results
+1879,Mr. X,4,Hotel room,Countryside,2018,9,3,3 weeks,FALSE,2 results
+1880,Mr. X,4,Hotel room,Countryside,2019,9,3,3 weeks,FALSE,9 results
+1881,Ms. Y,4,Hotel room,Countryside,2018,9,3,3 weeks,FALSE,5 results
+1882,Ms. Y,4,Hotel room,Countryside,2019,9,3,3 weeks,FALSE,4 results
+1883,Mr. X,4,Hotel room,City centre,2018,9,4,3 weeks,FALSE,6 results
+1884,Mr. X,4,Hotel room,City centre,2019,9,4,3 weeks,FALSE,7 results
+1885,Ms. Y,4,Hotel room,City centre,2018,9,4,3 weeks,FALSE,6 results
+1886,Ms. Y,4,Hotel room,City centre,2019,9,4,3 weeks,FALSE,2 results
+1887,Mr. X,4,Hotel room,Suburbs,2018,9,4,3 weeks,FALSE,4 results
+1888,Mr. X,4,Hotel room,Suburbs,2019,9,4,3 weeks,FALSE,8 results
+1889,Ms. Y,4,Hotel room,Suburbs,2018,9,4,3 weeks,FALSE,4 results
+1890,Ms. Y,4,Hotel room,Suburbs,2019,9,4,3 weeks,FALSE,6 results
+1891,Mr. X,4,Hotel room,Countryside,2018,9,4,3 weeks,FALSE,9 results
+1892,Mr. X,4,Hotel room,Countryside,2019,9,4,3 weeks,FALSE,3 results
+1893,Ms. Y,4,Hotel room,Countryside,2018,9,4,3 weeks,FALSE,9 results
+1894,Ms. Y,4,Hotel room,Countryside,2019,9,4,3 weeks,FALSE,2 results
+1895,Mr. X,4,Hotel room,City centre,2018,9,1,1 month,FALSE,7 results
+1896,Mr. X,4,Hotel room,City centre,2019,9,1,1 month,FALSE,2 results
+1897,Ms. Y,4,Hotel room,City centre,2019,9,1,1 month,FALSE,3 results
+1898,Mr. X,4,Hotel room,Suburbs,2018,9,1,1 month,FALSE,9 results
+1899,Mr. X,4,Hotel room,Suburbs,2019,9,1,1 month,FALSE,8 results
+1900,Ms. Y,4,Hotel room,Suburbs,2018,9,1,1 month,FALSE,8 results
+1901,Ms. Y,4,Hotel room,Suburbs,2019,9,1,1 month,FALSE,9 results
+1902,Mr. X,4,Hotel room,Countryside,2018,9,1,1 month,FALSE,6 results
+1903,Mr. X,4,Hotel room,Countryside,2019,9,1,1 month,FALSE,3 results
+1904,Ms. Y,4,Hotel room,Countryside,2018,9,1,1 month,FALSE,2 results
+1905,Ms. Y,4,Hotel room,Countryside,2019,9,1,1 month,FALSE,7 results
+1906,Mr. X,4,Hotel room,City centre,2018,9,2,1 month,FALSE,8 results
+1907,Mr. X,4,Hotel room,City centre,2019,9,2,1 month,FALSE,4 results
+1908,Ms. Y,4,Hotel room,City centre,2019,9,2,1 month,FALSE,7 results
+1909,Mr. X,4,Hotel room,Suburbs,2018,9,2,1 month,FALSE,2 results
+1910,Mr. X,4,Hotel room,Suburbs,2019,9,2,1 month,FALSE,4 results
+1911,Ms. Y,4,Hotel room,Suburbs,2018,9,2,1 month,FALSE,8 results
+1912,Ms. Y,4,Hotel room,Suburbs,2019,9,2,1 month,FALSE,7 results
+1913,Mr. X,4,Hotel room,Countryside,2019,9,2,1 month,FALSE,4 results
+1914,Ms. Y,4,Hotel room,Countryside,2018,9,2,1 month,FALSE,5 results
+1915,Ms. Y,4,Hotel room,Countryside,2019,9,2,1 month,FALSE,9 results
+1916,Mr. X,4,Hotel room,City centre,2018,9,3,1 month,FALSE,7 results
+1917,Mr. X,4,Hotel room,City centre,2019,9,3,1 month,FALSE,5 results
+1918,Ms. Y,4,Hotel room,City centre,2018,9,3,1 month,FALSE,4 results
+1919,Mr. X,4,Hotel room,Suburbs,2018,9,3,1 month,FALSE,4 results
+1920,Mr. X,4,Hotel room,Suburbs,2019,9,3,1 month,FALSE,9 results
+1921,Ms. Y,4,Hotel room,Suburbs,2018,9,3,1 month,FALSE,5 results
+1922,Ms. Y,4,Hotel room,Suburbs,2019,9,3,1 month,FALSE,8 results
+1923,Mr. X,4,Hotel room,Countryside,2018,9,3,1 month,FALSE,8 results
+1924,Mr. X,4,Hotel room,Countryside,2019,9,3,1 month,FALSE,9 results
+1925,Ms. Y,4,Hotel room,Countryside,2018,9,3,1 month,FALSE,4 results
+1926,Ms. Y,4,Hotel room,Countryside,2019,9,3,1 month,FALSE,4 results
+1927,Mr. X,4,Hotel room,City centre,2018,9,4,1 month,FALSE,3 results
+1928,Mr. X,4,Hotel room,City centre,2019,9,4,1 month,FALSE,6 results
+1929,Ms. Y,4,Hotel room,City centre,2018,9,4,1 month,FALSE,4 results
+1930,Ms. Y,4,Hotel room,City centre,2019,9,4,1 month,FALSE,3 results
+1931,Mr. X,4,Hotel room,Suburbs,2018,9,4,1 month,FALSE,9 results
+1932,Mr. X,4,Hotel room,Suburbs,2019,9,4,1 month,FALSE,2 results
+1933,Ms. Y,4,Hotel room,Suburbs,2018,9,4,1 month,FALSE,6 results
+1934,Ms. Y,4,Hotel room,Suburbs,2019,9,4,1 month,FALSE,9 results
+1935,Mr. X,4,Hotel room,Countryside,2019,9,4,1 month,FALSE,5 results
+1936,Ms. Y,4,Hotel room,Countryside,2018,9,4,1 month,FALSE,5 results
+1937,Ms. Y,4,Hotel room,Countryside,2019,9,4,1 month,FALSE,9 results
+1938,Mr. X,4,Hotel room,City centre,2018,10,1,1-3 days,FALSE,7 results
+1939,Mr. X,4,Hotel room,City centre,2019,10,1,1-3 days,FALSE,4 results
+1940,Ms. Y,4,Hotel room,City centre,2018,10,1,1-3 days,FALSE,4 results
+1941,Ms. Y,4,Hotel room,City centre,2019,10,1,1-3 days,FALSE,9 results
+1942,Mr. X,4,Hotel room,Suburbs,2018,10,1,1-3 days,FALSE,5 results
+1943,Mr. X,4,Hotel room,Suburbs,2019,10,1,1-3 days,FALSE,8 results
+1944,Ms. Y,4,Hotel room,Suburbs,2019,10,1,1-3 days,FALSE,5 results
+1945,Mr. X,4,Hotel room,Countryside,2018,10,1,1-3 days,FALSE,6 results
+1946,Mr. X,4,Hotel room,Countryside,2019,10,1,1-3 days,FALSE,6 results
+1947,Ms. Y,4,Hotel room,Countryside,2018,10,1,1-3 days,FALSE,8 results
+1948,Ms. Y,4,Hotel room,Countryside,2019,10,1,1-3 days,FALSE,7 results
+1949,Mr. X,4,Hotel room,City centre,2018,10,2,1-3 days,FALSE,9 results
+1950,Mr. X,4,Hotel room,City centre,2019,10,2,1-3 days,FALSE,5 results
+1951,Ms. Y,4,Hotel room,City centre,2018,10,2,1-3 days,FALSE,5 results
+1952,Ms. Y,4,Hotel room,City centre,2019,10,2,1-3 days,FALSE,3 results
+1953,Mr. X,4,Hotel room,Suburbs,2018,10,2,1-3 days,FALSE,8 results
+1954,Mr. X,4,Hotel room,Suburbs,2019,10,2,1-3 days,FALSE,9 results
+1955,Ms. Y,4,Hotel room,Suburbs,2018,10,2,1-3 days,FALSE,6 results
+1956,Ms. Y,4,Hotel room,Suburbs,2019,10,2,1-3 days,FALSE,3 results
+1957,Mr. X,4,Hotel room,Countryside,2018,10,2,1-3 days,FALSE,9 results
+1958,Mr. X,4,Hotel room,Countryside,2019,10,2,1-3 days,FALSE,2 results
+1959,Ms. Y,4,Hotel room,Countryside,2018,10,2,1-3 days,FALSE,6 results
+1960,Ms. Y,4,Hotel room,Countryside,2019,10,2,1-3 days,FALSE,7 results
+1961,Mr. X,4,Hotel room,City centre,2018,10,3,1-3 days,FALSE,7 results
+1962,Mr. X,4,Hotel room,City centre,2019,10,3,1-3 days,FALSE,3 results
+1963,Ms. Y,4,Hotel room,City centre,2018,10,3,1-3 days,FALSE,6 results
+1964,Ms. Y,4,Hotel room,City centre,2019,10,3,1-3 days,FALSE,7 results
+1965,Mr. X,4,Hotel room,Suburbs,2018,10,3,1-3 days,FALSE,3 results
+1966,Mr. X,4,Hotel room,Suburbs,2019,10,3,1-3 days,FALSE,3 results
+1967,Ms. Y,4,Hotel room,Suburbs,2018,10,3,1-3 days,FALSE,6 results
+1968,Ms. Y,4,Hotel room,Suburbs,2019,10,3,1-3 days,FALSE,7 results
+1969,Mr. X,4,Hotel room,Countryside,2018,10,3,1-3 days,FALSE,8 results
+1970,Mr. X,4,Hotel room,Countryside,2019,10,3,1-3 days,FALSE,4 results
+1971,Ms. Y,4,Hotel room,Countryside,2018,10,3,1-3 days,FALSE,5 results
+1972,Ms. Y,4,Hotel room,Countryside,2019,10,3,1-3 days,FALSE,6 results
+1973,Mr. X,4,Hotel room,City centre,2018,10,4,1-3 days,FALSE,7 results
+1974,Mr. X,4,Hotel room,City centre,2019,10,4,1-3 days,FALSE,5 results
+1975,Ms. Y,4,Hotel room,City centre,2018,10,4,1-3 days,FALSE,3 results
+1976,Ms. Y,4,Hotel room,City centre,2019,10,4,1-3 days,FALSE,5 results
+1977,Mr. X,4,Hotel room,Suburbs,2018,10,4,1-3 days,FALSE,7 results
+1978,Mr. X,4,Hotel room,Suburbs,2019,10,4,1-3 days,FALSE,7 results
+1979,Ms. Y,4,Hotel room,Suburbs,2019,10,4,1-3 days,FALSE,7 results
+1980,Mr. X,4,Hotel room,Countryside,2018,10,4,1-3 days,FALSE,4 results
+1981,Mr. X,4,Hotel room,Countryside,2019,10,4,1-3 days,FALSE,7 results
+1982,Ms. Y,4,Hotel room,Countryside,2018,10,4,1-3 days,FALSE,7 results
+1983,Ms. Y,4,Hotel room,Countryside,2019,10,4,1-3 days,FALSE,8 results
+1984,Mr. X,4,Hotel room,City centre,2018,10,1,1 week,FALSE,3 results
+1985,Mr. X,4,Hotel room,City centre,2019,10,1,1 week,FALSE,8 results
+1986,Ms. Y,4,Hotel room,City centre,2018,10,1,1 week,FALSE,3 results
+1987,Ms. Y,4,Hotel room,City centre,2019,10,1,1 week,FALSE,4 results
+1988,Mr. X,4,Hotel room,Suburbs,2018,10,1,1 week,FALSE,3 results
+1989,Mr. X,4,Hotel room,Suburbs,2019,10,1,1 week,FALSE,8 results
+1990,Ms. Y,4,Hotel room,Suburbs,2018,10,1,1 week,FALSE,5 results
+1991,Ms. Y,4,Hotel room,Suburbs,2019,10,1,1 week,FALSE,8 results
+1992,Mr. X,4,Hotel room,Countryside,2019,10,1,1 week,FALSE,2 results
+1993,Ms. Y,4,Hotel room,Countryside,2018,10,1,1 week,FALSE,3 results
+1994,Ms. Y,4,Hotel room,Countryside,2019,10,1,1 week,FALSE,8 results
+1995,Mr. X,4,Hotel room,City centre,2018,10,2,1 week,FALSE,6 results
+1996,Mr. X,4,Hotel room,City centre,2019,10,2,1 week,FALSE,4 results
+1997,Ms. Y,4,Hotel room,City centre,2018,10,2,1 week,FALSE,7 results
+1998,Ms. Y,4,Hotel room,City centre,2019,10,2,1 week,FALSE,6 results
+1999,Mr. X,4,Hotel room,Suburbs,2018,10,2,1 week,FALSE,2 results
+2000,Mr. X,4,Hotel room,Suburbs,2019,10,2,1 week,FALSE,7 results
+2001,Ms. Y,4,Hotel room,Suburbs,2018,10,2,1 week,FALSE,2 results
+2002,Ms. Y,4,Hotel room,Suburbs,2019,10,2,1 week,FALSE,3 results
+2003,Mr. X,4,Hotel room,Countryside,2018,10,2,1 week,FALSE,5 results
+2004,Mr. X,4,Hotel room,Countryside,2019,10,2,1 week,FALSE,4 results
+2005,Ms. Y,4,Hotel room,Countryside,2018,10,2,1 week,FALSE,6 results
+2006,Ms. Y,4,Hotel room,Countryside,2019,10,2,1 week,FALSE,5 results
+2007,Mr. X,4,Hotel room,City centre,2018,10,3,1 week,FALSE,5 results
+2008,Mr. X,4,Hotel room,City centre,2019,10,3,1 week,FALSE,4 results
+2009,Ms. Y,4,Hotel room,City centre,2018,10,3,1 week,FALSE,6 results
+2010,Ms. Y,4,Hotel room,City centre,2019,10,3,1 week,FALSE,2 results
+2011,Mr. X,4,Hotel room,Suburbs,2018,10,3,1 week,FALSE,8 results
+2012,Mr. X,4,Hotel room,Suburbs,2019,10,3,1 week,FALSE,7 results
+2013,Ms. Y,4,Hotel room,Suburbs,2018,10,3,1 week,FALSE,6 results
+2014,Ms. Y,4,Hotel room,Suburbs,2019,10,3,1 week,FALSE,2 results
+2015,Mr. X,4,Hotel room,Countryside,2018,10,3,1 week,FALSE,7 results
+2016,Mr. X,4,Hotel room,Countryside,2019,10,3,1 week,FALSE,2 results
+2017,Ms. Y,4,Hotel room,Countryside,2018,10,3,1 week,FALSE,9 results
+2018,Ms. Y,4,Hotel room,Countryside,2019,10,3,1 week,FALSE,3 results
+2019,Mr. X,4,Hotel room,City centre,2018,10,4,1 week,FALSE,8 results
+2020,Mr. X,4,Hotel room,City centre,2019,10,4,1 week,FALSE,3 results
+2021,Ms. Y,4,Hotel room,City centre,2018,10,4,1 week,FALSE,7 results
+2022,Mr. X,4,Hotel room,Suburbs,2018,10,4,1 week,FALSE,7 results
+2023,Mr. X,4,Hotel room,Suburbs,2019,10,4,1 week,FALSE,6 results
+2024,Ms. Y,4,Hotel room,Suburbs,2018,10,4,1 week,FALSE,5 results
+2025,Ms. Y,4,Hotel room,Suburbs,2019,10,4,1 week,FALSE,2 results
+2026,Mr. X,4,Hotel room,Countryside,2019,10,4,1 week,FALSE,6 results
+2027,Ms. Y,4,Hotel room,Countryside,2018,10,4,1 week,FALSE,9 results
+2028,Ms. Y,4,Hotel room,Countryside,2019,10,4,1 week,FALSE,7 results
+2029,Mr. X,4,Hotel room,City centre,2018,10,1,2 weeks,FALSE,2 results
+2030,Mr. X,4,Hotel room,City centre,2019,10,1,2 weeks,FALSE,2 results
+2031,Ms. Y,4,Hotel room,City centre,2018,10,1,2 weeks,FALSE,5 results
+2032,Ms. Y,4,Hotel room,City centre,2019,10,1,2 weeks,FALSE,8 results
+2033,Mr. X,4,Hotel room,Suburbs,2018,10,1,2 weeks,FALSE,5 results
+2034,Mr. X,4,Hotel room,Suburbs,2019,10,1,2 weeks,FALSE,9 results
+2035,Ms. Y,4,Hotel room,Suburbs,2018,10,1,2 weeks,FALSE,9 results
+2036,Ms. Y,4,Hotel room,Suburbs,2019,10,1,2 weeks,FALSE,3 results
+2037,Mr. X,4,Hotel room,Countryside,2018,10,1,2 weeks,FALSE,7 results
+2038,Ms. Y,4,Hotel room,Countryside,2018,10,1,2 weeks,FALSE,2 results
+2039,Ms. Y,4,Hotel room,Countryside,2019,10,1,2 weeks,FALSE,2 results
+2040,Mr. X,4,Hotel room,City centre,2018,10,2,2 weeks,FALSE,7 results
+2041,Mr. X,4,Hotel room,City centre,2019,10,2,2 weeks,FALSE,8 results
+2042,Ms. Y,4,Hotel room,City centre,2018,10,2,2 weeks,FALSE,8 results
+2043,Ms. Y,4,Hotel room,City centre,2019,10,2,2 weeks,FALSE,4 results
+2044,Mr. X,4,Hotel room,Suburbs,2018,10,2,2 weeks,FALSE,9 results
+2045,Mr. X,4,Hotel room,Suburbs,2019,10,2,2 weeks,FALSE,4 results
+2046,Ms. Y,4,Hotel room,Suburbs,2018,10,2,2 weeks,FALSE,3 results
+2047,Ms. Y,4,Hotel room,Suburbs,2019,10,2,2 weeks,FALSE,4 results
+2048,Mr. X,4,Hotel room,Countryside,2018,10,2,2 weeks,FALSE,7 results
+2049,Mr. X,4,Hotel room,Countryside,2019,10,2,2 weeks,FALSE,6 results
+2050,Ms. Y,4,Hotel room,Countryside,2018,10,2,2 weeks,FALSE,4 results
+2051,Ms. Y,4,Hotel room,Countryside,2019,10,2,2 weeks,FALSE,9 results
+2052,Mr. X,4,Hotel room,City centre,2018,10,3,2 weeks,FALSE,2 results
+2053,Mr. X,4,Hotel room,City centre,2019,10,3,2 weeks,FALSE,5 results
+2054,Ms. Y,4,Hotel room,City centre,2018,10,3,2 weeks,FALSE,3 results
+2055,Ms. Y,4,Hotel room,City centre,2019,10,3,2 weeks,FALSE,8 results
+2056,Mr. X,4,Hotel room,Suburbs,2018,10,3,2 weeks,FALSE,2 results
+2057,Ms. Y,4,Hotel room,Suburbs,2018,10,3,2 weeks,FALSE,9 results
+2058,Mr. X,4,Hotel room,Countryside,2018,10,3,2 weeks,FALSE,8 results
+2059,Mr. X,4,Hotel room,Countryside,2019,10,3,2 weeks,FALSE,2 results
+2060,Ms. Y,4,Hotel room,Countryside,2018,10,3,2 weeks,FALSE,9 results
+2061,Ms. Y,4,Hotel room,Countryside,2019,10,3,2 weeks,FALSE,9 results
+2062,Mr. X,4,Hotel room,City centre,2018,10,4,2 weeks,FALSE,5 results
+2063,Mr. X,4,Hotel room,City centre,2019,10,4,2 weeks,FALSE,2 results
+2064,Ms. Y,4,Hotel room,City centre,2018,10,4,2 weeks,FALSE,7 results
+2065,Ms. Y,4,Hotel room,City centre,2019,10,4,2 weeks,FALSE,3 results
+2066,Mr. X,4,Hotel room,Suburbs,2018,10,4,2 weeks,FALSE,9 results
+2067,Ms. Y,4,Hotel room,Suburbs,2018,10,4,2 weeks,FALSE,2 results
+2068,Mr. X,4,Hotel room,Countryside,2018,10,4,2 weeks,FALSE,5 results
+2069,Mr. X,4,Hotel room,Countryside,2019,10,4,2 weeks,FALSE,4 results
+2070,Ms. Y,4,Hotel room,Countryside,2018,10,4,2 weeks,FALSE,9 results
+2071,Ms. Y,4,Hotel room,Countryside,2019,10,4,2 weeks,FALSE,5 results
+2072,Mr. X,4,Hotel room,City centre,2018,10,1,3 weeks,FALSE,3 results
+2073,Mr. X,4,Hotel room,City centre,2019,10,1,3 weeks,FALSE,2 results
+2074,Ms. Y,4,Hotel room,City centre,2018,10,1,3 weeks,FALSE,4 results
+2075,Ms. Y,4,Hotel room,City centre,2019,10,1,3 weeks,FALSE,2 results
+2076,Mr. X,4,Hotel room,Suburbs,2018,10,1,3 weeks,FALSE,2 results
+2077,Mr. X,4,Hotel room,Suburbs,2019,10,1,3 weeks,FALSE,3 results
+2078,Ms. Y,4,Hotel room,Suburbs,2018,10,1,3 weeks,FALSE,9 results
+2079,Ms. Y,4,Hotel room,Suburbs,2019,10,1,3 weeks,FALSE,3 results
+2080,Mr. X,4,Hotel room,Countryside,2018,10,1,3 weeks,FALSE,5 results
+2081,Mr. X,4,Hotel room,Countryside,2019,10,1,3 weeks,FALSE,8 results
+2082,Ms. Y,4,Hotel room,Countryside,2018,10,1,3 weeks,FALSE,4 results
+2083,Ms. Y,4,Hotel room,Countryside,2019,10,1,3 weeks,FALSE,4 results
+2084,Mr. X,4,Hotel room,City centre,2018,10,2,3 weeks,FALSE,3 results
+2085,Mr. X,4,Hotel room,City centre,2019,10,2,3 weeks,FALSE,5 results
+2086,Ms. Y,4,Hotel room,City centre,2018,10,2,3 weeks,FALSE,2 results
+2087,Ms. Y,4,Hotel room,City centre,2019,10,2,3 weeks,FALSE,6 results
+2088,Mr. X,4,Hotel room,Suburbs,2018,10,2,3 weeks,FALSE,5 results
+2089,Mr. X,4,Hotel room,Suburbs,2019,10,2,3 weeks,FALSE,6 results
+2090,Ms. Y,4,Hotel room,Suburbs,2018,10,2,3 weeks,FALSE,8 results
+2091,Ms. Y,4,Hotel room,Suburbs,2019,10,2,3 weeks,FALSE,3 results
+2092,Mr. X,4,Hotel room,Countryside,2018,10,2,3 weeks,FALSE,4 results
+2093,Mr. X,4,Hotel room,Countryside,2019,10,2,3 weeks,FALSE,5 results
+2094,Ms. Y,4,Hotel room,Countryside,2018,10,2,3 weeks,FALSE,3 results
+2095,Ms. Y,4,Hotel room,Countryside,2019,10,2,3 weeks,FALSE,4 results
+2096,Ms. Y,4,Hotel room,City centre,2018,10,3,3 weeks,FALSE,8 results
+2097,Ms. Y,4,Hotel room,City centre,2019,10,3,3 weeks,FALSE,9 results
+2098,Mr. X,4,Hotel room,Suburbs,2018,10,3,3 weeks,FALSE,2 results
+2099,Mr. X,4,Hotel room,Suburbs,2019,10,3,3 weeks,FALSE,5 results
+2100,Ms. Y,4,Hotel room,Suburbs,2018,10,3,3 weeks,FALSE,7 results
+2101,Ms. Y,4,Hotel room,Suburbs,2019,10,3,3 weeks,FALSE,9 results
+2102,Mr. X,4,Hotel room,Countryside,2018,10,3,3 weeks,FALSE,5 results
+2103,Mr. X,4,Hotel room,Countryside,2019,10,3,3 weeks,FALSE,6 results
+2104,Ms. Y,4,Hotel room,Countryside,2019,10,3,3 weeks,FALSE,6 results
+2105,Mr. X,4,Hotel room,City centre,2018,10,4,3 weeks,FALSE,6 results
+2106,Mr. X,4,Hotel room,City centre,2019,10,4,3 weeks,FALSE,6 results
+2107,Ms. Y,4,Hotel room,City centre,2018,10,4,3 weeks,FALSE,2 results
+2108,Ms. Y,4,Hotel room,City centre,2019,10,4,3 weeks,FALSE,5 results
+2109,Mr. X,4,Hotel room,Suburbs,2019,10,4,3 weeks,FALSE,3 results
+2110,Ms. Y,4,Hotel room,Suburbs,2018,10,4,3 weeks,FALSE,4 results
+2111,Ms. Y,4,Hotel room,Suburbs,2019,10,4,3 weeks,FALSE,8 results
+2112,Mr. X,4,Hotel room,Countryside,2018,10,4,3 weeks,FALSE,7 results
+2113,Mr. X,4,Hotel room,Countryside,2019,10,4,3 weeks,FALSE,9 results
+2114,Ms. Y,4,Hotel room,Countryside,2018,10,4,3 weeks,FALSE,7 results
+2115,Ms. Y,4,Hotel room,Countryside,2019,10,4,3 weeks,FALSE,7 results
+2116,Mr. X,4,Hotel room,City centre,2018,10,1,1 month,FALSE,5 results
+2117,Mr. X,4,Hotel room,City centre,2019,10,1,1 month,FALSE,2 results
+2118,Ms. Y,4,Hotel room,City centre,2018,10,1,1 month,FALSE,7 results
+2119,Ms. Y,4,Hotel room,City centre,2019,10,1,1 month,FALSE,4 results
+2120,Mr. X,4,Hotel room,Suburbs,2018,10,1,1 month,FALSE,5 results
+2121,Mr. X,4,Hotel room,Suburbs,2019,10,1,1 month,FALSE,6 results
+2122,Ms. Y,4,Hotel room,Suburbs,2018,10,1,1 month,FALSE,5 results
+2123,Ms. Y,4,Hotel room,Suburbs,2019,10,1,1 month,FALSE,9 results
+2124,Mr. X,4,Hotel room,Countryside,2018,10,1,1 month,FALSE,5 results
+2125,Ms. Y,4,Hotel room,Countryside,2018,10,1,1 month,FALSE,6 results
+2126,Ms. Y,4,Hotel room,Countryside,2019,10,1,1 month,FALSE,3 results
+2127,Mr. X,4,Hotel room,City centre,2018,10,2,1 month,FALSE,9 results
+2128,Mr. X,4,Hotel room,City centre,2019,10,2,1 month,FALSE,2 results
+2129,Ms. Y,4,Hotel room,City centre,2018,10,2,1 month,FALSE,6 results
+2130,Ms. Y,4,Hotel room,City centre,2019,10,2,1 month,FALSE,5 results
+2131,Mr. X,4,Hotel room,Suburbs,2018,10,2,1 month,FALSE,5 results
+2132,Mr. X,4,Hotel room,Suburbs,2019,10,2,1 month,FALSE,7 results
+2133,Ms. Y,4,Hotel room,Suburbs,2018,10,2,1 month,FALSE,4 results
+2134,Ms. Y,4,Hotel room,Suburbs,2019,10,2,1 month,FALSE,6 results
+2135,Mr. X,4,Hotel room,Countryside,2018,10,2,1 month,FALSE,5 results
+2136,Mr. X,4,Hotel room,City centre,2018,10,3,1 month,FALSE,6 results
+2137,Mr. X,4,Hotel room,City centre,2019,10,3,1 month,FALSE,9 results
+2138,Ms. Y,4,Hotel room,City centre,2018,10,3,1 month,FALSE,5 results
+2139,Mr. X,4,Hotel room,Suburbs,2019,10,3,1 month,FALSE,7 results
+2140,Ms. Y,4,Hotel room,Suburbs,2018,10,3,1 month,FALSE,9 results
+2141,Ms. Y,4,Hotel room,Suburbs,2019,10,3,1 month,FALSE,5 results
+2142,Mr. X,4,Hotel room,Countryside,2018,10,3,1 month,FALSE,6 results
+2143,Mr. X,4,Hotel room,Countryside,2019,10,3,1 month,FALSE,5 results
+2144,Ms. Y,4,Hotel room,Countryside,2018,10,3,1 month,FALSE,2 results
+2145,Ms. Y,4,Hotel room,Countryside,2019,10,3,1 month,FALSE,6 results
+2146,Mr. X,4,Hotel room,City centre,2018,10,4,1 month,FALSE,3 results
+2147,Ms. Y,4,Hotel room,City centre,2018,10,4,1 month,FALSE,6 results
+2148,Ms. Y,4,Hotel room,City centre,2019,10,4,1 month,FALSE,5 results
+2149,Mr. X,4,Hotel room,Suburbs,2018,10,4,1 month,FALSE,5 results
+2150,Mr. X,4,Hotel room,Suburbs,2019,10,4,1 month,FALSE,4 results
+2151,Mr. X,4,Hotel room,Countryside,2018,10,4,1 month,FALSE,8 results
+2152,Mr. X,4,Hotel room,Countryside,2019,10,4,1 month,FALSE,4 results
+2153,Ms. Y,4,Hotel room,Countryside,2018,10,4,1 month,FALSE,3 results
+2154,Ms. Y,4,Hotel room,Countryside,2019,10,4,1 month,FALSE,8 results
+2155,Mr. X,4,Hotel room,City centre,2018,11,1,1-3 days,FALSE,9 results
+2156,Ms. Y,4,Hotel room,City centre,2018,11,1,1-3 days,FALSE,4 results
+2157,Ms. Y,4,Hotel room,City centre,2019,11,1,1-3 days,FALSE,6 results
+2158,Mr. X,4,Hotel room,Suburbs,2019,11,1,1-3 days,FALSE,4 results
+2159,Ms. Y,4,Hotel room,Suburbs,2019,11,1,1-3 days,FALSE,7 results
+2160,Mr. X,4,Hotel room,Countryside,2018,11,1,1-3 days,FALSE,3 results
+2161,Mr. X,4,Hotel room,Countryside,2019,11,1,1-3 days,FALSE,8 results
+2162,Ms. Y,4,Hotel room,Countryside,2018,11,1,1-3 days,FALSE,4 results
+2163,Ms. Y,4,Hotel room,Countryside,2019,11,1,1-3 days,FALSE,5 results
+2164,Mr. X,4,Hotel room,City centre,2018,11,2,1-3 days,FALSE,9 results
+2165,Ms. Y,4,Hotel room,City centre,2018,11,2,1-3 days,FALSE,3 results
+2166,Ms. Y,4,Hotel room,City centre,2019,11,2,1-3 days,FALSE,3 results
+2167,Mr. X,4,Hotel room,Suburbs,2018,11,2,1-3 days,FALSE,6 results
+2168,Mr. X,4,Hotel room,Suburbs,2019,11,2,1-3 days,FALSE,9 results
+2169,Ms. Y,4,Hotel room,Suburbs,2018,11,2,1-3 days,FALSE,6 results
+2170,Ms. Y,4,Hotel room,Suburbs,2019,11,2,1-3 days,FALSE,4 results
+2171,Mr. X,4,Hotel room,Countryside,2018,11,2,1-3 days,FALSE,5 results
+2172,Mr. X,4,Hotel room,Countryside,2019,11,2,1-3 days,FALSE,4 results
+2173,Ms. Y,4,Hotel room,Countryside,2019,11,2,1-3 days,FALSE,2 results
+2174,Mr. X,4,Hotel room,City centre,2018,11,3,1-3 days,FALSE,2 results
+2175,Mr. X,4,Hotel room,City centre,2019,11,3,1-3 days,FALSE,7 results
+2176,Ms. Y,4,Hotel room,City centre,2018,11,3,1-3 days,FALSE,7 results
+2177,Ms. Y,4,Hotel room,City centre,2019,11,3,1-3 days,FALSE,8 results
+2178,Mr. X,4,Hotel room,Suburbs,2018,11,3,1-3 days,FALSE,4 results
+2179,Mr. X,4,Hotel room,Suburbs,2019,11,3,1-3 days,FALSE,6 results
+2180,Ms. Y,4,Hotel room,Suburbs,2018,11,3,1-3 days,FALSE,2 results
+2181,Ms. Y,4,Hotel room,Suburbs,2019,11,3,1-3 days,FALSE,4 results
+2182,Mr. X,4,Hotel room,Countryside,2018,11,3,1-3 days,FALSE,4 results
+2183,Mr. X,4,Hotel room,Countryside,2019,11,3,1-3 days,FALSE,6 results
+2184,Ms. Y,4,Hotel room,Countryside,2018,11,3,1-3 days,FALSE,3 results
+2185,Ms. Y,4,Hotel room,Countryside,2019,11,3,1-3 days,FALSE,6 results
+2186,Mr. X,4,Hotel room,City centre,2018,11,4,1-3 days,FALSE,6 results
+2187,Mr. X,4,Hotel room,City centre,2019,11,4,1-3 days,FALSE,6 results
+2188,Ms. Y,4,Hotel room,City centre,2018,11,4,1-3 days,FALSE,2 results
+2189,Ms. Y,4,Hotel room,City centre,2019,11,4,1-3 days,FALSE,6 results
+2190,Mr. X,4,Hotel room,Suburbs,2018,11,4,1-3 days,FALSE,9 results
+2191,Mr. X,4,Hotel room,Suburbs,2019,11,4,1-3 days,FALSE,8 results
+2192,Ms. Y,4,Hotel room,Suburbs,2018,11,4,1-3 days,FALSE,7 results
+2193,Ms. Y,4,Hotel room,Suburbs,2019,11,4,1-3 days,FALSE,7 results
+2194,Mr. X,4,Hotel room,Countryside,2018,11,4,1-3 days,FALSE,8 results
+2195,Mr. X,4,Hotel room,Countryside,2019,11,4,1-3 days,FALSE,6 results
+2196,Ms. Y,4,Hotel room,Countryside,2018,11,4,1-3 days,FALSE,5 results
+2197,Ms. Y,4,Hotel room,Countryside,2019,11,4,1-3 days,FALSE,2 results
+2198,Mr. X,4,Hotel room,City centre,2019,11,1,1 week,FALSE,7 results
+2199,Ms. Y,4,Hotel room,City centre,2018,11,1,1 week,FALSE,6 results
+2200,Ms. Y,4,Hotel room,City centre,2019,11,1,1 week,FALSE,5 results
+2201,Mr. X,4,Hotel room,Suburbs,2018,11,1,1 week,FALSE,4 results
+2202,Mr. X,4,Hotel room,Suburbs,2019,11,1,1 week,FALSE,8 results
+2203,Ms. Y,4,Hotel room,Suburbs,2018,11,1,1 week,FALSE,4 results
+2204,Ms. Y,4,Hotel room,Suburbs,2019,11,1,1 week,FALSE,7 results
+2205,Mr. X,4,Hotel room,Countryside,2018,11,1,1 week,FALSE,6 results
+2206,Mr. X,4,Hotel room,Countryside,2019,11,1,1 week,FALSE,5 results
+2207,Ms. Y,4,Hotel room,Countryside,2018,11,1,1 week,FALSE,4 results
+2208,Ms. Y,4,Hotel room,Countryside,2019,11,1,1 week,FALSE,8 results
+2209,Mr. X,4,Hotel room,City centre,2018,11,2,1 week,FALSE,8 results
+2210,Mr. X,4,Hotel room,City centre,2019,11,2,1 week,FALSE,3 results
+2211,Ms. Y,4,Hotel room,City centre,2018,11,2,1 week,FALSE,8 results
+2212,Ms. Y,4,Hotel room,City centre,2019,11,2,1 week,FALSE,2 results
+2213,Mr. X,4,Hotel room,Suburbs,2018,11,2,1 week,FALSE,6 results
+2214,Mr. X,4,Hotel room,Suburbs,2019,11,2,1 week,FALSE,8 results
+2215,Ms. Y,4,Hotel room,Suburbs,2018,11,2,1 week,FALSE,6 results
+2216,Ms. Y,4,Hotel room,Suburbs,2019,11,2,1 week,FALSE,2 results
+2217,Mr. X,4,Hotel room,Countryside,2018,11,2,1 week,FALSE,3 results
+2218,Mr. X,4,Hotel room,Countryside,2019,11,2,1 week,FALSE,5 results
+2219,Ms. Y,4,Hotel room,Countryside,2018,11,2,1 week,FALSE,7 results
+2220,Ms. Y,4,Hotel room,Countryside,2019,11,2,1 week,FALSE,9 results
+2221,Mr. X,4,Hotel room,City centre,2018,11,3,1 week,FALSE,3 results
+2222,Mr. X,4,Hotel room,City centre,2019,11,3,1 week,FALSE,8 results
+2223,Ms. Y,4,Hotel room,City centre,2018,11,3,1 week,FALSE,3 results
+2224,Ms. Y,4,Hotel room,City centre,2019,11,3,1 week,FALSE,3 results
+2225,Mr. X,4,Hotel room,Suburbs,2018,11,3,1 week,FALSE,7 results
+2226,Mr. X,4,Hotel room,Suburbs,2019,11,3,1 week,FALSE,7 results
+2227,Ms. Y,4,Hotel room,Suburbs,2019,11,3,1 week,FALSE,9 results
+2228,Mr. X,4,Hotel room,Countryside,2018,11,3,1 week,FALSE,5 results
+2229,Mr. X,4,Hotel room,Countryside,2019,11,3,1 week,FALSE,8 results
+2230,Ms. Y,4,Hotel room,Countryside,2018,11,3,1 week,FALSE,6 results
+2231,Ms. Y,4,Hotel room,Countryside,2019,11,3,1 week,FALSE,7 results
+2232,Mr. X,4,Hotel room,City centre,2018,11,4,1 week,FALSE,7 results
+2233,Mr. X,4,Hotel room,City centre,2019,11,4,1 week,FALSE,8 results
+2234,Ms. Y,4,Hotel room,City centre,2018,11,4,1 week,FALSE,3 results
+2235,Ms. Y,4,Hotel room,City centre,2019,11,4,1 week,FALSE,5 results
+2236,Mr. X,4,Hotel room,Suburbs,2018,11,4,1 week,FALSE,3 results
+2237,Mr. X,4,Hotel room,Suburbs,2019,11,4,1 week,FALSE,4 results
+2238,Ms. Y,4,Hotel room,Suburbs,2019,11,4,1 week,FALSE,2 results
+2239,Mr. X,4,Hotel room,Countryside,2018,11,4,1 week,FALSE,3 results
+2240,Mr. X,4,Hotel room,Countryside,2019,11,4,1 week,FALSE,6 results
+2241,Ms. Y,4,Hotel room,Countryside,2018,11,4,1 week,FALSE,7 results
+2242,Ms. Y,4,Hotel room,Countryside,2019,11,4,1 week,FALSE,3 results
+2243,Mr. X,4,Hotel room,City centre,2019,11,1,2 weeks,FALSE,8 results
+2244,Ms. Y,4,Hotel room,City centre,2018,11,1,2 weeks,FALSE,3 results
+2245,Ms. Y,4,Hotel room,City centre,2019,11,1,2 weeks,FALSE,8 results
+2246,Mr. X,4,Hotel room,Suburbs,2018,11,1,2 weeks,FALSE,4 results
+2247,Mr. X,4,Hotel room,Suburbs,2019,11,1,2 weeks,FALSE,6 results
+2248,Ms. Y,4,Hotel room,Suburbs,2018,11,1,2 weeks,FALSE,8 results
+2249,Ms. Y,4,Hotel room,Suburbs,2019,11,1,2 weeks,FALSE,4 results
+2250,Mr. X,4,Hotel room,Countryside,2018,11,1,2 weeks,FALSE,6 results
+2251,Mr. X,4,Hotel room,Countryside,2019,11,1,2 weeks,FALSE,6 results
+2252,Ms. Y,4,Hotel room,Countryside,2018,11,1,2 weeks,FALSE,2 results
+2253,Ms. Y,4,Hotel room,Countryside,2019,11,1,2 weeks,FALSE,9 results
+2254,Mr. X,4,Hotel room,City centre,2018,11,2,2 weeks,FALSE,5 results
+2255,Mr. X,4,Hotel room,City centre,2019,11,2,2 weeks,FALSE,8 results
+2256,Ms. Y,4,Hotel room,City centre,2018,11,2,2 weeks,FALSE,2 results
+2257,Ms. Y,4,Hotel room,City centre,2019,11,2,2 weeks,FALSE,5 results
+2258,Mr. X,4,Hotel room,Suburbs,2018,11,2,2 weeks,FALSE,7 results
+2259,Mr. X,4,Hotel room,Suburbs,2019,11,2,2 weeks,FALSE,8 results
+2260,Ms. Y,4,Hotel room,Suburbs,2018,11,2,2 weeks,FALSE,4 results
+2261,Ms. Y,4,Hotel room,Suburbs,2019,11,2,2 weeks,FALSE,6 results
+2262,Mr. X,4,Hotel room,Countryside,2019,11,2,2 weeks,FALSE,8 results
+2263,Ms. Y,4,Hotel room,Countryside,2018,11,2,2 weeks,FALSE,2 results
+2264,Mr. X,4,Hotel room,City centre,2018,11,3,2 weeks,FALSE,3 results
+2265,Mr. X,4,Hotel room,City centre,2019,11,3,2 weeks,FALSE,7 results
+2266,Ms. Y,4,Hotel room,City centre,2018,11,3,2 weeks,FALSE,4 results
+2267,Ms. Y,4,Hotel room,City centre,2019,11,3,2 weeks,FALSE,7 results
+2268,Mr. X,4,Hotel room,Suburbs,2019,11,3,2 weeks,FALSE,6 results
+2269,Ms. Y,4,Hotel room,Suburbs,2019,11,3,2 weeks,FALSE,8 results
+2270,Mr. X,4,Hotel room,Countryside,2018,11,3,2 weeks,FALSE,6 results
+2271,Mr. X,4,Hotel room,Countryside,2019,11,3,2 weeks,FALSE,4 results
+2272,Ms. Y,4,Hotel room,Countryside,2018,11,3,2 weeks,FALSE,6 results
+2273,Ms. Y,4,Hotel room,Countryside,2019,11,3,2 weeks,FALSE,5 results
+2274,Mr. X,4,Hotel room,City centre,2018,11,4,2 weeks,FALSE,4 results
+2275,Mr. X,4,Hotel room,City centre,2019,11,4,2 weeks,FALSE,2 results
+2276,Mr. X,4,Hotel room,Suburbs,2018,11,4,2 weeks,FALSE,9 results
+2277,Mr. X,4,Hotel room,Suburbs,2019,11,4,2 weeks,FALSE,2 results
+2278,Ms. Y,4,Hotel room,Suburbs,2019,11,4,2 weeks,FALSE,3 results
+2279,Mr. X,4,Hotel room,Countryside,2018,11,4,2 weeks,FALSE,2 results
+2280,Mr. X,4,Hotel room,Countryside,2019,11,4,2 weeks,FALSE,2 results
+2281,Ms. Y,4,Hotel room,Countryside,2018,11,4,2 weeks,FALSE,7 results
+2282,Ms. Y,4,Hotel room,Countryside,2019,11,4,2 weeks,FALSE,6 results
+2283,Mr. X,4,Hotel room,City centre,2019,11,1,3 weeks,FALSE,8 results
+2284,Ms. Y,4,Hotel room,City centre,2018,11,1,3 weeks,FALSE,5 results
+2285,Ms. Y,4,Hotel room,City centre,2019,11,1,3 weeks,FALSE,3 results
+2286,Ms. Y,4,Hotel room,Suburbs,2018,11,1,3 weeks,FALSE,7 results
+2287,Ms. Y,4,Hotel room,Suburbs,2019,11,1,3 weeks,FALSE,6 results
+2288,Mr. X,4,Hotel room,Countryside,2019,11,1,3 weeks,FALSE,3 results
+2289,Ms. Y,4,Hotel room,Countryside,2018,11,1,3 weeks,FALSE,6 results
+2290,Ms. Y,4,Hotel room,Countryside,2019,11,1,3 weeks,FALSE,5 results
+2291,Mr. X,4,Hotel room,City centre,2018,11,2,3 weeks,FALSE,9 results
+2292,Mr. X,4,Hotel room,City centre,2019,11,2,3 weeks,FALSE,7 results
+2293,Ms. Y,4,Hotel room,City centre,2018,11,2,3 weeks,FALSE,8 results
+2294,Ms. Y,4,Hotel room,City centre,2019,11,2,3 weeks,FALSE,2 results
+2295,Mr. X,4,Hotel room,Suburbs,2018,11,2,3 weeks,FALSE,7 results
+2296,Mr. X,4,Hotel room,Suburbs,2019,11,2,3 weeks,FALSE,4 results
+2297,Ms. Y,4,Hotel room,Suburbs,2018,11,2,3 weeks,FALSE,5 results
+2298,Ms. Y,4,Hotel room,Suburbs,2019,11,2,3 weeks,FALSE,4 results
+2299,Mr. X,4,Hotel room,Countryside,2019,11,2,3 weeks,FALSE,9 results
+2300,Ms. Y,4,Hotel room,Countryside,2018,11,2,3 weeks,FALSE,4 results
+2301,Ms. Y,4,Hotel room,Countryside,2019,11,2,3 weeks,FALSE,3 results
+2302,Mr. X,4,Hotel room,City centre,2018,11,3,3 weeks,FALSE,4 results
+2303,Mr. X,4,Hotel room,City centre,2019,11,3,3 weeks,FALSE,3 results
+2304,Ms. Y,4,Hotel room,City centre,2018,11,3,3 weeks,FALSE,8 results
+2305,Ms. Y,4,Hotel room,City centre,2019,11,3,3 weeks,FALSE,8 results
+2306,Mr. X,4,Hotel room,Suburbs,2018,11,3,3 weeks,FALSE,7 results
+2307,Mr. X,4,Hotel room,Suburbs,2019,11,3,3 weeks,FALSE,7 results
+2308,Ms. Y,4,Hotel room,Suburbs,2018,11,3,3 weeks,FALSE,6 results
+2309,Ms. Y,4,Hotel room,Suburbs,2019,11,3,3 weeks,FALSE,5 results
+2310,Mr. X,4,Hotel room,Countryside,2018,11,3,3 weeks,FALSE,7 results
+2311,Mr. X,4,Hotel room,Countryside,2019,11,3,3 weeks,FALSE,5 results
+2312,Ms. Y,4,Hotel room,Countryside,2018,11,3,3 weeks,FALSE,3 results
+2313,Ms. Y,4,Hotel room,Countryside,2019,11,3,3 weeks,FALSE,4 results
+2314,Mr. X,4,Hotel room,City centre,2018,11,4,3 weeks,FALSE,6 results
+2315,Mr. X,4,Hotel room,City centre,2019,11,4,3 weeks,FALSE,7 results
+2316,Ms. Y,4,Hotel room,City centre,2018,11,4,3 weeks,FALSE,8 results
+2317,Ms. Y,4,Hotel room,City centre,2019,11,4,3 weeks,FALSE,9 results
+2318,Mr. X,4,Hotel room,Suburbs,2018,11,4,3 weeks,FALSE,6 results
+2319,Mr. X,4,Hotel room,Suburbs,2019,11,4,3 weeks,FALSE,2 results
+2320,Ms. Y,4,Hotel room,Suburbs,2018,11,4,3 weeks,FALSE,8 results
+2321,Ms. Y,4,Hotel room,Suburbs,2019,11,4,3 weeks,FALSE,8 results
+2322,Mr. X,4,Hotel room,Countryside,2018,11,4,3 weeks,FALSE,6 results
+2323,Mr. X,4,Hotel room,Countryside,2019,11,4,3 weeks,FALSE,4 results
+2324,Ms. Y,4,Hotel room,Countryside,2018,11,4,3 weeks,FALSE,8 results
+2325,Ms. Y,4,Hotel room,Countryside,2019,11,4,3 weeks,FALSE,6 results
+2326,Mr. X,4,Hotel room,City centre,2019,11,1,1 month,FALSE,6 results
+2327,Ms. Y,4,Hotel room,City centre,2018,11,1,1 month,FALSE,5 results
+2328,Ms. Y,4,Hotel room,City centre,2019,11,1,1 month,FALSE,8 results
+2329,Mr. X,4,Hotel room,Suburbs,2018,11,1,1 month,FALSE,3 results
+2330,Mr. X,4,Hotel room,Suburbs,2019,11,1,1 month,FALSE,6 results
+2331,Ms. Y,4,Hotel room,Suburbs,2018,11,1,1 month,FALSE,9 results
+2332,Ms. Y,4,Hotel room,Suburbs,2019,11,1,1 month,FALSE,8 results
+2333,Mr. X,4,Hotel room,Countryside,2018,11,1,1 month,FALSE,5 results
+2334,Mr. X,4,Hotel room,Countryside,2019,11,1,1 month,FALSE,3 results
+2335,Ms. Y,4,Hotel room,Countryside,2018,11,1,1 month,FALSE,9 results
+2336,Ms. Y,4,Hotel room,Countryside,2019,11,1,1 month,FALSE,6 results
+2337,Ms. Y,4,Hotel room,City centre,2018,11,2,1 month,FALSE,6 results
+2338,Ms. Y,4,Hotel room,City centre,2019,11,2,1 month,FALSE,3 results
+2339,Mr. X,4,Hotel room,Suburbs,2018,11,2,1 month,FALSE,6 results
+2340,Mr. X,4,Hotel room,Suburbs,2019,11,2,1 month,FALSE,7 results
+2341,Ms. Y,4,Hotel room,Suburbs,2019,11,2,1 month,FALSE,7 results
+2342,Mr. X,4,Hotel room,Countryside,2018,11,2,1 month,FALSE,8 results
+2343,Mr. X,4,Hotel room,Countryside,2019,11,2,1 month,FALSE,7 results
+2344,Ms. Y,4,Hotel room,Countryside,2019,11,2,1 month,FALSE,8 results
+2345,Mr. X,4,Hotel room,City centre,2018,11,3,1 month,FALSE,4 results
+2346,Mr. X,4,Hotel room,City centre,2019,11,3,1 month,FALSE,8 results
+2347,Ms. Y,4,Hotel room,City centre,2019,11,3,1 month,FALSE,2 results
+2348,Mr. X,4,Hotel room,Suburbs,2018,11,3,1 month,FALSE,9 results
+2349,Mr. X,4,Hotel room,Suburbs,2019,11,3,1 month,FALSE,4 results
+2350,Ms. Y,4,Hotel room,Suburbs,2018,11,3,1 month,FALSE,9 results
+2351,Ms. Y,4,Hotel room,Suburbs,2019,11,3,1 month,FALSE,6 results
+2352,Mr. X,4,Hotel room,Countryside,2018,11,3,1 month,FALSE,4 results
+2353,Ms. Y,4,Hotel room,Countryside,2018,11,3,1 month,FALSE,2 results
+2354,Ms. Y,4,Hotel room,Countryside,2019,11,3,1 month,FALSE,2 results
+2355,Mr. X,4,Hotel room,City centre,2018,11,4,1 month,FALSE,8 results
+2356,Mr. X,4,Hotel room,City centre,2019,11,4,1 month,FALSE,6 results
+2357,Ms. Y,4,Hotel room,City centre,2018,11,4,1 month,FALSE,9 results
+2358,Ms. Y,4,Hotel room,City centre,2019,11,4,1 month,FALSE,6 results
+2359,Mr. X,4,Hotel room,Suburbs,2018,11,4,1 month,FALSE,8 results
+2360,Mr. X,4,Hotel room,Suburbs,2019,11,4,1 month,FALSE,3 results
+2361,Ms. Y,4,Hotel room,Suburbs,2018,11,4,1 month,FALSE,3 results
+2362,Ms. Y,4,Hotel room,Suburbs,2019,11,4,1 month,FALSE,2 results
+2363,Mr. X,4,Hotel room,Countryside,2018,11,4,1 month,FALSE,8 results
+2364,Mr. X,4,Hotel room,Countryside,2019,11,4,1 month,FALSE,2 results
+2365,Ms. Y,4,Hotel room,Countryside,2018,11,4,1 month,FALSE,2 results
+2366,Ms. Y,4,Hotel room,Countryside,2019,11,4,1 month,FALSE,6 results
+2367,Ms. Y,4,Hotel room,City centre,2018,12,1,1-3 days,FALSE,4 results
+2368,Ms. Y,4,Hotel room,City centre,2019,12,1,1-3 days,FALSE,5 results
+2369,Mr. X,4,Hotel room,Suburbs,2018,12,1,1-3 days,FALSE,9 results
+2370,Ms. Y,4,Hotel room,Suburbs,2018,12,1,1-3 days,FALSE,3 results
+2371,Ms. Y,4,Hotel room,Suburbs,2019,12,1,1-3 days,FALSE,2 results
+2372,Mr. X,4,Hotel room,Countryside,2018,12,1,1-3 days,FALSE,8 results
+2373,Ms. Y,4,Hotel room,Countryside,2019,12,1,1-3 days,FALSE,2 results
+2374,Mr. X,4,Hotel room,City centre,2018,12,2,1-3 days,FALSE,7 results
+2375,Mr. X,4,Hotel room,City centre,2019,12,2,1-3 days,FALSE,9 results
+2376,Ms. Y,4,Hotel room,City centre,2018,12,2,1-3 days,FALSE,2 results
+2377,Mr. X,4,Hotel room,Suburbs,2018,12,2,1-3 days,FALSE,3 results
+2378,Mr. X,4,Hotel room,Suburbs,2019,12,2,1-3 days,FALSE,6 results
+2379,Ms. Y,4,Hotel room,Suburbs,2018,12,2,1-3 days,FALSE,2 results
+2380,Ms. Y,4,Hotel room,Suburbs,2019,12,2,1-3 days,FALSE,2 results
+2381,Mr. X,4,Hotel room,Countryside,2018,12,2,1-3 days,FALSE,8 results
+2382,Mr. X,4,Hotel room,Countryside,2019,12,2,1-3 days,FALSE,6 results
+2383,Ms. Y,4,Hotel room,Countryside,2018,12,2,1-3 days,FALSE,7 results
+2384,Ms. Y,4,Hotel room,Countryside,2019,12,2,1-3 days,FALSE,6 results
+2385,Mr. X,4,Hotel room,City centre,2018,12,3,1-3 days,FALSE,6 results
+2386,Mr. X,4,Hotel room,City centre,2019,12,3,1-3 days,FALSE,6 results
+2387,Ms. Y,4,Hotel room,City centre,2018,12,3,1-3 days,FALSE,6 results
+2388,Ms. Y,4,Hotel room,City centre,2019,12,3,1-3 days,FALSE,2 results
+2389,Mr. X,4,Hotel room,Suburbs,2018,12,3,1-3 days,FALSE,9 results
+2390,Mr. X,4,Hotel room,Suburbs,2019,12,3,1-3 days,FALSE,2 results
+2391,Ms. Y,4,Hotel room,Suburbs,2018,12,3,1-3 days,FALSE,7 results
+2392,Ms. Y,4,Hotel room,Suburbs,2019,12,3,1-3 days,FALSE,2 results
+2393,Mr. X,4,Hotel room,Countryside,2018,12,3,1-3 days,FALSE,3 results
+2394,Mr. X,4,Hotel room,Countryside,2019,12,3,1-3 days,FALSE,2 results
+2395,Ms. Y,4,Hotel room,Countryside,2018,12,3,1-3 days,FALSE,4 results
+2396,Ms. Y,4,Hotel room,Countryside,2019,12,3,1-3 days,FALSE,7 results
+2397,Mr. X,4,Hotel room,City centre,2018,12,4,1-3 days,FALSE,9 results
+2398,Mr. X,4,Hotel room,City centre,2019,12,4,1-3 days,FALSE,2 results
+2399,Ms. Y,4,Hotel room,City centre,2018,12,4,1-3 days,FALSE,6 results
+2400,Ms. Y,4,Hotel room,City centre,2019,12,4,1-3 days,FALSE,6 results
+2401,Mr. X,4,Hotel room,Suburbs,2018,12,4,1-3 days,FALSE,3 results
+2402,Mr. X,4,Hotel room,Suburbs,2019,12,4,1-3 days,FALSE,3 results
+2403,Ms. Y,4,Hotel room,Suburbs,2018,12,4,1-3 days,FALSE,9 results
+2404,Ms. Y,4,Hotel room,Suburbs,2019,12,4,1-3 days,FALSE,7 results
+2405,Mr. X,4,Hotel room,Countryside,2018,12,4,1-3 days,FALSE,7 results
+2406,Ms. Y,4,Hotel room,Countryside,2018,12,4,1-3 days,FALSE,5 results
+2407,Ms. Y,4,Hotel room,Countryside,2019,12,4,1-3 days,FALSE,7 results
+2408,Mr. X,4,Hotel room,City centre,2018,12,1,1 week,FALSE,7 results
+2409,Mr. X,4,Hotel room,City centre,2019,12,1,1 week,FALSE,7 results
+2410,Ms. Y,4,Hotel room,City centre,2019,12,1,1 week,FALSE,9 results
+2411,Mr. X,4,Hotel room,Suburbs,2018,12,1,1 week,FALSE,3 results
+2412,Mr. X,4,Hotel room,Suburbs,2019,12,1,1 week,FALSE,9 results
+2413,Ms. Y,4,Hotel room,Suburbs,2018,12,1,1 week,FALSE,9 results
+2414,Ms. Y,4,Hotel room,Suburbs,2019,12,1,1 week,FALSE,4 results
+2415,Mr. X,4,Hotel room,Countryside,2018,12,1,1 week,FALSE,7 results
+2416,Mr. X,4,Hotel room,Countryside,2019,12,1,1 week,FALSE,6 results
+2417,Ms. Y,4,Hotel room,Countryside,2018,12,1,1 week,FALSE,9 results
+2418,Ms. Y,4,Hotel room,Countryside,2019,12,1,1 week,FALSE,7 results
+2419,Mr. X,4,Hotel room,City centre,2018,12,2,1 week,FALSE,7 results
+2420,Ms. Y,4,Hotel room,City centre,2018,12,2,1 week,FALSE,5 results
+2421,Ms. Y,4,Hotel room,City centre,2019,12,2,1 week,FALSE,3 results
+2422,Mr. X,4,Hotel room,Suburbs,2018,12,2,1 week,FALSE,9 results
+2423,Mr. X,4,Hotel room,Suburbs,2019,12,2,1 week,FALSE,3 results
+2424,Ms. Y,4,Hotel room,Suburbs,2019,12,2,1 week,FALSE,6 results
+2425,Mr. X,4,Hotel room,Countryside,2018,12,2,1 week,FALSE,9 results
+2426,Mr. X,4,Hotel room,Countryside,2019,12,2,1 week,FALSE,3 results
+2427,Ms. Y,4,Hotel room,Countryside,2018,12,2,1 week,FALSE,4 results
+2428,Ms. Y,4,Hotel room,Countryside,2019,12,2,1 week,FALSE,2 results
+2429,Mr. X,4,Hotel room,City centre,2018,12,3,1 week,FALSE,2 results
+2430,Mr. X,4,Hotel room,City centre,2019,12,3,1 week,FALSE,3 results
+2431,Ms. Y,4,Hotel room,City centre,2018,12,3,1 week,FALSE,3 results
+2432,Mr. X,4,Hotel room,Suburbs,2019,12,3,1 week,FALSE,5 results
+2433,Ms. Y,4,Hotel room,Suburbs,2018,12,3,1 week,FALSE,8 results
+2434,Ms. Y,4,Hotel room,Suburbs,2019,12,3,1 week,FALSE,6 results
+2435,Mr. X,4,Hotel room,Countryside,2018,12,3,1 week,FALSE,3 results
+2436,Mr. X,4,Hotel room,Countryside,2019,12,3,1 week,FALSE,9 results
+2437,Ms. Y,4,Hotel room,Countryside,2018,12,3,1 week,FALSE,7 results
+2438,Ms. Y,4,Hotel room,Countryside,2019,12,3,1 week,FALSE,5 results
+2439,Mr. X,4,Hotel room,City centre,2018,12,4,1 week,FALSE,9 results
+2440,Mr. X,4,Hotel room,City centre,2019,12,4,1 week,FALSE,9 results
+2441,Ms. Y,4,Hotel room,City centre,2018,12,4,1 week,FALSE,9 results
+2442,Ms. Y,4,Hotel room,City centre,2019,12,4,1 week,FALSE,8 results
+2443,Mr. X,4,Hotel room,Suburbs,2018,12,4,1 week,FALSE,8 results
+2444,Mr. X,4,Hotel room,Suburbs,2019,12,4,1 week,FALSE,2 results
+2445,Ms. Y,4,Hotel room,Suburbs,2019,12,4,1 week,FALSE,3 results
+2446,Mr. X,4,Hotel room,Countryside,2018,12,4,1 week,FALSE,3 results
+2447,Mr. X,4,Hotel room,Countryside,2019,12,4,1 week,FALSE,4 results
+2448,Ms. Y,4,Hotel room,Countryside,2018,12,4,1 week,FALSE,5 results
+2449,Ms. Y,4,Hotel room,Countryside,2019,12,4,1 week,FALSE,8 results
+2450,Mr. X,4,Hotel room,City centre,2018,12,1,2 weeks,FALSE,3 results
+2451,Mr. X,4,Hotel room,City centre,2019,12,1,2 weeks,FALSE,7 results
+2452,Ms. Y,4,Hotel room,City centre,2018,12,1,2 weeks,FALSE,7 results
+2453,Ms. Y,4,Hotel room,City centre,2019,12,1,2 weeks,FALSE,7 results
+2454,Mr. X,4,Hotel room,Suburbs,2018,12,1,2 weeks,FALSE,7 results
+2455,Mr. X,4,Hotel room,Suburbs,2019,12,1,2 weeks,FALSE,4 results
+2456,Ms. Y,4,Hotel room,Suburbs,2018,12,1,2 weeks,FALSE,5 results
+2457,Ms. Y,4,Hotel room,Suburbs,2019,12,1,2 weeks,FALSE,5 results
+2458,Mr. X,4,Hotel room,Countryside,2018,12,1,2 weeks,FALSE,4 results
+2459,Mr. X,4,Hotel room,Countryside,2019,12,1,2 weeks,FALSE,6 results
+2460,Ms. Y,4,Hotel room,Countryside,2018,12,1,2 weeks,FALSE,7 results
+2461,Ms. Y,4,Hotel room,Countryside,2019,12,1,2 weeks,FALSE,2 results
+2462,Mr. X,4,Hotel room,City centre,2018,12,2,2 weeks,FALSE,5 results
+2463,Mr. X,4,Hotel room,City centre,2019,12,2,2 weeks,FALSE,4 results
+2464,Ms. Y,4,Hotel room,City centre,2018,12,2,2 weeks,FALSE,7 results
+2465,Mr. X,4,Hotel room,Suburbs,2018,12,2,2 weeks,FALSE,9 results
+2466,Mr. X,4,Hotel room,Suburbs,2019,12,2,2 weeks,FALSE,6 results
+2467,Ms. Y,4,Hotel room,Suburbs,2019,12,2,2 weeks,FALSE,6 results
+2468,Mr. X,4,Hotel room,Countryside,2019,12,2,2 weeks,FALSE,3 results
+2469,Ms. Y,4,Hotel room,Countryside,2018,12,2,2 weeks,FALSE,9 results
+2470,Ms. Y,4,Hotel room,Countryside,2019,12,2,2 weeks,FALSE,7 results
+2471,Mr. X,4,Hotel room,City centre,2018,12,3,2 weeks,FALSE,5 results
+2472,Mr. X,4,Hotel room,City centre,2019,12,3,2 weeks,FALSE,9 results
+2473,Ms. Y,4,Hotel room,City centre,2018,12,3,2 weeks,FALSE,2 results
+2474,Ms. Y,4,Hotel room,City centre,2019,12,3,2 weeks,FALSE,5 results
+2475,Mr. X,4,Hotel room,Suburbs,2018,12,3,2 weeks,FALSE,2 results
+2476,Mr. X,4,Hotel room,Suburbs,2019,12,3,2 weeks,FALSE,3 results
+2477,Ms. Y,4,Hotel room,Suburbs,2019,12,3,2 weeks,FALSE,9 results
+2478,Mr. X,4,Hotel room,Countryside,2018,12,3,2 weeks,FALSE,3 results
+2479,Mr. X,4,Hotel room,Countryside,2019,12,3,2 weeks,FALSE,5 results
+2480,Ms. Y,4,Hotel room,Countryside,2018,12,3,2 weeks,FALSE,8 results
+2481,Ms. Y,4,Hotel room,Countryside,2019,12,3,2 weeks,FALSE,9 results
+2482,Mr. X,4,Hotel room,City centre,2018,12,4,2 weeks,FALSE,3 results
+2483,Mr. X,4,Hotel room,City centre,2019,12,4,2 weeks,FALSE,3 results
+2484,Ms. Y,4,Hotel room,City centre,2018,12,4,2 weeks,FALSE,3 results
+2485,Ms. Y,4,Hotel room,City centre,2019,12,4,2 weeks,FALSE,2 results
+2486,Mr. X,4,Hotel room,Suburbs,2018,12,4,2 weeks,FALSE,3 results
+2487,Mr. X,4,Hotel room,Suburbs,2019,12,4,2 weeks,FALSE,2 results
+2488,Ms. Y,4,Hotel room,Suburbs,2019,12,4,2 weeks,FALSE,7 results
+2489,Mr. X,4,Hotel room,Countryside,2018,12,4,2 weeks,FALSE,8 results
+2490,Ms. Y,4,Hotel room,Countryside,2018,12,4,2 weeks,FALSE,8 results
+2491,Mr. X,4,Hotel room,City centre,2018,12,1,3 weeks,FALSE,4 results
+2492,Ms. Y,4,Hotel room,City centre,2018,12,1,3 weeks,FALSE,3 results
+2493,Ms. Y,4,Hotel room,City centre,2019,12,1,3 weeks,FALSE,7 results
+2494,Mr. X,4,Hotel room,Suburbs,2018,12,1,3 weeks,FALSE,6 results
+2495,Mr. X,4,Hotel room,Suburbs,2019,12,1,3 weeks,FALSE,2 results
+2496,Ms. Y,4,Hotel room,Suburbs,2018,12,1,3 weeks,FALSE,7 results
+2497,Ms. Y,4,Hotel room,Suburbs,2019,12,1,3 weeks,FALSE,5 results
+2498,Mr. X,4,Hotel room,Countryside,2018,12,1,3 weeks,FALSE,8 results
+2499,Mr. X,4,Hotel room,Countryside,2019,12,1,3 weeks,FALSE,3 results
+2500,Ms. Y,4,Hotel room,Countryside,2018,12,1,3 weeks,FALSE,6 results
+2501,Ms. Y,4,Hotel room,Countryside,2019,12,1,3 weeks,FALSE,4 results
+2502,Mr. X,4,Hotel room,City centre,2018,12,2,3 weeks,FALSE,9 results
+2503,Mr. X,4,Hotel room,City centre,2019,12,2,3 weeks,FALSE,5 results
+2504,Ms. Y,4,Hotel room,City centre,2018,12,2,3 weeks,FALSE,3 results
+2505,Ms. Y,4,Hotel room,City centre,2019,12,2,3 weeks,FALSE,8 results
+2506,Mr. X,4,Hotel room,Suburbs,2018,12,2,3 weeks,FALSE,4 results
+2507,Mr. X,4,Hotel room,Suburbs,2019,12,2,3 weeks,FALSE,2 results
+2508,Ms. Y,4,Hotel room,Suburbs,2018,12,2,3 weeks,FALSE,9 results
+2509,Ms. Y,4,Hotel room,Suburbs,2019,12,2,3 weeks,FALSE,5 results
+2510,Mr. X,4,Hotel room,Countryside,2018,12,2,3 weeks,FALSE,7 results
+2511,Ms. Y,4,Hotel room,Countryside,2018,12,2,3 weeks,FALSE,4 results
+2512,Ms. Y,4,Hotel room,Countryside,2019,12,2,3 weeks,FALSE,8 results
+2513,Mr. X,4,Hotel room,City centre,2019,12,3,3 weeks,FALSE,2 results
+2514,Ms. Y,4,Hotel room,City centre,2018,12,3,3 weeks,FALSE,4 results
+2515,Ms. Y,4,Hotel room,City centre,2019,12,3,3 weeks,FALSE,7 results
+2516,Mr. X,4,Hotel room,Suburbs,2018,12,3,3 weeks,FALSE,7 results
+2517,Mr. X,4,Hotel room,Suburbs,2019,12,3,3 weeks,FALSE,5 results
+2518,Ms. Y,4,Hotel room,Suburbs,2018,12,3,3 weeks,FALSE,6 results
+2519,Ms. Y,4,Hotel room,Suburbs,2019,12,3,3 weeks,FALSE,6 results
+2520,Mr. X,4,Hotel room,Countryside,2018,12,3,3 weeks,FALSE,9 results
+2521,Mr. X,4,Hotel room,Countryside,2019,12,3,3 weeks,FALSE,9 results
+2522,Ms. Y,4,Hotel room,Countryside,2019,12,3,3 weeks,FALSE,9 results
+2523,Mr. X,4,Hotel room,City centre,2018,12,4,3 weeks,FALSE,5 results
+2524,Mr. X,4,Hotel room,City centre,2019,12,4,3 weeks,FALSE,8 results
+2525,Ms. Y,4,Hotel room,City centre,2018,12,4,3 weeks,FALSE,7 results
+2526,Ms. Y,4,Hotel room,City centre,2019,12,4,3 weeks,FALSE,4 results
+2527,Mr. X,4,Hotel room,Suburbs,2018,12,4,3 weeks,FALSE,5 results
+2528,Mr. X,4,Hotel room,Suburbs,2019,12,4,3 weeks,FALSE,5 results
+2529,Ms. Y,4,Hotel room,Suburbs,2018,12,4,3 weeks,FALSE,3 results
+2530,Ms. Y,4,Hotel room,Suburbs,2019,12,4,3 weeks,FALSE,7 results
+2531,Mr. X,4,Hotel room,Countryside,2018,12,4,3 weeks,FALSE,2 results
+2532,Mr. X,4,Hotel room,Countryside,2019,12,4,3 weeks,FALSE,6 results
+2533,Ms. Y,4,Hotel room,Countryside,2018,12,4,3 weeks,FALSE,2 results
+2534,Ms. Y,4,Hotel room,Countryside,2019,12,4,3 weeks,FALSE,6 results
+2535,Ms. Y,4,Hotel room,City centre,2018,12,1,1 month,FALSE,7 results
+2536,Ms. Y,4,Hotel room,City centre,2019,12,1,1 month,FALSE,6 results
+2537,Mr. X,4,Hotel room,Suburbs,2018,12,1,1 month,FALSE,2 results
+2538,Mr. X,4,Hotel room,Suburbs,2019,12,1,1 month,FALSE,2 results
+2539,Ms. Y,4,Hotel room,Suburbs,2019,12,1,1 month,FALSE,6 results
+2540,Mr. X,4,Hotel room,Countryside,2019,12,1,1 month,FALSE,8 results
+2541,Ms. Y,4,Hotel room,Countryside,2018,12,1,1 month,FALSE,8 results
+2542,Ms. Y,4,Hotel room,Countryside,2019,12,1,1 month,FALSE,5 results
+2543,Mr. X,4,Hotel room,City centre,2018,12,2,1 month,FALSE,9 results
+2544,Ms. Y,4,Hotel room,City centre,2018,12,2,1 month,FALSE,7 results
+2545,Ms. Y,4,Hotel room,City centre,2019,12,2,1 month,FALSE,3 results
+2546,Mr. X,4,Hotel room,Suburbs,2018,12,2,1 month,FALSE,9 results
+2547,Mr. X,4,Hotel room,Suburbs,2019,12,2,1 month,FALSE,7 results
+2548,Mr. X,4,Hotel room,Countryside,2018,12,2,1 month,FALSE,7 results
+2549,Mr. X,4,Hotel room,Countryside,2019,12,2,1 month,FALSE,4 results
+2550,Ms. Y,4,Hotel room,Countryside,2018,12,2,1 month,FALSE,6 results
+2551,Ms. Y,4,Hotel room,Countryside,2019,12,2,1 month,FALSE,2 results
+2552,Mr. X,4,Hotel room,City centre,2018,12,3,1 month,FALSE,3 results
+2553,Mr. X,4,Hotel room,City centre,2019,12,3,1 month,FALSE,8 results
+2554,Ms. Y,4,Hotel room,City centre,2018,12,3,1 month,FALSE,6 results
+2555,Ms. Y,4,Hotel room,City centre,2019,12,3,1 month,FALSE,8 results
+2556,Mr. X,4,Hotel room,Suburbs,2019,12,3,1 month,FALSE,6 results
+2557,Ms. Y,4,Hotel room,Suburbs,2019,12,3,1 month,FALSE,2 results
+2558,Mr. X,4,Hotel room,Countryside,2018,12,3,1 month,FALSE,6 results
+2559,Mr. X,4,Hotel room,Countryside,2019,12,3,1 month,FALSE,5 results
+2560,Ms. Y,4,Hotel room,Countryside,2018,12,3,1 month,FALSE,3 results
+2561,Ms. Y,4,Hotel room,Countryside,2019,12,3,1 month,FALSE,7 results
+2562,Mr. X,4,Hotel room,City centre,2018,12,4,1 month,FALSE,5 results
+2563,Mr. X,4,Hotel room,City centre,2019,12,4,1 month,FALSE,3 results
+2564,Ms. Y,4,Hotel room,City centre,2018,12,4,1 month,FALSE,6 results
+2565,Ms. Y,4,Hotel room,City centre,2019,12,4,1 month,FALSE,2 results
+2566,Mr. X,4,Hotel room,Suburbs,2019,12,4,1 month,FALSE,7 results
+2567,Ms. Y,4,Hotel room,Suburbs,2018,12,4,1 month,FALSE,2 results
+2568,Ms. Y,4,Hotel room,Suburbs,2019,12,4,1 month,FALSE,5 results
+2569,Mr. X,4,Hotel room,Countryside,2018,12,4,1 month,FALSE,3 results
+2570,Mr. X,4,Hotel room,Countryside,2019,12,4,1 month,FALSE,7 results
+2571,Ms. Y,4,Hotel room,Countryside,2018,12,4,1 month,FALSE,3 results
+2572,Ms. Y,4,Hotel room,Countryside,2019,12,4,1 month,FALSE,2 results
