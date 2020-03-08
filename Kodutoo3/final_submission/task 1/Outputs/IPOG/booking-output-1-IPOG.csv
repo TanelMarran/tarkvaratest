@@ -1,0 +1,13 @@
+Name,People,Accommodation,Region,Year,Month,Week,Duration,Service,Result
+Ms. Y,2,Private room,Suburbs,2019,1,2,1 week,false,7 results
+Mr. X,3,Apartment,Countryside,2018,2,3,2 weeks,true,4 results
+Ms. Y,4,Hotel room,City centre,2019,3,4,3 weeks,true,9 results
+Ms. Y,5,Villa,Countryside,2018,4,1,1 month,false,10 results
+Ms. Y,6,Shared room,City centre,2018,5,1,1-3 days,true,0 results
+Ms. Y,7,Hotel room,Countryside,2018,6,4,2 weeks,false,0 results
+Mr. X,8,Shared room,Countryside,2018,7,2,3 weeks,false,0 results
+Ms. Y,1,Hotel room,Countryside,2019,8,3,2 weeks,true,9 results
+Ms. Y,3,Apartment,Countryside,2019,9,2,2 weeks,false,2 results
+Ms. Y,6,Shared room,City centre,2019,10,3,1-3 days,false,0 results
+Ms. Y,1,Villa,City centre,2019,11,3,2 weeks,true,0 results
+Ms. Y,5,Hotel room,Suburbs,2019,12,4,2 weeks,false,0 results
