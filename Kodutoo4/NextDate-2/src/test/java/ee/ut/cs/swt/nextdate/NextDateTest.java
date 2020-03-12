@@ -63,8 +63,23 @@ public class NextDateTest {
 	}
 
 	@Test //7
-	public final void test(){
-		assertEquals("2/29/2020", trialDate.);
+	public final void testFebuary2000LeayYear(){
+		assertEquals("2/29/2000", trialDate.run(2, 28, 2000));
+	}
+
+	@Test //8
+	public final void testInvalidEverything(){
+		assertEquals("invalid Input Date", trialDate.run(13, 0, 2022));
+	}
+
+	@Test //9
+	public final void testFebuaryinvalid30Date(){
+		assertEquals("Invalid Input Date", trialDate.run(2, 30, 2001));
+	}
+
+	@Test //10
+	public final void testInvalidJulyDate(){
+		assertEquals("invalid Input Date", trialDate.run(7, 64, 2004));
 	}
 }
 
