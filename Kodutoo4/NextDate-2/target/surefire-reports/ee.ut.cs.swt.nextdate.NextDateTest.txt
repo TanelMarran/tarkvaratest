@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ee.ut.cs.swt.nextdate.NextDateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE! - in ee.ut.cs.swt.nextdate.NextDateTest
+testDecemberToJanuary(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.017 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[/1/2002]> but was:<1[2/32/2001]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.testDecemberToJanuary(NextDateTest.java:32)
+

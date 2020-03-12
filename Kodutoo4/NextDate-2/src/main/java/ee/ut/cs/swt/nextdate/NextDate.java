@@ -57,7 +57,7 @@ public class NextDate {
 		//is this month December?
 		else if(isDecember(month))
 		{
-			if (day <= 31) //if the day is not 31, just increment the next day
+			if (day <= 31) //if the day is not 31, just increment the next day //BUG HERE
 				tomorrowDay = day +1;
 			else { //day is 31, reset the day and month to 1 and increment the year
 				tomorrowDay = 1;
