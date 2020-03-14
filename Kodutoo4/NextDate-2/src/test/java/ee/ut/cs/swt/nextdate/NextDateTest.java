@@ -87,6 +87,11 @@ public class NextDateTest {
 		assertEquals("8/1/2020", trialDate.run(7, 31, 2020));
 	}
 
+	@Test //12
+	public final void testInvalidDecemberDate(){
+		assertEquals("Invalid Input Date", trialDate.run(12, 32, 2020));
+	}
+
 //  ei lähe läbi, aga branch coverage ka ei tõsta
 //	@Test //12
 //	public final void testJulyHas30Days(){
