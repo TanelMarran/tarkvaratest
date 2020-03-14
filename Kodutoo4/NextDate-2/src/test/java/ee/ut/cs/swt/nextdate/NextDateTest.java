@@ -25,8 +25,8 @@ public class NextDateTest {
 	@Test
 	public final void testMarchToApril(){
 	assertEquals("4/1/2001", trialDate.run(3, 31, 2001));
-	} 
-	
+	}
+
 	@Test
 	public final void testDecemberToJanuary(){
 	assertEquals("1/1/2002", trialDate.run(12, 31, 2001));
@@ -81,5 +81,16 @@ public class NextDateTest {
 	public final void testInvalidJulyDate(){
 		assertEquals("invalid Input Date", trialDate.run(7, 64, 2004));
 	}
+
+	@Test //11
+	public final void testJulyToAugust(){
+		assertEquals("8/1/2020", trialDate.run(7, 31, 2020));
+	}
+
+//  ei lähe läbi, aga branch coverage ka ei tõsta
+//	@Test //12
+//	public final void testJulyHas30Days(){
+//		assertEquals("7/31/2020", trialDate.run(7, 30, 2020));
+//	}
 }
 

@@ -1,12 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: ee.ut.cs.swt.nextdate.NextDateTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in ee.ut.cs.swt.nextdate.NextDateTest
-testDecemberToJanuary(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec <<< FAILURE! - in ee.ut.cs.swt.nextdate.NextDateTest
+testDecemberToJanuary(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.046 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<1[/1/2002]> but was:<1[2/32/2001]>
 	at ee.ut.cs.swt.nextdate.NextDateTest.testDecemberToJanuary(NextDateTest.java:32)
 
-testJuly(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0 sec  <<< FAILURE!
+testInvalidJulyDate(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[invalid Input Date]> but was:<[7/64/2004]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.testInvalidJulyDate(NextDateTest.java:82)
+
+testJuly(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<7/[7]/2020> but was:<7/[6]/2020>
 	at ee.ut.cs.swt.nextdate.NextDateTest.testJuly(NextDateTest.java:57)
+
+testJulyToAugust(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[8/]1/2020> but was:<[7/3]1/2020>
+	at ee.ut.cs.swt.nextdate.NextDateTest.testJulyToAugust(NextDateTest.java:87)
 
