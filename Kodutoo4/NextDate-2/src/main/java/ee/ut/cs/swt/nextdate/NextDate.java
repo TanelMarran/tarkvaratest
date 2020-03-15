@@ -123,10 +123,7 @@ public class NextDate {
 	 * month that contains 30 days.	 * 
 	 */
 	
-	private static boolean isThirtyDayMonth(int month)
-	{
-		return month == 4 || month == 6 || month == 9 || month == 11;
-	}
+	private static boolean isThirtyDayMonth(int month) { return month == 4 || month == 6 || month == 9 || month == 11; }
 	
 	
 	/**************************************************
