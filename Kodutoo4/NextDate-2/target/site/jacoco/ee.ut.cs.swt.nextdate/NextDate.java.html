@@ -26,77 +26,77 @@ public class NextDate {
 <span class="fc" id="L26">			return &quot;invalid Input Date&quot;;</span>
 		
 		//these variables will hold the proper values for the nextDate's day, month, and year values, respectively
-<span class="fc" id="L29">		int tomorrowDay = day;</span>
-<span class="fc" id="L30">		int tomorrowMonth = month;</span>
-<span class="fc" id="L31">		int tomorrowYear = year;</span>
+<span class="nc" id="L29">		int tomorrowDay = day;</span>
+<span class="nc" id="L30">		int tomorrowMonth = month;</span>
+<span class="nc" id="L31">		int tomorrowYear = year;</span>
 		
 		//Is this month with 31 days?
-<span class="fc bfc" id="L34" title="All 2 branches covered.">		if(isThirtyOneDayMonth(month))</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">		if(isThirtyOneDayMonth(month))</span>
 		{
-<span class="fc bfc" id="L36" title="All 2 branches covered.">			if(day &lt; 31) //if the day is not 31, just increment the day</span>
-<span class="fc" id="L37">				tomorrowDay = day +1;</span>
+<span class="nc bnc" id="L36" title="All 2 branches missed.">			if(day &lt; 31) //if the day is not 31, just increment the day</span>
+<span class="nc" id="L37">				tomorrowDay = day +1;</span>
 			else{ //day = 31, set tomorrow's day to 1 and increment the month
-<span class="fc" id="L39">				tomorrowDay = 1;</span>
-<span class="fc" id="L40">				tomorrowMonth = month + 1;</span>
+<span class="nc" id="L39">				tomorrowDay = 1;</span>
+<span class="nc" id="L40">				tomorrowMonth = month + 1;</span>
 			}
 		}
 		//is this month a month with 30 days?
-<span class="fc bfc" id="L44" title="All 2 branches covered.">		else if (isThirtyDayMonth(month))</span>
+<span class="nc bnc" id="L44" title="All 2 branches missed.">		else if (isThirtyDayMonth(month))</span>
 		{
-<span class="fc bfc" id="L46" title="All 2 branches covered.">			if(day &lt;30) //if the day is not 30, just increment the day</span>
-<span class="fc" id="L47">				tomorrowDay = day + 1;</span>
+<span class="nc bnc" id="L46" title="All 2 branches missed.">			if(day &lt;30) //if the day is not 30, just increment the day</span>
+<span class="nc" id="L47">				tomorrowDay = day + 1;</span>
 			else {
-<span class="fc bfc" id="L49" title="All 2 branches covered.">				if(day == 30){</span>
-<span class="fc" id="L50">					tomorrowDay = 1;</span>
-<span class="fc" id="L51">					tomorrowMonth = month +1;</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">				if(day == 30){</span>
+<span class="nc" id="L50">					tomorrowDay = 1;</span>
+<span class="nc" id="L51">					tomorrowMonth = month +1;</span>
 				}
 				else //invalid input ... too many days
-<span class="fc" id="L54">					return &quot;Invalid Input Date&quot;;</span>
+<span class="nc" id="L54">					return &quot;Invalid Input Date&quot;;</span>
 			}
 		}
 		//is this month December?
-<span class="fc bfc" id="L58" title="All 2 branches covered.">		else if(isDecember(month))</span>
+<span class="nc bnc" id="L58" title="All 2 branches missed.">		else if(isDecember(month))</span>
 		{
-<span class="fc bfc" id="L60" title="All 2 branches covered.">			if (day &lt;= 31) //if the day is not 31, just increment the next day //BUG HERE</span>
-<span class="fc" id="L61">				tomorrowDay = day +1;</span>
+<span class="nc bnc" id="L60" title="All 2 branches missed.">			if (day &lt;= 31) //if the day is not 31, just increment the next day //BUG HERE</span>
+<span class="nc" id="L61">				tomorrowDay = day +1;</span>
 			else { //day is 31, reset the day and month to 1 and increment the year
-<span class="fc" id="L63">				tomorrowDay = 1;</span>
-<span class="fc" id="L64">				tomorrowMonth = 1;</span>
-<span class="fc bfc" id="L65" title="All 2 branches covered.">				if(year == 2021) //make sure the next year is within ht permissible range</span>
-<span class="fc" id="L66">					return &quot;Invalid Next Year&quot;;</span>
+<span class="nc" id="L63">				tomorrowDay = 1;</span>
+<span class="nc" id="L64">				tomorrowMonth = 1;</span>
+<span class="nc bnc" id="L65" title="All 2 branches missed.">				if(year == 2021) //make sure the next year is within ht permissible range</span>
+<span class="nc" id="L66">					return &quot;Invalid Next Year&quot;;</span>
 				else  //it was a permissible year - go ahead and increment the year
-<span class="fc" id="L68">					tomorrowYear = year +1;</span>
+<span class="nc" id="L68">					tomorrowYear = year +1;</span>
 			}
 				
 		}
 		//is this month February? we need to check for leap years and such
-<span class="fc bfc" id="L73" title="All 2 branches covered.">		else if(isFebruary(month))</span>
+<span class="nc bnc" id="L73" title="All 2 branches missed.">		else if(isFebruary(month))</span>
 		{
-<span class="fc bfc" id="L75" title="All 2 branches covered.">			if(day &lt; 28) //just a standard day - increment the day</span>
-<span class="fc" id="L76">				tomorrowDay =day +1;</span>
+<span class="nc bnc" id="L75" title="All 2 branches missed.">			if(day &lt; 28) //just a standard day - increment the day</span>
+<span class="nc" id="L76">				tomorrowDay =day +1;</span>
 			else {
-<span class="fc bfc" id="L78" title="All 2 branches covered.">				if(day == 28) {  //if this is not a leap year, reset day and increment the day </span>
-<span class="fc bfc" id="L79" title="All 2 branches covered.">					if(isLeapYear(year)) //was a leap year</span>
-<span class="fc" id="L80">						tomorrowDay = 29;</span>
+<span class="nc bnc" id="L78" title="All 2 branches missed.">				if(day == 28) {  //if this is not a leap year, reset day and increment the day </span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">					if(isLeapYear(year)) //was a leap year</span>
+<span class="nc" id="L80">						tomorrowDay = 29;</span>
 					else {  //was not a leap year
-<span class="fc" id="L82">						tomorrowDay = 1;</span>
-<span class="fc" id="L83">						tomorrowMonth = 3;</span>
+<span class="nc" id="L82">						tomorrowDay = 1;</span>
+<span class="nc" id="L83">						tomorrowMonth = 3;</span>
 					}
 				}
-<span class="fc bfc" id="L86" title="All 2 branches covered.">				else if(day == 29){ //29th date of February</span>
-<span class="fc bfc" id="L87" title="All 2 branches covered.">					if(isLeapYear(year)){  //AND a leap year - reset the day to 1, month to 3</span>
-<span class="fc" id="L88">						tomorrowDay = 1;</span>
-<span class="fc" id="L89">						tomorrowMonth = 3;</span>
+<span class="nc bnc" id="L86" title="All 2 branches missed.">				else if(day == 29){ //29th date of February</span>
+<span class="nc bnc" id="L87" title="All 2 branches missed.">					if(isLeapYear(year)){  //AND a leap year - reset the day to 1, month to 3</span>
+<span class="nc" id="L88">						tomorrowDay = 1;</span>
+<span class="nc" id="L89">						tomorrowMonth = 3;</span>
 					}
 					else
-<span class="fc" id="L92">						return &quot;Invalid Input Date&quot;;</span>
+<span class="nc" id="L92">						return &quot;Invalid Input Date&quot;;</span>
 				}
-<span class="pc bpc" id="L94" title="1 of 2 branches missed.">				else if(day &gt; 29) //invalid input as February will never have more than 29 days</span>
-<span class="fc" id="L95">					return &quot;Invalid Input Date&quot;;</span>
+<span class="nc bnc" id="L94" title="All 2 branches missed.">				else if(day &gt; 29) //invalid input as February will never have more than 29 days</span>
+<span class="nc" id="L95">					return &quot;Invalid Input Date&quot;;</span>
 			}
 		}
 		//return the string representing the nextDate, in the form MM/DD/YY
-<span class="fc" id="L99">		return tomorrowMonth + &quot;/&quot; + tomorrowDay + &quot;/&quot; + tomorrowYear;</span>
+<span class="nc" id="L99">		return tomorrowMonth + &quot;/&quot; + tomorrowDay + &quot;/&quot; + tomorrowYear;</span>
 
 	}
 	
@@ -111,7 +111,7 @@ public class NextDate {
 	
 	private static boolean isThirtyOneDayMonth(int month)
 	{
-<span class="pc bpc" id="L114" title="3 of 10 branches missed.">		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;</span>
+<span class="nc bnc" id="L114" title="All 10 branches missed.">		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;</span>
 	}
 	
 	
@@ -123,7 +123,7 @@ public class NextDate {
 	 * month that contains 30 days.	 * 
 	 */
 	
-<span class="pc bpc" id="L126" title="1 of 8 branches missed.">	private static boolean isThirtyDayMonth(int month) { return month == 4 || month == 6 || month == 9 || month == 11; }</span>
+<span class="nc bnc" id="L126" title="All 8 branches missed.">	private static boolean isThirtyDayMonth(int month) { return month == 4 || month == 6 || month == 9 || month == 11; }</span>
 	
 	
 	/**************************************************
@@ -136,7 +136,7 @@ public class NextDate {
 	
 	private static boolean isDecember(int month)
 	{
-<span class="fc bfc" id="L139" title="All 2 branches covered.">		return month == 12;</span>
+<span class="nc bnc" id="L139" title="All 2 branches missed.">		return month == 12;</span>
 	}
 	
 	
@@ -150,7 +150,7 @@ public class NextDate {
 	
 	private static boolean isFebruary(int month)
 	{
-<span class="fc bfc" id="L153" title="All 2 branches covered.">		return month == 2;</span>
+<span class="nc bnc" id="L153" title="All 2 branches missed.">		return month == 2;</span>
 	}
 	
 	
@@ -168,10 +168,10 @@ public class NextDate {
 	
 	private static boolean isLeapYear(int year)
 	{
-<span class="fc bfc" id="L171" title="All 2 branches covered.">		if((year % 100) == 0)</span>
-<span class="fc bfc" id="L172" title="All 2 branches covered.">			return (year % 400) == 0;</span>
+<span class="nc bnc" id="L171" title="All 2 branches missed.">		if((year % 100) == 0)</span>
+<span class="nc bnc" id="L172" title="All 2 branches missed.">			return (year % 400) == 0;</span>
 		else
-<span class="fc bfc" id="L174" title="All 2 branches covered.">			return (year % 4) == 0;</span>
+<span class="nc bnc" id="L174" title="All 2 branches missed.">			return (year % 4) == 0;</span>
 	}
 
 }

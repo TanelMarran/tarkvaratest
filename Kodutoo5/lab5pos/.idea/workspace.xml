@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be9e8ea8-725b-4f83-a46a-d5d80cf2ddbc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XuROVN6Ul6ncLNTqXktWd1y8ge" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tiiduke\Documents\code\lab5pos\src\main\java" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be9e8ea8-725b-4f83-a46a-d5d80cf2ddbc" name="Default Changelist" comment="" />
+      <created>1581893960665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581893960665</updated>
+      <workItem from="1581893963630" duration="868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1046" y="270" key="#lab5pos_[compiler:compile]" timestamp="1581894240649">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="1046" y="270" key="#lab5pos_[compiler:compile]/0.0.2194.1234@0.0.2194.1234" timestamp="1581894240649" />
+    <state x="1227" y="373" key="FileChooserDialogImpl" timestamp="1581894085242">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="1227" y="373" key="FileChooserDialogImpl/0.0.2194.1234@0.0.2194.1234" timestamp="1581894085242" />
+    <state width="1459" height="343" key="GridCell.Tab.0.bottom" timestamp="1581894835006">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1459" height="343" key="GridCell.Tab.0.bottom/0.0.2194.1234@0.0.2194.1234" timestamp="1581894835006" />
+    <state width="1459" height="343" key="GridCell.Tab.0.center" timestamp="1581894835006">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1459" height="343" key="GridCell.Tab.0.center/0.0.2194.1234@0.0.2194.1234" timestamp="1581894835006" />
+    <state width="1459" height="343" key="GridCell.Tab.0.left" timestamp="1581894835006">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1459" height="343" key="GridCell.Tab.0.left/0.0.2194.1234@0.0.2194.1234" timestamp="1581894835006" />
+    <state width="1459" height="343" key="GridCell.Tab.0.right" timestamp="1581894835006">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1459" height="343" key="GridCell.Tab.0.right/0.0.2194.1234@0.0.2194.1234" timestamp="1581894835006" />
+    <state x="977" y="273" key="Maven.ArtifactSearchDialog" timestamp="1581894130699">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="977" y="273" key="Maven.ArtifactSearchDialog/0.0.2194.1234@0.0.2194.1234" timestamp="1581894130699" />
+    <state x="927" y="193" key="SettingsEditor" timestamp="1581894832034">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="927" y="193" key="SettingsEditor/0.0.2194.1234@0.0.2194.1234" timestamp="1581894832034" />
+  </component>
+</project>
