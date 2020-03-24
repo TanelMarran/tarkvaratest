@@ -1,10 +1,12 @@
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static junit.framework.Assert.assertNotNull;
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertNull;
+import static junit.framework.TestCase.*;
 
 public class BasicTest extends TestHelper {
 
@@ -33,14 +35,11 @@ public class BasicTest extends TestHelper {
         login(username, password);
 
         // assert that correct page appeared
-        WebElement adminHeader = null;
-        try { adminHeader = driver.findElement(By.id("Admin")); } catch (Exception ignored) { }
-        assertNull(adminHeader);
+        assertFalse(isElementPresent(By.id("Admin")));
 
         logout();
 
-        adminHeader = driver.findElement(By.id("Admin"));
-        assertNotNull(adminHeader);
+        assertTrue(isElementPresent(By.id("Admin")));
     }
 
     /*
@@ -57,4 +56,34 @@ public class BasicTest extends TestHelper {
         assertNotNull(adminHeader);
     }
 
+    @Test
+    public void CreateUser() {
+        driver.get(baseUrlAdmin);
+
+        driver.findElement(By.linkText("Register")).click();
+
+        driver.findElement(By.id("user_name")).sendKeys("user123");
+
+        driver.findElement(By.id("user_password")).sendKeys("password");
+
+        driver.findElement(By.id("user_password_confirmation")).sendKeys("password");
+
+        By loginButtonXpath = By.xpath("//input[@value='Create User']");
+
+        driver.findElement(loginButtonXpath).click();
+
+        assertTrue(isElementPresent(By.id("notice")));
+
+        driver.findElement(By.linkText("Admin")).click();
+
+        new WebDriverWait(driver, waitForResposeTime).ignoring(
+                StaleElementReferenceException.class).until(
+                ExpectedConditions.elementToBeClickable(By.linkText("Delete"))
+        );
+        driver.findElement(By.linkText("Delete")).click();
+
+        assertTrue(isElementPresent(By.id("notice")));
+
+        driver.findElement(By.linkText("Admin")).click();
+    }
 }
