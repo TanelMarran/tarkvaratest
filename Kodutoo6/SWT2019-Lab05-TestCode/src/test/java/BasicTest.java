@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static junit.framework.Assert.assertNotNull;
@@ -85,5 +86,36 @@ public class BasicTest extends TestHelper {
         assertTrue(isElementPresent(By.id("notice")));
 
         driver.findElement(By.linkText("Admin")).click();
+    }
+
+    public boolean AddItem(String title, String description, String typestring, String value) {
+        driver.findElement(By.linkText("New product")).click();
+
+        driver.findElement(By.id("product_title")).sendKeys(title);
+        driver.findElement(By.id("product_description")).sendKeys(description);
+        Select type = new Select(driver.findElement(By.id("product_prod_type")));
+        type.selectByValue(typestring);
+        driver.findElement(By.id("product_price")).sendKeys(value);
+
+        By loginButtonXpath = By.xpath("//input[@value='Create Product']");
+
+        driver.findElement(loginButtonXpath).click();
+
+        return isElementPresent(By.linkText(title));
+    }
+
+    @Test
+    public void AddItem() {
+        driver.get(baseUrlAdmin);
+
+        login(username, password);
+
+        assertTrue(AddItem("good book","Wow such a fantastic book","Books","12.99"));
+
+        By loginButtonXpath = By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='good book']/td[@class='list_actions'][2]/a");
+
+        driver.findElement(loginButtonXpath).click();
+
+        assertTrue(isElementPresent(By.xpath("//*[text()='Product was successfully destroyed.']")));
     }
 }
