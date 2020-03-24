@@ -1,12 +1,16 @@
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
+import static junit.framework.Assert.assertNotNull;
 import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertNull;
 
 public class BasicTest extends TestHelper {
 
 
-    private String username = "";
-    private String password = "";
+    private String username = "Admin";
+    private String password = "AdminPassword";
 
     @Test
     public void titleExistsTest(){
@@ -23,16 +27,20 @@ public class BasicTest extends TestHelper {
     Fill in loginLogoutTest() and login mehtod in TestHelper, so that the test passes correctly.
 
      */
-    // @Test
+    @Test
     public void loginLogoutTest(){
 
         login(username, password);
 
         // assert that correct page appeared
-        // WebElement adminHeader = driver.findElement...
-        // ...
+        WebElement adminHeader = null;
+        try { adminHeader = driver.findElement(By.id("Admin")); } catch (Exception ignored) { }
+        assertNull(adminHeader);
 
         logout();
+
+        adminHeader = driver.findElement(By.id("Admin"));
+        assertNotNull(adminHeader);
     }
 
     /*
@@ -41,9 +49,12 @@ public class BasicTest extends TestHelper {
      Write a test case, where you make sure, that one can’t log in with a false password
 
      */
-    // @Test
+    @Test
     public void loginFalsePassword() {
+        login(username,"WrongPassword");
 
+        WebElement adminHeader = driver.findElement(By.id("notice"));
+        assertNotNull(adminHeader);
     }
 
 }

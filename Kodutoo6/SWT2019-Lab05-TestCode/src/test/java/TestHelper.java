@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -16,16 +17,16 @@ public class TestHelper {
     final int waitForResposeTime = 4;
 	
 	// here write a link to your admin website (e.g. http://my-app.herokuapp.com/admin)
-    String baseUrlAdmin = "...";
+    String baseUrlAdmin = "https://morning-castle-68632.herokuapp.com/admin";
 	
 	// here write a link to your website (e.g. http://my-app.herokuapp.com/)
-    String baseUrl = "...";
+    String baseUrl = "https://morning-castle-68632.herokuapp.com/";
 
     @Before
     public void setUp(){
 
         // if you use Chrome:
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\...\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
 
         // if you use Firefox:
@@ -65,11 +66,11 @@ public class TestHelper {
 
         driver.findElement(By.id("name")).sendKeys(username);
 
-        // ...
+        driver.findElement(By.id("password")).sendKeys(password);
 
         By loginButtonXpath = By.xpath("//input[@value='Login']");
-        // click on the button
-        // ...
+
+        driver.findElement(loginButtonXpath).click();
     }
 
     void logout(){
