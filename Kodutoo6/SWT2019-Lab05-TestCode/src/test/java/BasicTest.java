@@ -173,6 +173,51 @@ public class BasicTest extends TestHelper {
         AddItem("good book","Wow such a fantastic book","Books","12.99");
 
         assertFalse(AddItem("good book","Wow such a fantastic book","Books","12.99"));
-        
+    }
+
+    @Test //7
+    public void EditItem() {
+        driver.get(baseUrlAdmin);
+
+        login(username, password);
+
+        AddItem("good book","Wow such a fantastic book","Books","12.99");
+
+        driver.findElement(By.linkText("Products")).click();
+
+        driver.findElement(By.linkText("Edit")).click();
+
+        driver.findElement(By.id("product_title")).clear();
+        driver.findElement(By.id("product_title")).sendKeys("the best book");
+
+        By loginButtonXpath = By.xpath("//input[@value='Update Product']");
+        driver.findElement(loginButtonXpath).click();
+
+        new WebDriverWait(driver, waitForResposeTime).ignoring(
+                StaleElementReferenceException.class).until(
+                ExpectedConditions.elementToBeClickable(By.linkText("Products"))
+        );
+
+        driver.findElement(By.linkText("Products")).click();
+
+        assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'the best book')]")));
+        assertFalse(isElementPresent(By.xpath("//*[contains(text(), 'good book')]")));
+
+        driver.findElement(By.linkText("Delete")).click();
+    }
+
+    @Test //8
+    public void a() {
+        driver.get(baseUrlAdmin);
+    }
+
+    @Test //9
+    public void b() {
+        driver.get(baseUrlAdmin);
+    }
+
+    @Test //10
+    public void c() {
+        driver.get(baseUrlAdmin);
     }
 }
