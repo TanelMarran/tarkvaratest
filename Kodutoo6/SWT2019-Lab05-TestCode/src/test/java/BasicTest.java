@@ -15,6 +15,24 @@ public class BasicTest extends TestHelper {
     private String username = "Admin";
     private String password = "AdminPassword";
 
+    public boolean AddItem(String title, String description, String typestring, String value) {
+        driver.get("https://morning-castle-68632.herokuapp.com/products");
+
+        driver.findElement(By.linkText("New product")).click();
+
+        driver.findElement(By.id("product_title")).sendKeys(title);
+        driver.findElement(By.id("product_description")).sendKeys(description);
+        Select type = new Select(driver.findElement(By.id("product_prod_type")));
+        type.selectByValue(typestring);
+        driver.findElement(By.id("product_price")).sendKeys(value);
+
+        By loginButtonXpath = By.xpath("//input[@value='Create Product']");
+
+        driver.findElement(loginButtonXpath).click();
+
+        return isElementPresent(By.linkText(title));
+    }
+
     @Test
     public void titleExistsTest(){
         String expectedTitle = "ST Online Store";
@@ -30,7 +48,7 @@ public class BasicTest extends TestHelper {
     Fill in loginLogoutTest() and login mehtod in TestHelper, so that the test passes correctly.
 
      */
-    @Test
+    @Test //1
     public void loginLogoutTest(){
 
         login(username, password);
@@ -49,7 +67,7 @@ public class BasicTest extends TestHelper {
      Write a test case, where you make sure, that one can’t log in with a false password
 
      */
-    @Test
+    @Test //2, negative 1
     public void loginFalsePassword() {
         login(username,"WrongPassword");
 
@@ -57,7 +75,7 @@ public class BasicTest extends TestHelper {
         assertNotNull(adminHeader);
     }
 
-    @Test
+    @Test //3
     public void CreateUser() {
         driver.get(baseUrlAdmin);
 
@@ -88,23 +106,7 @@ public class BasicTest extends TestHelper {
         driver.findElement(By.linkText("Admin")).click();
     }
 
-    public boolean AddItem(String title, String description, String typestring, String value) {
-        driver.findElement(By.linkText("New product")).click();
-
-        driver.findElement(By.id("product_title")).sendKeys(title);
-        driver.findElement(By.id("product_description")).sendKeys(description);
-        Select type = new Select(driver.findElement(By.id("product_prod_type")));
-        type.selectByValue(typestring);
-        driver.findElement(By.id("product_price")).sendKeys(value);
-
-        By loginButtonXpath = By.xpath("//input[@value='Create Product']");
-
-        driver.findElement(loginButtonXpath).click();
-
-        return isElementPresent(By.linkText(title));
-    }
-
-    @Test
+    @Test //4
     public void AddItem() {
         driver.get(baseUrlAdmin);
 
@@ -117,5 +119,60 @@ public class BasicTest extends TestHelper {
         driver.findElement(loginButtonXpath).click();
 
         assertTrue(isElementPresent(By.xpath("//*[text()='Product was successfully destroyed.']")));
+    }
+
+    @Test //5, negative 2
+    public void Create2UserSameName() {
+        driver.get(baseUrlAdmin);
+
+        driver.findElement(By.linkText("Register")).click();
+
+        driver.findElement(By.id("user_name")).sendKeys("user123");
+        driver.findElement(By.id("user_password")).sendKeys("password");
+        driver.findElement(By.id("user_password_confirmation")).sendKeys("password");
+
+        By xpath = By.xpath("//input[@value='Create User']");
+
+        driver.findElement(xpath).click();
+
+        driver.findElement(By.linkText("Logout")).click();
+
+        driver.findElement(By.linkText("Register")).click();
+
+        driver.findElement(By.id("user_name")).sendKeys("user123");
+        driver.findElement(By.id("user_password")).sendKeys("password");
+        driver.findElement(By.id("user_password_confirmation")).sendKeys("password");
+
+        xpath = By.xpath("//input[@value='Create User']");
+
+        driver.findElement(xpath).click();
+
+        assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'Name has already been taken')]")));
+
+        login("user123","password");
+
+        driver.findElement(By.linkText("Admin")).click();
+
+        new WebDriverWait(driver, waitForResposeTime).ignoring(
+                StaleElementReferenceException.class).until(
+                ExpectedConditions.elementToBeClickable(By.linkText("Delete"))
+        );
+        driver.findElement(By.linkText("Delete")).click();
+
+        assertTrue(isElementPresent(By.id("notice")));
+
+        driver.findElement(By.linkText("Admin")).click();
+    }
+
+    @Test //6, negative 3
+    public void Add2SameItems() {
+        driver.get(baseUrlAdmin);
+
+        login(username, password);
+
+        AddItem("good book","Wow such a fantastic book","Books","12.99");
+
+        assertFalse(AddItem("good book","Wow such a fantastic book","Books","12.99"));
+        
     }
 }
