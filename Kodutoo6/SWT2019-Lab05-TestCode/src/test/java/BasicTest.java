@@ -21,6 +21,7 @@ public class BasicTest extends TestHelper {
 
     public boolean AddItem(String title, String description, String typestring, String value) {
         driver.get("https://morning-castle-68632.herokuapp.com/products");
+        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         driver.findElement(By.linkText("New product")).click();
 
@@ -34,7 +35,12 @@ public class BasicTest extends TestHelper {
 
         driver.findElement(loginButtonXpath).click();
 
-        return isElementPresent(By.linkText(title));
+        try {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText(title)));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Test
@@ -82,6 +88,7 @@ public class BasicTest extends TestHelper {
     @Test //3
     public void CreateUser() {
         driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
 
         driver.findElement(By.linkText("Register")).click();
 
@@ -93,21 +100,17 @@ public class BasicTest extends TestHelper {
 
         By loginButtonXpath = By.xpath("//input[@value='Create User']");
 
-        driver.findElement(loginButtonXpath).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(loginButtonXpath)).click();
 
-        assertTrue(isElementPresent(By.id("notice")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(), 'User user123 was successfully created.')]")));
+        assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'User user123 was successfully created.')]")));
 
-        driver.findElement(By.linkText("Admin")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Admin"))).click();
 
-        new WebDriverWait(driver, waitForResposeTime).ignoring(
-                StaleElementReferenceException.class).until(
-                ExpectedConditions.elementToBeClickable(By.linkText("Delete"))
-        );
-        driver.findElement(By.linkText("Delete")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body[@class='admin']/div[@id='column2']/div[@id='main']/p[@id='user123']/a[2]"))).click();
 
-        assertTrue(isElementPresent(By.id("notice")));
-
-        driver.findElement(By.linkText("Admin")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(), 'User was successfully deleted.')]")));
+        assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'User was successfully deleted.')]")));
     }
 
     @Test //4
@@ -128,6 +131,7 @@ public class BasicTest extends TestHelper {
     @Test //5, negative 2
     public void Create2UserSameName() {
         driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
 
         driver.findElement(By.linkText("Register")).click();
 
@@ -139,7 +143,9 @@ public class BasicTest extends TestHelper {
 
         driver.findElement(xpath).click();
 
-        driver.findElement(By.linkText("Logout")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Logout"))).click();
+
+        //driver.findElement(By.linkText("Logout")).click();
 
         driver.findElement(By.linkText("Register")).click();
 
@@ -155,28 +161,33 @@ public class BasicTest extends TestHelper {
 
         login("user123","password");
 
-        driver.findElement(By.linkText("Admin")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Admin"))).click();
 
-        new WebDriverWait(driver, waitForResposeTime).ignoring(
-                StaleElementReferenceException.class).until(
-                ExpectedConditions.elementToBeClickable(By.linkText("Delete"))
-        );
-        driver.findElement(By.linkText("Delete")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body[@class='admin']/div[@id='column2']/div[@id='main']/p[@id='user123']/a[2]"))).click();
 
-        assertTrue(isElementPresent(By.id("notice")));
-
-        driver.findElement(By.linkText("Admin")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(), 'User was successfully deleted.')]")));
+        assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'User was successfully deleted.')]")));
     }
 
     @Test //6, negative 3
     public void Add2SameItems() {
         driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
 
         login(username, password);
 
         AddItem("good book","Wow such a fantastic book","Books","12.99");
 
         assertFalse(AddItem("good book","Wow such a fantastic book","Books","12.99"));
+
+        driver.get("https://morning-castle-68632.herokuapp.com/products");
+
+        By loginButtonXpath = By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='good book']/td[@class='list_actions'][2]/a");
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(loginButtonXpath)).click();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Product was successfully destroyed.']"))).click();
+        assertTrue(isElementPresent(By.xpath("//*[text()='Product was successfully destroyed.']")));
     }
 
     @Test //7
@@ -189,7 +200,7 @@ public class BasicTest extends TestHelper {
 
         driver.findElement(By.linkText("Products")).click();
 
-        driver.findElement(By.linkText("Edit")).click();
+        driver.findElement(By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='good book']/td[@class='list_actions'][1]/a")).click();
 
         driver.findElement(By.id("product_title")).clear();
         driver.findElement(By.id("product_title")).sendKeys("the best book");
@@ -207,16 +218,25 @@ public class BasicTest extends TestHelper {
         assertTrue(isElementPresent(By.xpath("//*[contains(text(), 'the best book')]")));
         assertFalse(isElementPresent(By.xpath("//*[contains(text(), 'good book')]")));
 
-        String xpath = "//*[contains(text(), 'the best book')]//../following-sibling::";
+        String xpath = "/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='the best book']/td[@class='list_actions'][2]/a";
 
-        driver.findElement(By.linkText("Delete")).click();
+        driver.findElement(By.xpath(xpath)).click();
     }
 
     @Test //8
     public void AddToCart() {
+        driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
+
+        login(username,password);
+
+        AddItem("item","description","Books","1.25");
+
+        logout();
+
         driver.get(baseUrl);
 
-        String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses 2AR_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        String xpath = "//input[@value='Add to Cart']";
 
         driver.findElement(By.xpath(xpath)).click();
 
@@ -227,22 +247,42 @@ public class BasicTest extends TestHelper {
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@class='button_to'][1]/input[2]";
 
         driver.findElement(By.xpath(xpath)).click();
+
+        driver.get(baseUrlAdmin);
+
+        login(username,password);
+
+        By loginButtonXpath = By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='item']/td[@class='list_actions'][2]/a");
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(loginButtonXpath)).click();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Product was successfully destroyed.']"))).click();
+
+        logout();
     }
 
     @Test //9
     public void IncreaseInCart() {
+        driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
+
+        login(username,password);
+
+        AddItem("item","description","Books","1.25");
+
+        logout();
+
         driver.get(baseUrl);
 
-        String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses 2AR_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        String xpath = "//input[@value='Add to Cart']";
 
-        driver.findElement(By.xpath(xpath)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[2]";
 
         assertTrue(isElementPresent(By.xpath(xpath)));
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[@class='quantity'][2]/a";
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         for (int i = 0; i < 9; i++) {
             WebElement clickable = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
@@ -254,22 +294,42 @@ public class BasicTest extends TestHelper {
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@class='button_to'][1]/input[2]";
 
         driver.findElement(By.xpath(xpath)).click();
+
+        driver.get(baseUrlAdmin);
+
+        login(username,password);
+
+        By loginButtonXpath = By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='item']/td[@class='list_actions'][2]/a");
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(loginButtonXpath)).click();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Product was successfully destroyed.']"))).click();
+
+        logout();
     }
 
     @Test //10
     public void DecreaseInCart() {
+        driver.get(baseUrlAdmin);
+        WebDriverWait wait = new WebDriverWait(driver,10);
+
+        login(username,password);
+
+        AddItem("item","description","Books","1.25");
+
+        logout();
+
         driver.get(baseUrl);
 
-        String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses 2AR_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        String xpath = "//input[@value='Add to Cart']";
 
-        driver.findElement(By.xpath(xpath)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[2]";
 
         assertTrue(isElementPresent(By.xpath(xpath)));
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[@class='quantity'][2]/a";
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
         for (int i = 0; i < 9; i++) {
             WebElement clickable = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
@@ -294,5 +354,17 @@ public class BasicTest extends TestHelper {
 
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpath)));
         assertFalse(isElementPresent(By.xpath(xpath)));
+
+        driver.get(baseUrlAdmin);
+
+        login(username,password);
+
+        By loginButtonXpath = By.xpath("/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='item']/td[@class='list_actions'][2]/a");
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(loginButtonXpath)).click();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Product was successfully destroyed.']"))).click();
+
+        logout();
     }
 }
