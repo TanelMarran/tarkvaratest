@@ -401,19 +401,25 @@ public class BasicTest extends TestHelper {
     }
 
     @Test //13
-    public void filterBySearch() {
+    public void filterBySearch() throws InterruptedException {
         driver.get(baseUrl);
         String search = "B45593";
         List<WebElement> allEntries = driver.findElements(By.className("entry"));
         int numEntries = 0;
-        for (WebElement entry: allEntries){
-            if (entry.getText().contains(search)){
+        for (WebElement entry : allEntries) {
+            if (entry.getText().contains(search)) {
                 numEntries++;
             }
         }
         driver.findElement(By.id("search_input")).sendKeys(search);
         List<WebElement> searchEntries = driver.findElements(By.className("entry"));
-        assertTrue(numEntries == searchEntries.size());
+        int searchResults = 0;
+        for (WebElement el : searchEntries) {
+            if (el.isDisplayed()) {
+                searchResults++;
+            }
+        }
+        assertTrue(numEntries == searchResults);
     }
 
     @Test //14 fix the assert
