@@ -370,6 +370,8 @@ public class BasicTest extends TestHelper {
     @Test //11
     public void deleteOneByOne() throws InterruptedException {
         driver.get(baseUrl);
+        driver.manage().window().maximize();
+        Thread.sleep(1000);
         WebDriverWait wait = new WebDriverWait(driver,10);
         String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
@@ -379,12 +381,13 @@ public class BasicTest extends TestHelper {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
         Thread.sleep(1000);
         for (int i = 0; i < 2; i++) {
-            WebElement deleteButton = driver.findElement(By.id("delete_button"));
-            deleteButton.findElement(By.tagName("a")).click();
+            /*WebElement deleteButton = driver.findElement(By.id("delete_button"));
+            deleteButton.findElement(By.tagName("a")).click();*/
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@class='cart_row'][1]/td[@id='delete_button']/a"))).click();
             Thread.sleep(1000);
         }
-        assertTrue(wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("cart_row"))).size() == 0);
-        //assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
+        //assertTrue(wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("cart_row"))).size() == 0);
+        assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
 
     }
 
