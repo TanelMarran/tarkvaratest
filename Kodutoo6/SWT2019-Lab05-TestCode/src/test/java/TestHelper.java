@@ -28,7 +28,7 @@ public class TestHelper {
         // if you use Chrome:
         System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
-
+        driver.manage().window().maximize();
         // if you use Firefox:
         //System.setProperty("webdriver.gecko.driver", "C:\\Users\\...\\geckodriver.exe");
         //driver = new FirefoxDriver();

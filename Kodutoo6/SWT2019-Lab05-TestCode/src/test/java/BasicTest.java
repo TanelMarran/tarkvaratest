@@ -367,4 +367,189 @@ public class BasicTest extends TestHelper {
 
         logout();
     }
+
+    @Test //11
+    public void deleteOneByOne() throws InterruptedException {
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses B45593_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        for (int i = 0; i < 2; i++) {
+            WebElement deleteButton = driver.findElement(By.id("delete_button"));
+            deleteButton.findElement(By.tagName("a")).click();
+            Thread.sleep(1000);
+        }
+        assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
+
+    }
+
+    @Test //12
+    public void deleteEntireCart() throws InterruptedException {
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses B45593_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@class='button_to'][1]/input[2]";
+        driver.findElement(By.xpath(xpath)).click();
+        assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
+    }
+
+    @Test //13
+    public void filterBySearch() {
+        driver.get(baseUrl);
+        String search = "B45593";
+        List<WebElement> allEntries = driver.findElements(By.className("entry"));
+        int numEntries = 0;
+        for (WebElement entry: allEntries){
+            if (entry.getText().contains(search)){
+                numEntries++;
+            }
+        }
+        driver.findElement(By.id("search_input")).sendKeys(search);
+        List<WebElement> searchEntries = driver.findElements(By.className("entry"));
+        assertTrue(numEntries == searchEntries.size());
+    }
+
+    @Test //14 fix the assert
+    public void filterByCategory() throws InterruptedException {
+        driver.get(baseUrl);
+        String category = "Category: Sunglasses";
+        List<WebElement> allEntries = driver.findElements(By.className("entry"));
+        int numEntries = 0;
+        for (WebElement entry: allEntries){
+            if (entry.getText().contains(category)){
+                numEntries++;
+            }
+        }
+        String xpath = "/html/body[@class='store']/div[@class='columns'][1]/div[@id='menu']/ul/li[2]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        List<WebElement> searchEntries = driver.findElements(By.className("entry"));
+        assertTrue(numEntries == searchEntries.size());
+
+    }
+
+    @Test //15 FOURTH NEGATIVE TEST
+    public void filterInvalidSearch() {
+        driver.get(baseUrl);
+        driver.findElement(By.id("search_input")).sendKeys("nonexistent item");
+        List<WebElement> searchEntries = driver.findElements(By.className("entry"));
+        int numEntries = 0;
+        for (WebElement searchEntry : searchEntries) {
+            if (searchEntry.isDisplayed()){
+                numEntries++;
+            }
+        }
+        assertTrue(numEntries == 0);
+    }
+
+    @Test //16
+    public void submitAPurchase() throws InterruptedException {
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@class='columns'][1]/div[@id='menu']/ul/li[2]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@id='checkout_button']/input";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        driver.findElement(By.id("order_name")).sendKeys("testuser");
+        driver.findElement(By.id("order_address")).sendKeys("testtown");
+        driver.findElement(By.id("order_email")).sendKeys("test@testemail.com");
+        Select select = new Select(driver.findElement(By.id("order_pay_type")));
+        select.selectByVisibleText("Credit card");
+        driver.findElement(By.xpath("//*[@id=\"place_order\"]/input")).click();
+        assertTrue(driver.findElement(By.id("order_receipt")).isDisplayed());
+    }
+
+    @Test //17 FIFTH NEGATIVE TEST
+    public void submitAPurchaseNoInfo() throws InterruptedException {
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@class='columns'][1]/div[@id='menu']/ul/li[2]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@id='checkout_button']/input";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"place_order\"]/input")).click();
+        assertTrue(driver.findElement(By.id("error_explanation")).isDisplayed());
+    }
+
+    @Test //18 THIS IS THE FIRST ERROR -'THE "OTHER" CATEGORY INCLUDES ITEMS FROM OTHER CATEGORIES
+    public void checkProductsInOtherCategory() throws InterruptedException {
+        boolean valid = true;
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@class='columns'][1]/div[@id='menu']/ul/li[4]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        List<WebElement> entries = driver.findElements(By.id("category"));
+        for (WebElement entry : entries) {
+            if (!(entry.getText().equals("Category: Other")) && entries.size() > 0){
+                valid = false;
+            }
+        }
+        assertTrue(valid);
+    }
+
+    @Test //19
+    public void submitAPurchaseWithWhitespace() throws InterruptedException {
+        driver.get(baseUrl);
+        String xpath = "/html/body[@class='store']/div[@class='columns'][1]/div[@id='menu']/ul/li[2]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@id='checkout_button']/input";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        driver.findElement(By.id("order_name")).sendKeys("     ");
+        driver.findElement(By.id("order_address")).sendKeys("     ");
+        driver.findElement(By.id("order_email")).sendKeys("     ");
+        Select select = new Select(driver.findElement(By.id("order_pay_type")));
+        select.selectByVisibleText("Credit card");
+        driver.findElement(By.xpath("//*[@id=\"place_order\"]/input")).click();
+        assertTrue(driver.findElement(By.id("error_explanation")).isDisplayed());
+    }
+
+
+    @Test //20 THIS IS THE SECOND ERROR - WHEN CHANGING CATEGORY, IT ALWAYS CHANGED TO "BOOKS"
+    public void changeCategory() throws InterruptedException {
+        driver.get(baseUrlAdmin);
+        login(username, password);
+        AddItem("Sneakers","Very pristine","Sunglasses","99.99");
+        Thread.sleep(1000);
+        driver.findElement(By.linkText("Sneakers")).click();
+        Thread.sleep(1000);
+        String xpath = "/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/div[@class='back_button']/a[1]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        Select type = new Select(driver.findElement(By.id("product_prod_type")));
+        type.selectByValue("Other");
+        By loginButtonXpath = By.xpath("//input[@value='Update Product']");
+        driver.findElement(loginButtonXpath).click();
+        Thread.sleep(1000);
+
+        boolean exists = false;
+        List<WebElement> elements = driver.findElements(By.tagName("p"));
+        for (WebElement element : elements) {
+            if (element.getText().equals("Type: Other")){
+                exists = true;
+            }
+        }
+        xpath = "/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/div[@class='back_button']/a[2]";
+        driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(1000);
+        xpath = "/html/body[@class='products']/div[@id='column2']/div[@id='main']/div[@class='products_column']/table/tbody/tr[@id='Sneakers']/td[@class='list_actions'][2]/a";
+        driver.findElement(By.xpath(xpath)).click();
+        assertTrue(exists);
+    }
 }
