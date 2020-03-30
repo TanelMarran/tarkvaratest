@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.Assert.assertNotNull;
@@ -284,12 +285,10 @@ public class BasicTest extends TestHelper {
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[@class='quantity'][2]/a";
 
-        for (int i = 0; i < 9; i++) {
-            WebElement clickable = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
-            clickable.click();
-            wait.until(ExpectedConditions.textToBe(By.xpath("/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[1]"),(i+2)+"×"));
-            assertEquals((i+2)+"×", driver.findElement(By.xpath("/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[1]")).getAttribute("innerHTML"));
-        }
+        WebElement clickable = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+        clickable.click();
+        wait.until(ExpectedConditions.textToBe(By.xpath("/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[1]"),"2×"));
+        assertEquals("2×", driver.findElement(By.xpath("/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/table/tbody/tr[@id='current_item']/td[1]")).getAttribute("innerHTML"));
 
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='side']/div[@id='cart']/form[@class='button_to'][1]/input[2]";
 
@@ -371,18 +370,21 @@ public class BasicTest extends TestHelper {
     @Test //11
     public void deleteOneByOne() throws InterruptedException {
         driver.get(baseUrl);
+        WebDriverWait wait = new WebDriverWait(driver,10);
         String xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='B45593 Sunglasses_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
-        driver.findElement(By.xpath(xpath)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
+        //driver.findElement(By.xpath(xpath)).click();
         Thread.sleep(1000);
         xpath = "/html/body[@class='store']/div[@id='column2']/div[@id='main']/div[@id='Sunglasses B45593_entry']/div[@class='price_line']/form[@class='button_to']/input[1]";
-        driver.findElement(By.xpath(xpath)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath))).click();
         Thread.sleep(1000);
         for (int i = 0; i < 2; i++) {
             WebElement deleteButton = driver.findElement(By.id("delete_button"));
             deleteButton.findElement(By.tagName("a")).click();
             Thread.sleep(1000);
         }
-        assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
+        assertTrue(wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.className("cart_row"))).size() == 0);
+        //assertTrue(driver.findElements(By.className("cart_row")).size() == 0);
 
     }
 
