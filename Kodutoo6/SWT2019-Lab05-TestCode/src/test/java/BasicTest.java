@@ -521,7 +521,7 @@ public class BasicTest extends TestHelper {
     }
 
 
-    @Test //20 THIS IS THE SECOND ERROR - WHEN CHANGING CATEGORY, IT ALWAYS CHANGED TO "BOOKS"
+    @Test //20 THIS IS THE SECOND ERROR - WHEN CHANGING CATEGORY, IT ALWAYS CHANGES TO "BOOKS"
     public void changeCategory() throws InterruptedException {
         driver.get(baseUrlAdmin);
         login(username, password);
