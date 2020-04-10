@@ -28,7 +28,7 @@ class Helper:
             print("No such jar was given")
         else:
             try:
-                wait(regImg, 6)
+                wait(regImg, 12)
                 time.sleep(0.5)
                 self.reg = find(regImg)
             except:
