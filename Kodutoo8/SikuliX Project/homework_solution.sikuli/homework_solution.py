@@ -4,6 +4,168 @@ from helperClass import *
 import time
 import unittest
 
+# ---------------------------------
+# HERE IS WHERE THE LAB PART STARTS
+# ---------------------------------
+
+class Buttons(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Lab")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        #click(*tab that you want to open*)
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    # After clicking each button, a text will appear below the buttons. For green
+    # button it will be "Green button was clicked!", red -> "Red button was clicked!"
+    # and pink -> "Pink button was clicked!". ["test_buttons_text"]
+    def test_buttons_text(self):
+        buttons = [Pattern("button-1.png").similar(0.77), Pattern("button2-1.png").exact(), Pattern("button_pink-1.png").exact()]
+        expectations = [ "Green button was clicked!", "Red button was clicked!",  "Pink button was clicked!"] 
+        for i in range(3):
+            click(buttons[i])
+            time.sleep(1)
+            area = Pattern("area-1.png").similar(0.75)
+            r = find(area)
+            actual = r.collectLinesText()[0]
+            # expected vs actual
+            self.assertEquals(expectations[i], actual)
+
+    def test_buttons_unchanged(self):
+        btns = [Pattern("button-1.png").similar(0.77), Pattern("button2-1.png").similar(0.87), Pattern("button_pink-1.png").exact()]
+        for i in range(3):
+            click(btns[i])
+            time.sleep(1)
+            self.assertIsNotNone(exists(btns[i]))
+
+class Editor(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Lab")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586498314931-1.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    # After closing and opening the pane, text in the text editor must stay the same.
+    # [“test_editor”]
+    def test_editor(self):
+        time.sleep(2)
+        if exists(Pattern("1586502582598-1.png").similar(0.74).targetOffset(-285,-209)):
+            click()
+            
+        click(Pattern("1586498485123-1.png").targetOffset(-230,-137))
+        type("test")
+        
+        copied = copyAllText()
+        self.assertEqual(copied, "test")
+        
+        click("1586498528002-1.png")
+        click()
+        click(Pattern("1586498485123-1.png").targetOffset(-230,-137))
+        
+        copied = copyAllText()
+        self.assertEqual(copied, "test")
+
+class Copyable(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Lab")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586499194863-1.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    # Each word should be copyable. [“test_copyable”]
+    def test_copyable(self):
+        images = [Pattern("1586499624846-1.png").similar(0.43).targetOffset(-2,-109),Pattern("1586499883857-1.png").similar(0.53),Pattern("1586499890253-1.png").similar(0.55),Pattern("1586499899454-1.png").similar(0.44),"1586499907128-1.png"]
+        texts = ['First','Second','Third','Forth','Fifth']
+        for i in range(len(images)):
+            doubleClick(images[i])
+            copied = copySelectedText()
+            self.assertEqual(copied,texts[i])
+            click()
+            copied = ''
+
+class Folder(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Lab")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586500540757-1.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    # Folders can take a maximum of two “apps”. [“test_folder”]
+    def test_folder(self):
+        folder = "folder-1.png"
+        app = "app-1.png"
+        currentapps = len(list(findAll(app)))
+        for i in range(3):
+            mouseMove(app)
+            mouseDown(Button.LEFT)
+            mouseMove(folder)
+            mouseUp()
+        self.assertEqual(currentapps-2,len(list(findAll(app))))
+
+class Resizer(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Lab")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586501772982-1.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    def create_reg(self):
+        borders = findAllList("1586501807934-1.png") #Get both of the borders
+        sorted_borders = sorted(borders, key=lambda m:m.x) #sort them by their x coord
+        reg = Region(sorted_borders[0].x + sorted_borders[0].w, #create a region between these two borders
+                    sorted_borders[0].y,
+                    sorted_borders[1].x - sorted_borders[0].x - sorted_borders[0].w,
+                    sorted_borders[0].h)
+        return reg
+
+    # After “resizing” the screen folder buttons should stay in the confinements of
+    # the borders. [“test_resizer”]
+    def test_resizer(self):
+        device = [Pattern("1586501881540-1.png").targetOffset(-124,-7),"1586501881540-1.png",Pattern("1586501881540-1.png").targetOffset(128,-2)]
+        number_of_folders = len(findAllList("1586502065536-1.png"))
+        for i in range(len(device)):
+            click(device[i])
+            region = self.create_reg()
+            self.assertEqual(number_of_folders,len(region.findAllList("1586502065536-1.png")))
+
+
+
+
+
+
+# --------------------------------------
+# HERE IS WHERE THE HOMEWORK PART STARTS
+# --------------------------------------
+
 class Folders(unittest.TestCase):
 
     # At first we create an instance of helperClass. 
@@ -26,8 +188,8 @@ class Folders(unittest.TestCase):
     # Dragging an icon to the folder makes it disappear from the screen.
     # [“test_apps_delete”]
     def test_apps_delete(self):
-        app_image = "app_image.png"
-        blue_folder = "blue_folder.png"
+        app_image = Pattern("app_image.png").targetOffset(-1,-1)
+        blue_folder = "blue_folder_core.png"
         number_of_apps = len(findAllList(app_image))
         mouseMove(app_image)
         mouseDown(Button.LEFT)
@@ -38,7 +200,7 @@ class Folders(unittest.TestCase):
     # Dragging a folder over a folder doesn’t make anything disappear.
     # Dragged folder should appear to be on top of other folder. [“test_move_folders”]
     def test_move_folders(self):
-        blue_folder = Pattern("blue_folder.png").similar(0.75)
+        blue_folder = Pattern("blue_folder_core.png").similar(0.75)
         orange_folder = Pattern("orange_folder.png").similar(0.91)
         green_folder = Pattern("green_folder.png").similar(0.91)
         images = [blue_folder,orange_folder,green_folder]
@@ -61,23 +223,24 @@ class Folders(unittest.TestCase):
     # each border). [“test_menu”]
     def test_menu(self):
         app_region = self.create_reg()
-        blue_folder = "blue_folder.png"
-        pad = 25
-        for x in range(2):
-            for y in range(2):
-                mouseMove(blue_folder)
-                mouseDown(Button.LEFT)
-                target = Location(app_region.getX()+pad+x*(app_region.getW()-2*pad),app_region.getY()+pad+y*(app_region.getH()-2*pad))
-                mouseMove(target)
-                mouseUp()
-                rightClick(blue_folder)
-                try:
-                    mouseMove("1586509381219.png")
-                except:
-                    mouseMove("1586509560088.png")
-                self.assertEquals(len(app_region.findAllList("1586509423568.png")),1)
-                mouseMove("1586507956362.png")
-                click()
+        blue_folder = "blue_folder_core.png"
+        pad = 15
+        for i in range(4):
+            x = 0 if i > 1 else (i*2-1)
+            y = 0 if i < 2 else ((i-2)*2-1)
+            mouseMove(blue_folder)
+            mouseDown(Button.LEFT)
+            target = Location(app_region.getX()+app_region.getW()/2+x*(app_region.getW()/2-pad),app_region.getY()+app_region.getH()/2+y*(app_region.getH()/2-pad))
+            mouseMove(target)
+            mouseUp()
+            rightClick(blue_folder)
+            try:
+                mouseMove("1586509381219.png")
+            except:
+                mouseMove("1586509560088.png")
+            self.assertEquals(len(app_region.findAllList("1586509423568.png")),1)
+            mouseMove("1586507956362.png")
+            click()
 
 class Calculator(unittest.TestCase):
 
@@ -100,7 +263,7 @@ class Calculator(unittest.TestCase):
         invalid_result = "invalid_result.png"
         for i in range(21):
             click(calculator)
-        assert exists(invalid_result) == None
+        self.assertEqual(exists(invalid_result), None)
 
     #Purple output rectangle must show “0” when nothing was typed. When
     #something is typed, the rectangle must output only the answer (e.g. typing
@@ -136,10 +299,65 @@ class Calculator(unittest.TestCase):
         click(Pattern("calculator.png").targetOffset(-42,46))
         self.assertEqual('Error',findAllList(purple)[0].collectLinesText()[0])
         
+class PinCode(unittest.TestCase):
+
+    # At first we create an instance of helperClass. 
+    h = Helper("Homework")  # name of the jar
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586513393232.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    def pressKey(self, number):
+        if number == 0:
+            number = 10
+        else:
+            number -= 1
+        click(Pattern('pin_pad.png').targetOffset(-63+55*(number%3),-94+45*int(number/3)))
+        
+    #For each number pressed (max is 4) an “X” should appear in the output
+    #rectangle. [“test_pin_x”]
+    def test_pin_x(self):
+        for i in range(10):
+            self.pressKey(i)
+            self.assertNotEqual('XXXXX',find("pin_pad.png").collectLinesText()[0])
+    # When 4 numbers are pressed and password is correct (“1234”), pin code
+    # system should be replaced by empty screen with message “Welcome, *user*!”
+    # (where *user* is a random name). [“test_pin_unlock”]
+    def test_pin_unlock(self):
+        for i in range(4):
+            self.pressKey(i+1)
+        self.assertNotEqual(exists("1586514403692.png"),None)
+
+    # Only when 4 numbers are pressed and password is wrong, an icon of closed
+    # lock appears on top of the output rectangle. [“test_pin_lock”]
+    def test_pin_lock(self):
+        lock = "lock.png"
+        self.pressKey(1)
+        self.assertEqual(exists(lock),None)
+        self.pressKey(3)
+        self.assertEqual(exists(lock),None)
+        self.pressKey(5)
+        self.assertEqual(exists(lock),None)
+        self.pressKey(3)
+        self.assertNotEqual(exists(lock),None)
+        erase = "erase.png"
+        click(erase)
+        click(erase)
+        click(erase)
+        click(erase)
+        for i in range(4):
+            self.pressKey(i+1)
+        self.assertEqual(exists(lock),None)
+        
 
 if __name__ == '__main__':
-    #suite = unittest.TestLoader().loadTestsFromModule(sys.modules[__name__])
-    suite = unittest.TestLoader().loadTestsFromTestCase(Calculator) 
+    suite = unittest.TestLoader().loadTestsFromModule(sys.modules[__name__])
+    #suite = unittest.TestLoader().loadTestsFromTestCase(Folders) 
     unittest.TextTestRunner().run(suite) #verbosity=3
     #reporter = createReporter(NAME)
     #reporter.run(suite)
