@@ -16,23 +16,25 @@ class Helper:
     
     def openSUT(self):
         appPath = os.path.dirname(getBundlePath())+"/"+self.app+".jar"
+        # specify full java path instead of "java" if app doesn't open
         self.proc = subprocess.Popen(["java", "-jar", appPath])
 
         regImg = ""
-        if self.app == "Lab":
+        if self.app == "lab08-Lab":
             regImg = "1582510315250.png" # retake this screenshot if it doesn't work
-        elif self.app == "Homework":
+        elif self.app == "lab08-Homework":
             regImg = "1583697109639.png" # retake this screenshot if it doesn't work
             
         if regImg == "":
             print("No such jar was given")
         else:
             try:
-                wait(regImg, 12)
+                wait(regImg, 10)  # increase wait time if your computer is slow
                 time.sleep(0.5)
                 self.reg = find(regImg)
             except:
-                print("Can't find region. Please retake the screenshots")
+                print("Can't find region or the app didn't open fast enough. Please retake" +
+                      "the screenshots or increase wait time above")
             
    
     def closeSUT(self):
