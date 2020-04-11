@@ -13,18 +13,18 @@ class Buttons(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Lab")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         #click(*tab that you want to open*)
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
     # After clicking each button, a text will appear below the buttons. For green
     # button it will be "Green button was clicked!", red -> "Red button was clicked!"
     # and pink -> "Pink button was clicked!". ["test_buttons_text"]
-    def test_buttons_text(self):
+    def _test_buttons_text(self):
         buttons = [Pattern("button-1.png").similar(0.77), Pattern("button2-1.png").exact(), Pattern("button_pink-1.png").exact()]
         expectations = [ "Green button was clicked!", "Red button was clicked!",  "Pink button was clicked!"] 
         for i in range(3):
@@ -36,7 +36,7 @@ class Buttons(unittest.TestCase):
             # expected vs actual
             self.assertEquals(expectations[i], actual)
 
-    def test_buttons_unchanged(self):
+    def _test_buttons_unchanged(self):
         btns = [Pattern("button-1.png").similar(0.77), Pattern("button2-1.png").similar(0.87), Pattern("button_pink-1.png").exact()]
         for i in range(3):
             click(btns[i])
@@ -48,17 +48,17 @@ class Editor(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Lab")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586498314931-1.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
     # After closing and opening the pane, text in the text editor must stay the same.
     # [“test_editor”]
-    def test_editor(self):
+    def _test_editor(self):
         time.sleep(2)
         if exists(Pattern("1586502582598-1.png").similar(0.74).targetOffset(-285,-209)):
             click()
@@ -81,16 +81,16 @@ class Copyable(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Lab")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586499194863-1.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
     # Each word should be copyable. [“test_copyable”]
-    def test_copyable(self):
+    def _test_copyable(self):
         images = [Pattern("1586499624846-1.png").similar(0.43).targetOffset(-2,-109),Pattern("1586499883857-1.png").similar(0.53),Pattern("1586499890253-1.png").similar(0.55),Pattern("1586499899454-1.png").similar(0.44),"1586499907128-1.png"]
         texts = ['First','Second','Third','Forth','Fifth']
         for i in range(len(images)):
@@ -105,16 +105,16 @@ class Folder(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Lab")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586500540757-1.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
     # Folders can take a maximum of two “apps”. [“test_folder”]
-    def test_folder(self):
+    def _test_folder(self):
         folder = "folder-1.png"
         app = "app-1.png"
         currentapps = len(list(findAll(app)))
@@ -130,15 +130,15 @@ class Resizer(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Lab")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586501772982-1.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
-    def create_reg(self):
+    def _create_reg(self):
         borders = findAllList("1586501807934-1.png") #Get both of the borders
         sorted_borders = sorted(borders, key=lambda m:m.x) #sort them by their x coord
         reg = Region(sorted_borders[0].x + sorted_borders[0].w, #create a region between these two borders
@@ -149,7 +149,7 @@ class Resizer(unittest.TestCase):
 
     # After “resizing” the screen folder buttons should stay in the confinements of
     # the borders. [“test_resizer”]
-    def test_resizer(self):
+    def _test_resizer(self):
         device = [Pattern("1586501881540-1.png").targetOffset(-124,-7),"1586501881540-1.png",Pattern("1586501881540-1.png").targetOffset(128,-2)]
         number_of_folders = len(findAllList("1586502065536-1.png"))
         for i in range(len(device)):
@@ -171,15 +171,15 @@ class Folders(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Homework")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         #click(*tab that you want to open*)
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
-    def create_reg(self):
+    def _create_reg(self):
 
         app_image = findAllList("1586508081742.png")[0]
 
@@ -187,7 +187,7 @@ class Folders(unittest.TestCase):
 
     # Dragging an icon to the folder makes it disappear from the screen.
     # [“test_apps_delete”]
-    def test_apps_delete(self):
+    def _test_apps_delete(self):
         app_image = Pattern("app_image.png").targetOffset(-1,-1)
         blue_folder = "blue_folder_core.png"
         number_of_apps = len(findAllList(app_image))
@@ -199,7 +199,7 @@ class Folders(unittest.TestCase):
 
     # Dragging a folder over a folder doesn’t make anything disappear.
     # Dragged folder should appear to be on top of other folder. [“test_move_folders”]
-    def test_move_folders(self):
+    def _test_move_folders(self):
         blue_folder = Pattern("blue_folder_core.png").similar(0.75)
         orange_folder = Pattern("orange_folder.png").similar(0.91)
         green_folder = Pattern("green_folder.png").similar(0.91)
@@ -221,7 +221,7 @@ class Folders(unittest.TestCase):
 
     # Context menu should always stay in the borders of the “toy” application. (Test
     # each border). [“test_menu”]
-    def test_menu(self):
+    def _test_menu(self):
         app_region = self.create_reg()
         blue_folder = "blue_folder_core.png"
         pad = 15
@@ -247,18 +247,18 @@ class Calculator(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Homework")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586510426740.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
     # Black output rectangle must be empty when nothing was typed. When
     # something was typed, the rectangle must show everything that was typed.
     # The rectangle must display 20 characters at the most. [“test_calc_black”]
-    def test_calc_black(self):
+    def _test_calc_black(self):
         calculator = Pattern("calculator.png").targetOffset(-88,-3)
         invalid_result = "invalid_result.png"
         for i in range(21):
@@ -269,7 +269,7 @@ class Calculator(unittest.TestCase):
     #something is typed, the rectangle must output only the answer (e.g. typing
     #“2+2” outputs “4”). When expression is not full (e.g. “2*3+”) rectangle must
     #output the last answer (“6” in this case). [“test_calc_purple”]
-    def test_calc_purple(self):
+    def _test_calc_purple(self):
         purple = "purple.png"
         delete = Pattern("calculator.png").targetOffset(0,102)
         one = Pattern("calculator.png").targetOffset(-81,-1)
@@ -292,7 +292,7 @@ class Calculator(unittest.TestCase):
         
     # When typing an expression that is mathematically impossible, the purple
     # output rectangle must show “Error”. [“test_calc_err”]
-    def test_calc_err(self):
+    def _test_calc_err(self):
         purple = "purple.png"
         click(Pattern("calculator.png").targetOffset(-28,-55))
         click(Pattern("calculator.png").targetOffset(82,-98))
@@ -304,15 +304,15 @@ class PinCode(unittest.TestCase):
     # At first we create an instance of helperClass. 
     h = Helper("Homework")  # name of the jar
     
-    def setUp(self):
+    def _setUp(self):
         self.h.openSUT()
         click("1586513393232.png")
         time.sleep(0.2)
 
-    def tearDown(self):
+    def _tearDown(self):
         self.h.closeSUT()
 
-    def pressKey(self, number):
+    def _pressKey(self, number):
         if number == 0:
             number = 10
         else:
@@ -321,21 +321,21 @@ class PinCode(unittest.TestCase):
         
     #For each number pressed (max is 4) an “X” should appear in the output
     #rectangle. [“test_pin_x”]
-    def test_pin_x(self):
+    def _test_pin_x(self):
         for i in range(10):
             self.pressKey(i)
             self.assertNotEqual('XXXXX',find("pin_pad.png").collectLinesText()[0])
     # When 4 numbers are pressed and password is correct (“1234”), pin code
     # system should be replaced by empty screen with message “Welcome, *user*!”
     # (where *user* is a random name). [“test_pin_unlock”]
-    def test_pin_unlock(self):
+    def _test_pin_unlock(self):
         for i in range(4):
             self.pressKey(i+1)
         self.assertNotEqual(exists("1586514403692.png"),None)
 
     # Only when 4 numbers are pressed and password is wrong, an icon of closed
     # lock appears on top of the output rectangle. [“test_pin_lock”]
-    def test_pin_lock(self):
+    def _test_pin_lock(self):
         lock = "lock.png"
         self.pressKey(1)
         self.assertEqual(exists(lock),None)
@@ -353,6 +353,69 @@ class PinCode(unittest.TestCase):
         for i in range(4):
             self.pressKey(i+1)
         self.assertEqual(exists(lock),None)
+        
+class Converter(unittest.TestCase):
+    h = Helper("Homework")
+    
+    def setUp(self):
+        self.h.openSUT()
+        click("1586628848063.png")
+        time.sleep(0.2)
+
+    def tearDown(self):
+        self.h.closeSUT()
+
+    def test_text2uni(self):
+        click(Pattern("1586629627550.png").targetOffset(-2,3))
+        type("test")
+        res = find("1586630698349.png").collectLinesText()[0]
+        isUnicode = True
+        for el in res:
+            if el in "0123456789 ":
+                continue
+            else:
+                isUnicode = False
+        click(Pattern("1586629627550.png").targetOffset(-2,3))
+        type(Key.BACKSPACE)
+        type(Key.BACKSPACE)
+        type(Key.BACKSPACE)
+        type(Key.BACKSPACE)
+        self.assertEqual(isUnicode, True)
+        
+    def test_fields(self):
+        copiedInitial = copyAllText()
+        click(Pattern("1586634526312.png").targetOffset(108,-27))
+        type("test")
+        copiedAgain = copyAllText()
+        self.assertEqual(copiedAgain, copiedInitial)
+
+#see test on ilmselt väga valesti hetkel
+    def test_switch(self):
+        original = "1586638865445.png"
+        click(Pattern("1586638926804.png").targetOffset(-20,-137))
+        #click(Pattern("1586636624086.png").targetOffset(18,3))
+        self.assertEqual(find(original), None)
+
+    def test_uni2text(self):
+        click(Pattern("1586637589650.png").targetOffset(-18,4))
+        click(Pattern("1586637658034.png").targetOffset(-155,39))
+        s = "116 101 115 116"
+        type(s)
+        click(Pattern("1586637658034.png").targetOffset(150,7))
+        copied = copyAllText() 
+
+        self.assertEqual(copied, "test")
+
+        click(Pattern("1586637658034.png").targetOffset(-155,39))
+        for i in range(len(s)):
+            type(Key.BACKSPACE)
+            
+        type("test")
+        click(Pattern("1586637658034.png").targetOffset(150,7))
+        copiedAgain = copyAllText()
+        click(Pattern("1586636624086.png").targetOffset(18,3))
+        self.assertEqual(copiedAgain, "Error! Not unicode")
+        
         
 
 if __name__ == '__main__':
