@@ -534,6 +534,6 @@ class CatFlower(unittest.TestCase):
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromModule(sys.modules[__name__])
     #suite = unittest.TestLoader().loadTestsFromTestCase(Folders) 
-    unittest.TextTestRunner().run(suite) #verbosity=3
+    #unittest.TextTestRunner().run(suite) #verbosity=3
     reporter = createReporter("swt08")
     reporter.run(suite)
