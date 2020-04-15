@@ -152,7 +152,7 @@ public class MinimumBinaryHeapTest {
 	}
 
 	@Test
-	public void bubbleDownLeftSmaller() {
+	public void bubbleDownLeftSmallerTest() {
 		heap.add(2);
 		heap.add(3);
 		heap.add(4);
@@ -162,7 +162,7 @@ public class MinimumBinaryHeapTest {
 	}
 
 	@Test
-	public void bubbleDownRightSmaller() {
+	public void bubbleDownRightSmallerTest() {
 		heap.add(2);
 		heap.add(4);
 		heap.add(3);
