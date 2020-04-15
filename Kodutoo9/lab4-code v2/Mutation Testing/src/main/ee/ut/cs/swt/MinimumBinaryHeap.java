@@ -12,12 +12,12 @@ public class MinimumBinaryHeap {
 	 * 
 	 * @param array 
 	 */
-	public void minHeapify(List<Integer> array) {
+	public void minHeapify(List<Integer> array) { //Seems ok
 		heap = new ArrayList<>(array);
 		for (int i = 0; i < array.size(); i++){
             bubbleUp(i);
         }
-        array = heap;
+        array = heap; //Whats this for though?
 	}
 	
 	/**
@@ -26,7 +26,7 @@ public class MinimumBinaryHeap {
 	 * 
 	 * @return Element at the top of the heap.
 	 */
-	public int exractMin() {
+	public int exractMin() { //Seems ok
 		int min = heap.get(0);
 		int leaf = heap.get(heap.size()-1);
 		heap.set(0, leaf);
@@ -38,7 +38,7 @@ public class MinimumBinaryHeap {
 	/**
 	 * Swaps two elements in the heap
 	 */
-	public void swap(int a, int b) {
+	public void swap(int a, int b) { //Seems ok
 		int value = heap.get(a);
         heap.set(a, heap.get(b));
         heap.set(b, value);
@@ -50,14 +50,14 @@ public class MinimumBinaryHeap {
 	 * 
 	 * @param element
 	 */
-	public void add(int element) {
+	public void add(int element) { //Seems ok
 		heap.add(element);
         bubbleUp(heap.size() - 1);
 	}
 	
-	public void bubbleUp(int pos) {
+	public void bubbleUp(int pos) { //Everything ok now
 		if (pos == 0) return;
-		int parent = (pos)/2;
+		int parent = (pos-1)/2; //BUG! This was (pos)/2 before.
 		while (heap.get(pos) < heap.get(parent)) {
 			swap(pos, parent);
 			pos = parent;

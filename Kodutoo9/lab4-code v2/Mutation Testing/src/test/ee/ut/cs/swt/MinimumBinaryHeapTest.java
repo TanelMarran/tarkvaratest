@@ -75,9 +75,10 @@ public class MinimumBinaryHeapTest {
 		heap.add(4);
 		heap.add(8);
 		heap.add(12);
-		assertEquals(4, heap.getArray().get(0), 0);
-		assertEquals(5, heap.getArray().get(1), 0);
-		assertEquals(10, heap.getArray().get(2), 0);
+		assertMinHeap(heap.getArray(),10,5,4,8,12);
+		//assertEquals(4, heap.getArray().get(0), 0);
+		//assertEquals(5, heap.getArray().get(1), 0);
+		//assertEquals(10, heap.getArray().get(2), 0);
 	}
 	
 	@Test
